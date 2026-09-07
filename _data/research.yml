@@ -1,120 +1,165 @@
 # Líneas de investigación. icon: nombre del ícono SVG en _includes/icons.html
-- id: denitrification
-  icon: reactor
-  title:
-    es: "Desnitrificación autótrofa con azufre elemental"
-    en: "Sulfur-based autotrophic denitrification"
-  summary:
-    es: "Bacterias que respiran nitrato usando azufre en vez de materia orgánica: la vía más barata para tratar aguas subterráneas."
-    en: "Bacteria that breathe nitrate using sulfur instead of organic matter: the cheapest route to treating groundwater."
-  body:
-    es: >-
-      El nitrato es el contaminante más frecuente de los acuíferos. En Chile,
-      donde el 40 % de las zonas urbanas y el 76 % de las rurales dependen del
-      agua subterránea, hay pozos que superan varias veces el límite de 50 mg/L
-      que fija el Decreto Supremo N.º 735.
-
-
-      El agua subterránea casi no tiene materia orgánica, así que la
-      desnitrificación heterótrofa clásica no sirve. La alternativa es la vía
-      autótrofa: usar azufre elemental (S⁰) como donor de electrones. Es barato,
-      abundante y poco tóxico. Operamos esta vía en dos configuraciones que se
-      comportan de forma distinta —un reactor SBR de biomasa suspendida y un
-      biofiltro donde el propio azufre es el medio de soporte de la
-      biopelícula— y comparamos su desempeño en remoción, cinética y comunidad
-      microbiana.
-    en: >-
-      Nitrate is the most common pollutant in aquifers. In Chile, where 40 % of
-      urban areas and 76 % of rural areas depend on groundwater, some wells exceed
-      the 50 mg/L limit set by Supreme Decree No. 735 several times over.
-
-
-      Groundwater has almost no organic matter, so classical heterotrophic
-      denitrification is not an option. The alternative is the autotrophic route:
-      using elemental sulfur (S⁰) as the electron donor. It is cheap, abundant and
-      low in toxicity. We run this route in two configurations that behave very
-      differently — a suspended-biomass SBR and a biofilter where the sulfur
-      itself is the biofilm carrier — and compare their removal performance,
-      kinetics and microbial communities.
-  keywords:
-    es: ["Azufre elemental", "Nitrato", "Aguas subterráneas", "SBR", "Biofiltro", "Zeolita natural"]
-    en: ["Elemental sulfur", "Nitrate", "Groundwater", "SBR", "Biofilter", "Natural zeolite"]
-
-- id: micropollutants
+# Las líneas son deliberadamente más amplias que los proyectos adjudicados: un
+# proyecto entra y sale, la línea se mantiene.
+- id: nutrientes
   icon: molecule
   title:
-    es: "Microcontaminantes y emisiones de N₂O"
-    en: "Micropollutants and N₂O emissions"
+    es: "Nutrientes, contaminantes emergentes y emisiones de N₂O"
+    en: "Nutrients, emerging contaminants and N₂O emissions"
   summary:
-    es: "El nitrato no viene solo: antibióticos, herbicidas y fármacos lo acompañan, y pueden cambiar cuánto gas de efecto invernadero emite el reactor."
-    en: "Nitrate does not travel alone: antibiotics, herbicides and pharmaceuticals come with it, and may change how much greenhouse gas the reactor emits."
+    es: "El nitrógeno y el fósforo que hay que sacar del agua, los fármacos y pesticidas que vienen con ellos, y el gas de efecto invernadero que se escapa al tratarlos."
+    en: "The nitrogen and phosphorus that must come out of the water, the pharmaceuticals and pesticides that travel with them, and the greenhouse gas that escapes while treating them."
   body:
     es: >-
-      En aguas subterráneas de todo el mundo aparecen, junto al nitrato,
-      microcontaminantes como el sulfametoxazol, el diurón, el benzo[α]pireno, el
-      ibuprofeno y la cafeína. En Sudamérica se han medido entre 0,1 y 130 µg/L.
-      Tratar el nitrato sin considerarlos deja el problema a medio resolver.
+      Tratar el agua no es solo bajar una concentración. El nitrógeno y el fósforo
+      se remueven por vías biológicas —nitrificación, desnitrificación autótrofa y
+      heterótrofa, anammox, feammox— y cada vía tiene su propio rendimiento y su
+      propio costo. Las estudiamos en reactores de biomasa suspendida y de
+      biopelícula, con soportes como el azufre elemental y la zeolita natural
+      chilena, tanto en aguas subterráneas como en aguas residuales.
 
 
-      Además, la desnitrificación tiene un costo ambiental propio: emite óxido
-      nitroso (N₂O), un gas de efecto invernadero de alto potencial que también
-      daña la capa de ozono. En la vía autótrofa las emisiones típicas son bajas
-      —entre 0,01 y 0,8 % de la carga de nitrógeno— pero nadie ha medido qué pasa
-      cuando hay microcontaminantes de por medio. Estudiamos las dos preguntas a la
-      vez: cuánto se remueven esos compuestos y cuánto N₂O se escapa,
-      contrastando cultivo suspendido y biopelícula.
+      Junto a los nutrientes llegan los contaminantes emergentes: antibióticos,
+      antiinflamatorios, herbicidas, hidrocarburos aromáticos. Aparecen en
+      concentraciones de microgramos por litro, y su destino dentro de un reactor
+      biológico —cuánto se degrada, cuánto se adsorbe, cuánto pasa de largo— está
+      lejos de estar resuelto.
+
+
+      El tercer frente es el que suele quedar fuera del balance: el óxido nitroso.
+      Es un producto intermedio de la desnitrificación, tiene casi trescientas
+      veces el potencial de calentamiento del CO₂ y además destruye ozono
+      estratosférico. Medimos cuánto se emite y cómo cambia esa emisión cuando hay
+      contaminantes emergentes en el agua, un dato del que hoy casi no existe
+      información.
     en: >-
-      Groundwater worldwide carries, alongside nitrate, micropollutants such as
-      sulfamethoxazole, diuron, benzo[a]pyrene, ibuprofen and caffeine. In South
-      America, concentrations between 0.1 and 130 µg/L have been reported. Treating
-      nitrate without accounting for them leaves the problem half solved.
+      Treating water is not just about lowering a concentration. Nitrogen and
+      phosphorus are removed through biological pathways — nitrification,
+      autotrophic and heterotrophic denitrification, anammox, feammox — and each
+      pathway has its own performance and its own cost. We study them in
+      suspended-biomass and biofilm reactors, with carriers such as elemental
+      sulfur and Chilean natural zeolite, in groundwater as well as wastewater.
 
 
-      Denitrification also has an environmental cost of its own: it emits nitrous
-      oxide (N₂O), a potent greenhouse gas that also depletes stratospheric ozone.
-      In the autotrophic route emissions are typically low — 0.01 to 0.8 % of the
-      nitrogen load — but nobody has measured what happens when micropollutants are
-      present. We tackle both questions at once: how much of these compounds is
-      removed, and how much N₂O escapes, comparing suspended culture and biofilm.
+      Emerging contaminants arrive alongside the nutrients: antibiotics,
+      anti-inflammatories, herbicides, aromatic hydrocarbons. They appear at
+      concentrations of micrograms per litre, and their fate inside a biological
+      reactor — how much is degraded, how much is adsorbed, how much passes
+      straight through — is far from settled.
+
+
+      The third front is the one usually left out of the balance: nitrous oxide.
+      It is an intermediate product of denitrification, has nearly three hundred
+      times the warming potential of CO₂ and also depletes stratospheric ozone. We
+      measure how much is emitted and how that emission changes when emerging
+      contaminants are present, something on which almost no data exist today.
   keywords:
-    es: ["Sulfametoxazol", "Diurón", "Benzo[α]pireno", "Óxido nitroso", "Sorción", "Comunidades microbianas"]
-    en: ["Sulfamethoxazole", "Diuron", "Benzo[a]pyrene", "Nitrous oxide", "Sorption", "Microbial communities"]
+    es: ["Nitrificación", "Desnitrificación autótrofa", "Anammox y feammox", "Fármacos y pesticidas", "Óxido nitroso", "Azufre elemental", "Zeolita natural"]
+    en: ["Nitrification", "Autotrophic denitrification", "Anammox and feammox", "Pharmaceuticals and pesticides", "Nitrous oxide", "Elemental sulfur", "Natural zeolite"]
 
-- id: modelling
+- id: modelacion
   icon: flow
   title:
-    es: "Modelación y simulación de biorreactores"
-    en: "Modelling and simulation of bioreactors"
+    es: "Modelación y simulación de biorreactores y sistemas multifásicos"
+    en: "Modelling and simulation of bioreactors and multiphase systems"
   summary:
-    es: "Un lecho de azufre no es estático: el grano se consume, la biopelícula crece y el flujo cambia. Eso se simula."
-    en: "A sulfur bed is not static: grains dissolve, biofilm grows and the flow changes. That is what we simulate."
+    es: "Un reactor es un flujo, una biopelícula y una reacción ocurriendo a la vez. Simularlo permite entender por qué rinde lo que rinde."
+    en: "A reactor is a flow, a biofilm and a reaction happening at once. Simulating it is what explains why it performs the way it does."
   body:
     es: >-
-      Un modelo CFD de un lecho empacado vale lo que vale su validación. Parte
-      central de nuestro trabajo es confrontar la simulación con mediciones
-      experimentales de distribución de tiempos de residencia (RTD), un observable
-      que integra todo lo que ocurre dentro del reactor: canalizaciones, zonas
-      muertas, mezcla.
+      El rendimiento de un biorreactor no depende solo de la cinética. Depende de
+      cómo circula el fluido entre los granos del lecho, de dónde se forma la
+      biopelícula, de qué tan rápido llega el sustrato a la bacteria. Nada de eso
+      se ve desde el exterior, y es justamente lo que la simulación permite abrir.
 
 
-      Sobre esa base construimos modelos tridimensionales que acoplan flujo,
-      transporte y cinética biológica, alimentados con geometría real obtenida por
-      tomografía computarizada, y modelos CFD–DEM que siguen la evolución del
-      tamaño de partícula del azufre a medida que se consume. El horizonte es un
-      gemelo digital del reactor: un modelo con el que se pueda operar y escalar en
-      vez de ajustar por prueba y error.
+      Trabajamos con dinámica de fluidos computacional acoplada a transporte y
+      cinética biológica, con geometrías reales obtenidas por tomografía
+      computarizada, y con acoplamiento CFD–DEM para seguir cómo cambia el medio a
+      medida que se consume. La validación es parte del método: los modelos se
+      confrontan con distribuciones de tiempo de residencia medidas en el reactor,
+      un observable que integra todo lo que ocurre dentro.
+
+
+      El alcance va más allá de los reactores de tratamiento de agua: los mismos
+      flujos multifásicos aparecen en la biofiltración de gases, en medios porosos
+      colonizados por biopelícula y en la digestión anaerobia. El horizonte es un
+      gemelo digital del reactor: un modelo con el que operar y escalar, en vez de
+      ajustar por prueba y error.
     en: >-
-      A CFD model of a packed bed is only as good as its validation. A central part
-      of our work is confronting simulation with experimental residence time
-      distribution (RTD) measurements — an observable that integrates everything
-      happening inside the reactor: channelling, dead zones, mixing.
+      A bioreactor's performance does not depend on kinetics alone. It depends on
+      how the fluid moves between the grains of the bed, where the biofilm forms,
+      how fast the substrate reaches the bacteria. None of that is visible from
+      the outside, and that is exactly what simulation opens up.
 
 
-      On that basis we build three-dimensional models coupling flow, transport and
-      biological kinetics, fed with real geometry obtained by computed tomography,
-      and CFD–DEM models that track how sulfur particle size evolves as it is
-      consumed. The horizon is a digital twin of the reactor: a model you can
-      operate and scale with, instead of tuning by trial and error.
+      We work with computational fluid dynamics coupled to transport and
+      biological kinetics, with real geometries obtained by computed tomography,
+      and with CFD–DEM coupling to track how the medium changes as it is consumed.
+      Validation is part of the method: models are confronted with residence time
+      distributions measured in the reactor, an observable that integrates
+      everything happening inside.
+
+
+      The scope reaches beyond water treatment reactors: the same multiphase flows
+      appear in gas biofiltration, in porous media colonised by biofilm and in
+      anaerobic digestion. The horizon is a digital twin of the reactor: a model
+      you can operate and scale with, instead of tuning by trial and error.
   keywords:
-    es: ["CFD", "OpenFOAM", "CFD–DEM", "Tomografía computarizada", "RTD", "Modelación de biopelículas"]
-    en: ["CFD", "OpenFOAM", "CFD–DEM", "Computed tomography", "RTD", "Biofilm modelling"]
+    es: ["CFD", "OpenFOAM", "CFD–DEM", "Tomografía computarizada", "Distribución de tiempos de residencia", "Flujo multifásico", "Gemelos digitales"]
+    en: ["CFD", "OpenFOAM", "CFD–DEM", "Computed tomography", "Residence time distribution", "Multiphase flow", "Digital twins"]
+
+- id: lodos
+  icon: reactor
+  title:
+    es: "Tratamiento de lodos: microaireación y digestión anaerobia"
+    en: "Sludge treatment: microaeration and anaerobic digestion"
+  summary:
+    es: "Los lodos son el residuo del tratamiento del agua y, a la vez, una fuente de energía y de nutrientes. La diferencia está en el pretratamiento."
+    en: "Sludge is the residue of water treatment and, at the same time, a source of energy and nutrients. The difference lies in the pretreatment."
+  body:
+    es: >-
+      Una planta de tratamiento de aguas residuales produce lodos, y esos lodos son
+      su mayor problema de manejo: salen del proceso con humedad muy alta, lo que
+      encarece el transporte y la disposición. Pero también contienen materia
+      orgánica que puede convertirse en biogás y nutrientes que pueden recuperarse.
+
+
+      Trabajamos en los pretratamientos que cambian esa ecuación. La microaireación
+      —dosis controladas de oxígeno en un ambiente anaerobio— mejora la hidrólisis
+      y la deshidratación posterior. La digestión anaerobia convierte la materia
+      orgánica en metano e hidrógeno, y su rendimiento depende de la mezcla de
+      sustratos, de los micronutrientes disponibles y de la estabilidad del
+      proceso: todo eso se modela. El biosecado, en paralelo, aprovecha el calor
+      de la propia actividad biológica para secar el lodo.
+
+
+      El líquido que se separa del lodo tampoco se trata como un descarte: es una
+      corriente concentrada de la que se puede recuperar nitrógeno y fósforo. Ahí
+      las tres líneas del grupo se cruzan —remoción de nutrientes, modelación del
+      proceso y valorización del residuo— y es donde la idea de economía circular
+      deja de ser una consigna y se vuelve un balance de masa.
+    en: >-
+      A wastewater treatment plant produces sludge, and that sludge is its biggest
+      handling problem: it leaves the process with very high moisture, which drives
+      up transport and disposal costs. But it also holds organic matter that can
+      become biogas, and nutrients that can be recovered.
+
+
+      We work on the pretreatments that change that equation. Microaeration —
+      controlled doses of oxygen in an anaerobic environment — improves hydrolysis
+      and subsequent dewatering. Anaerobic digestion turns organic matter into
+      methane and hydrogen, and its performance depends on the substrate mixture,
+      the available micronutrients and process stability: all of which can be
+      modelled. Biodrying, in parallel, uses the heat of the biological activity
+      itself to dry the sludge.
+
+
+      The liquid separated from the sludge is not treated as waste either: it is a
+      concentrated stream from which nitrogen and phosphorus can be recovered. That
+      is where the group's three lines meet — nutrient removal, process modelling
+      and waste valorisation — and where circular economy stops being a slogan and
+      becomes a mass balance.
+  keywords:
+    es: ["Digestión anaerobia", "Microaireación", "Biosecado", "Deshidratación de lodos", "Biogás y bioH₂", "Recuperación de N y P", "Economía circular"]
+    en: ["Anaerobic digestion", "Microaeration", "Biodrying", "Sludge dewatering", "Biogas and bioH₂", "N and P recovery", "Circular economy"]
