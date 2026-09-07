@@ -6,6 +6,10 @@
 {% if n.thesis %}{% assign texto = texto | replace: '{titulo}', n.thesis[page.lang] %}{% endif %}
 {% if n.advisors %}{% assign texto = texto | replace: '{profesores}', n.advisors[page.lang] %}{% endif %}
 {% if n.award %}{% assign texto = texto | replace: '{premio}', n.award[page.lang] %}{% endif %}
+{% if n.project %}{% assign texto = texto | replace: '{proyecto}', n.project[page.lang] %}{% endif %}
+{% if n.conference %}{% assign texto = texto | replace: '{congreso}', n.conference[page.lang] %}{% endif %}
+{% if n.contribution %}{% assign texto = texto | replace: '{contribucion}', n.contribution[page.lang] %}{% endif %}
+{% if n.venue %}{% assign texto = texto | replace: '{lugar}', n.venue[page.lang] %}{% endif %}
 {% assign clave = 'kicker_' | append: n.kind %}
 <article class="slide" id="{{ n.id }}" aria-roledescription="slide" aria-label="{{ n.name }}">
   <div class="slide__media">
@@ -19,5 +23,6 @@
     <h3 class="slide__name">{{ n.name }}</h3>
     <p class="slide__text">{{ texto }}</p>
     {% if n.extra and n.extra[page.lang] != "" %}<p class="slide__extra">{{ n.extra[page.lang] }}</p>{% endif %}
+    {% if n.link and n.link != "" %}<p class="slide__link"><a href="{{ n.link }}">{{ n.link_label[page.lang] }} &rarr;</a></p>{% endif %}
   </div>
 </article>

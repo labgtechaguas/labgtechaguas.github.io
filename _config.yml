@@ -40,8 +40,8 @@ hero_portrait: "cesar-huilinir"
 
 # Cifras de portada. Actualízalas cuando cambien.
 metrics:
-  people: 2
-  projects: 2
+  people: 10
+  projects: 4
   publications: 5
 
 # ------------------------------------------------------------------ Jekyll ---

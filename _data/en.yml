@@ -80,12 +80,17 @@ research:
 projects:
   title: "Projects"
   lead: >-
-    Currently funded projects, their goals and who leads them.
+    Currently funded projects we lead, and ongoing collaborations with other teams.
   role: "Role"
   pi: "Principal Investigator"
   period: "Period"
   funder: "Funding"
   objectives: "Specific objectives"
+  collab_kicker: "With other teams"
+  collab_title: "Collaborations"
+  collab_lead: >-
+    Projects led by other groups in which we take part, and working links with
+    laboratories elsewhere.
   contact: "Contact"
   team: "Associated team"
   current: "Active"
@@ -104,6 +109,8 @@ news:
   kicker_defensa: "Thesis defence"
   kicker_titulacion: "Graduation"
   kicker_premio: "Recognition"
+  kicker_congreso: "Conference"
+  kicker_proyecto: "Grant awarded"
   all: "See all news"
   prev: "Previous"
   next: "Next"
@@ -121,6 +128,14 @@ news:
     premio:
       - "We are proud to share that {nombre} received {premio}. A well-deserved recognition of the work and commitment of these years. Congratulations from the whole team!"
       - "{nombre} was awarded {premio}. From G-Tech we celebrate this recognition and wish them every success in what lies ahead."
+      - "Good news in the group: {nombre} received {premio}. We celebrate this recognition of sustained work over the years."
+    congreso:
+      - "{nombre} presented «{contribucion}» at the {congreso}, in {lugar}. These are the occasions that keep the group connected to what is happening elsewhere."
+      - "The group was present at the {congreso}, in {lugar}: {nombre} presented «{contribucion}»."
+      - "Back from the {congreso} ({lugar}), where {nombre} presented «{contribucion}». Thanks to everyone who stopped by to discuss the work."
+    proyecto:
+      - "Awarded: {nombre} secured funding for {proyecto}. A new line of work for the group in the coming years."
+      - "{nombre} was awarded {proyecto}. The group thus adds another funded line of work."
 
 team:
   title: "Team"
@@ -128,6 +143,7 @@ team:
     The people doing the work, in the lab and on the computer.
   leads: "Leadership"
   postdocs: "Postdoctoral researchers"
+  staff: "Technical and management team"
   phd: "PhD students"
   undergrad: "Undergraduate students"
   alumni: "Alumni"

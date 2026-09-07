@@ -1,0 +1,58 @@
+# Colaboraciones: proyectos externos en los que participa alguien del grupo, y
+# vínculos con otros laboratorios. No son proyectos dirigidos desde G-Tech —esos
+# van en projects.yml— sino trabajo conjunto con equipos de fuera.
+- member: "César Huiliñir Curío"
+  member_id: cesar-huilinir
+  role:
+    es: "Coinvestigador"
+    en: "Co-Investigator"
+  code: "Fondecyt Regular N.º 1250616"
+  period: "2025–2028"
+  title:
+    es: "Cofermentación anaerobia de purines de cerdo y algas para producir bioH₂, ácidos grasos volátiles y bioCH₄, con recuperación de nitrógeno mediante biochar modificado con algas, en una perspectiva de bioeconomía circular"
+    en: "Anaerobic co-fermentation of swine manure and seaweed for bioH₂, volatile fatty acids and bioCH₄ production with downstream nitrogen recovery using seaweed-modified biochar for a circular bioeconomy perspective"
+  partner:
+    es: ""
+    en: ""
+
+- member: "César Huiliñir Curío"
+  member_id: cesar-huilinir
+  role:
+    es: "Coinvestigador"
+    en: "Co-Investigator"
+  code: "Fondecyt Regular N.º 1241833"
+  period: "2024–2027"
+  title:
+    es: "Acoplamiento entre bacterias feammox y anammox: desarrollo y optimización de nuevas vías autótrofas de remoción biológica de nitrógeno para sistemas de tratamiento de aguas residuales"
+    en: "Studying the coupling between feammox and anammox bacteria: development and optimization of new autotrophic biological nitrogen-removal pathways for wastewater treatment systems"
+  partner:
+    es: "Investigador responsable: Eduardo Leiva"
+    en: "Principal Investigator: Eduardo Leiva"
+
+- member: "César Huiliñir Curío"
+  member_id: cesar-huilinir
+  role:
+    es: "Coinvestigador"
+    en: "Co-Investigator"
+  code: "Fondecyt Regular N.º 1241199"
+  period: "2024–2027"
+  title:
+    es: "Nitrificación secuencial – desnitrificación mixotrófica frente a nitrificación simultánea – desnitrificación mixotrófica: estudio comparativo de tecnologías usando zeolita chilena como soporte microbiano"
+    en: "Sequential nitrification – mixotrophic denitrification vs. simultaneous nitrification – mixotrophic denitrification: comparative study of technologies using Chilean zeolite as microbial support"
+  partner:
+    es: ""
+    en: ""
+
+- member: "Felipe A. Carreño López"
+  member_id: felipe-carreno
+  role:
+    es: "Colaboración internacional"
+    en: "International collaboration"
+  code: ""
+  period: "2023 –"
+  title:
+    es: "Modelación CFD del bioclogging en medios porosos: cómo el crecimiento de biopelícula reconfigura el flujo, la mezcla y el transporte reactivo en el subsuelo"
+    en: "CFD modelling of bioclogging in porous media: how biofilm growth reshapes flow, mixing and reactive transport in the subsurface"
+  partner:
+    es: "Grupo de la Dra. Verónica L. Morales, University of California, Davis"
+    en: "Dr. Verónica L. Morales' group, University of California, Davis"

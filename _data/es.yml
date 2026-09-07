@@ -82,12 +82,18 @@ research:
 projects:
   title: "Proyectos"
   lead: >-
-    Proyectos con financiamiento vigente, sus objetivos y quién los dirige.
+    Proyectos con financiamiento vigente que dirigimos, y las colaboraciones en
+    curso con otros equipos.
   role: "Rol"
   pi: "Investigador Responsable"
   period: "Periodo"
   funder: "Financiamiento"
   objectives: "Objetivos específicos"
+  collab_kicker: "Con otros equipos"
+  collab_title: "Colaboraciones"
+  collab_lead: >-
+    Proyectos liderados por otros grupos en los que participamos, y vínculos de
+    trabajo con laboratorios de fuera.
   contact: "Contacto"
   team: "Equipo asociado"
   current: "Vigentes"
@@ -108,6 +114,8 @@ news:
   kicker_defensa: "Defensa de memoria"
   kicker_titulacion: "Titulación"
   kicker_premio: "Reconocimiento"
+  kicker_congreso: "Congreso"
+  kicker_proyecto: "Proyecto adjudicado"
   all: "Ver todas las noticias"
   prev: "Anterior"
   next: "Siguiente"
@@ -125,6 +133,14 @@ news:
     premio:
       - "Con mucho orgullo compartimos que {nombre} recibió {premio}. Un reconocimiento merecido al trabajo y al compromiso de estos años. ¡Felicitaciones de todo el equipo!"
       - "{nombre} fue distinguida con {premio}. Desde G-Tech celebramos este reconocimiento y le deseamos mucho éxito en lo que viene."
+      - "Buenas noticias en el grupo: {nombre} obtuvo {premio}. Celebramos el reconocimiento a un trabajo sostenido en el tiempo."
+    congreso:
+      - "{nombre} presentó «{contribucion}» en el {congreso}, en {lugar}. Estas instancias son las que mantienen al grupo conectado con lo que se está haciendo afuera."
+      - "El grupo estuvo presente en el {congreso}, en {lugar}: {nombre} expuso «{contribucion}»."
+      - "De vuelta del {congreso} ({lugar}), donde {nombre} presentó «{contribucion}». Gracias a quienes se acercaron a conversar sobre el trabajo."
+    proyecto:
+      - "Adjudicado: {nombre} obtuvo financiamiento para {proyecto}. Un nuevo frente de trabajo para el grupo en los próximos años."
+      - "{nombre} se adjudicó {proyecto}. El grupo suma así una línea más de trabajo con financiamiento vigente."
 
 team:
   title: "Equipo"
@@ -132,6 +148,7 @@ team:
     Quienes hacen el trabajo, en el laboratorio y en el computador.
   leads: "Dirección"
   postdocs: "Investigadores postdoctorales"
+  staff: "Equipo técnico y de gestión"
   phd: "Estudiantes de doctorado"
   undergrad: "Estudiantes de pregrado"
   alumni: "Alumni"

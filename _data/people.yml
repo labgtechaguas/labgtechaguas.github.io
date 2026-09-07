@@ -100,19 +100,56 @@
 # Tarjeta compacta: usa 'program' y 'focus' (una línea) en vez de 'degree',
 # 'bio', 'interests' y 'metrics'. photo: "" muestra las iniciales.
 
+# --- Equipo técnico y de gestión ---------------------------------------------
+- id: cristobal-gallardo
+  group: staff
+  name: "Cristóbal Gallardo Balladares"
+  photo: ""
+  role:
+    es: "Lab manager"
+    en: "Lab manager"
+  program:
+    es: ""
+    en: ""
+  focus:
+    es: "Coordina la operación del laboratorio: reactores, equipamiento, insumos y protocolos de trabajo."
+    en: "Coordinates day-to-day lab operations: reactors, equipment, supplies and working protocols."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""
+
+- id: karina-roa
+  group: staff
+  name: "Karina Roa Ruiz"
+  photo: ""
+  role:
+    es: "Ingeniera de proyectos"
+    en: "Project engineer"
+  program:
+    es: ""
+    en: ""
+  focus:
+    es: "Apoya la ejecución técnica de los proyectos del grupo y la coordinación entre las líneas experimental y de modelación."
+    en: "Supports the technical execution of the group's projects and coordination between the experimental and modelling lines."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""
+
 - id: judith-quezada
   group: phd
-  name: "Judith Quezada"
+  name: "Judith Quezada Cáceres"
   photo: ""
   role:
     es: "Estudiante de doctorado"
     en: "PhD Student"
   program:
-    es: ""
-    en: ""
+    es: "Doctorado en Ciencias de la Ingeniería · Ingeniera en Biotecnología"
+    en: "PhD in Engineering Sciences · Biotechnology Engineer"
   focus:
-    es: ""
-    en: ""
+    es: "Degradación de ibuprofeno y diclofenaco en un reactor batch secuencial de lecho móvil nitrificante."
+    en: "Degradation of ibuprofen and diclofenac in a nitrifying moving-bed sequencing batch reactor."
   links:
     email: ""
     orcid: ""

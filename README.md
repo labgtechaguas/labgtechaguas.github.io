@@ -33,7 +33,8 @@ _data/
   alumni.yml              Ex integrantes, para la tabla al final de Equipo
   news.yml                Noticias del carrusel; el texto sale de plantillas
   research.yml            Líneas de investigación
-  projects.yml            Proyectos: título oficial, abstract, periodo, contacto
+  projects.yml            Proyectos propios: título oficial, abstract, periodo, contacto
+  collaborations.yml      Proyectos de otros equipos en los que participamos
   publications.yml        Artículos indexados
   funding.yml             Logos de la franja de financiamiento
 _layouts/                 Plantillas de página (home, research, team, …)
@@ -57,12 +58,14 @@ Casi nada se edita en HTML. Lo habitual:
 | Quiero… | Archivo |
 |---|---|
 | agregar a la dirección o a un postdoc | `_data/people.yml` con `group: lead` o `postdoc` — ficha ancha, usa `bio`, `degree`, `interests` y `metrics` |
+| agregar personal técnico o de gestión | `_data/people.yml` con `group: staff` — tarjeta compacta, la descripción va en `focus` |
+| agregar una colaboración | `_data/collaborations.yml` — proyectos de otros grupos en los que participamos, se muestran al final de Proyectos |
 | agregar a un estudiante | `_data/people.yml` con `group: phd` o `undergrad` — tarjeta compacta, usa `program` y `focus` (una línea) |
 | mover a alguien a ex integrantes | quítalo de `people.yml` y agrégalo a `_data/alumni.yml` |
 | agregar una noticia | `_data/news.yml`. El texto no se escribe: se elige una plantilla de `news.templates` en `es.yml`/`en.yml` con el campo `template:`. Usa un índice distinto al de la noticia anterior del mismo tipo |
 | cambiar el tono de las noticias | las plantillas en `_data/es.yml` y `_data/en.yml`, no las entradas |
 | agregar un paper | `_data/publications.yml`, bloque `indexed` (y su apellido en `group_authors`) |
-| agregar o editar un proyecto | `_data/projects.yml` — el `title` va tal cual la postulación, sin traducir |
+| agregar o editar un proyecto | `_data/projects.yml` — el `title` va tal cual la postulación, sin traducir. Hoy **ningún** proyecto publica resumen: `abstract:` va vacío y la ficha muestra solo el título y los datos |
 | cambiar una línea de investigación | `_data/research.yml` |
 | cambiar un texto de la interfaz | `_data/es.yml` y su equivalente en `_data/en.yml` |
 | cambiar correo, dirección o cifras de portada | `_config.yml` |
@@ -146,9 +149,8 @@ la vez**, y `commit` + `push` antes de cambiar de equipo.
 
 ## 7. Pendientes
 
-- Abstract oficial del Fondecyt Regular de César: el que está publicado lo redactamos
-  a partir de su propuesta, porque el PDF no trae sección de abstract. También falta
-  confirmar su periodo (hoy dice 2026–2029).
+- Confirmar el periodo del Fondecyt Regular de César (hoy dice 2026–2029) y si el CORFO
+  24CVCS-255807 sigue vigente: su periodo termina en 2025.
 - Datos y foto de Judith Quezada; correos y fotos del resto de estudiantes.
 - Columna `now:` de `alumni.yml` (dónde está hoy cada ex integrante) y sus LinkedIn.
 - Título de la memoria de Margarita Toro, y confirmar las fechas aproximadas de tres

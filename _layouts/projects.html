@@ -4,12 +4,15 @@ layout: page
 {% assign t = site.data[page.lang] %}
 <section class="section">
   <div class="wrap">
-    {% for pr in site.data.projects %}
-    <article class="project-full" id="{{ pr.id }}">
-      <header class="project-full__head">
+    <div class="projects-grid">
+      {% for pr in site.data.projects %}
+      <article class="project-card" id="{{ pr.id }}">
         <p class="project__code">{{ pr.code }}</p>
         <h2>{{ pr.title[page.lang] }}</h2>
-        <dl class="project-full__meta">
+        {% if pr.abstract and pr.abstract[page.lang] != "" %}
+          <div class="prose project-card__abstract">{{ pr.abstract[page.lang] | markdownify }}</div>
+        {% endif %}
+        <dl class="project-card__meta">
           <div><dt>{{ t.projects.pi }}</dt><dd>{{ pr.pi }}</dd></div>
           <div><dt>{{ t.projects.funder }}</dt><dd>{{ pr.funder }}</dd></div>
           <div><dt>{{ t.projects.period }}</dt><dd>{{ pr.period }}</dd></div>
@@ -17,11 +20,34 @@ layout: page
           <div><dt>{{ t.projects.contact }}</dt><dd><a href="mailto:{{ pr.contact }}">{{ pr.contact }}</a></dd></div>
           {% endif %}
         </dl>
-      </header>
-      <div class="prose">
-        {{ pr.abstract[page.lang] | markdownify }}
-      </div>
-    </article>
-    {% endfor %}
+      </article>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
+{% if site.data.collaborations and site.data.collaborations.size > 0 %}
+<section class="section section--alt">
+  <div class="wrap">
+    <p class="kicker">{{ t.projects.collab_kicker }}</p>
+    <h2 class="section__title">{{ t.projects.collab_title }}</h2>
+    <p class="section__lead">{{ t.projects.collab_lead }}</p>
+    <ul class="collabs">
+      {% for c in site.data.collaborations %}
+      <li class="collab">
+        <div class="collab__meta">
+          <b>{{ c.member }}</b>
+          <span>{{ c.role[page.lang] }}</span>
+          {% if c.code and c.code != "" %}<span class="collab__code">{{ c.code }}</span>{% endif %}
+          {% if c.period and c.period != "" %}<span>{{ c.period }}</span>{% endif %}
+        </div>
+        <div class="collab__body">
+          <p class="collab__title">{{ c.title[page.lang] }}</p>
+          {% if c.partner and c.partner[page.lang] != "" %}<p class="collab__partner">{{ c.partner[page.lang] }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

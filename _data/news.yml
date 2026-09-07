@@ -22,6 +22,28 @@
     es: "Estudiante de Ingeniería Civil Química con mención Ambiental."
     en: "Chemical Engineering student, environmental track."
 
+- id: congreso-interpore-felipe
+  kind: congreso
+  template: 0
+  date: 2026-05-19
+  date_label:
+    es: "19–22 de mayo de 2026"
+    en: "19–22 May 2026"
+  name: "Felipe A. Carreño López"
+  photo: "congreso-interpore-felipe.jpg"
+  conference:
+    es: "InterPore 2026"
+    en: "InterPore 2026"
+  contribution:
+    es: "Living porous media: uncovering the microbe–fluid–rock interactions that reshape subsurface transport"
+    en: "Living porous media: uncovering the microbe–fluid–rock interactions that reshape subsurface transport"
+  venue:
+    es: "la Université de Nantes, Francia"
+    en: "the Université de Nantes, France"
+  extra:
+    es: "Póster en colaboración con el grupo de la Dra. Verónica Morales, de la University of California, Davis."
+    en: "Poster in collaboration with Dr. Verónica Morales' group at the University of California, Davis."
+
 - id: defensa-josefina-viotti
   kind: defensa
   template: 1
@@ -79,6 +101,42 @@
     es: ""
     en: ""
 
+- id: fondecyt-regular-cesar
+  kind: proyecto
+  template: 0
+  date: 2026-01-15
+  date_label:
+    es: "2026"
+    en: "2026"
+  name: "César Huiliñir"
+  photo: "noticia-cesar-huilinir.jpg"
+  project:
+    es: "un Fondecyt Regular de ANID sobre tratamiento de aguas subterráneas contaminadas con nitrato y microcontaminantes, mediante desnitrificación autótrofa con azufre elemental"
+    en: "an ANID Fondecyt Regular grant on treating groundwater contaminated with nitrate and micropollutants through elemental sulfur autotrophic denitrification"
+  extra:
+    es: "El proyecto evalúa además cuánto óxido nitroso se emite en el proceso, un aspecto del que hay muy poca información científica."
+    en: "The project also assesses how much nitrous oxide the process emits, an aspect on which very little scientific information exists."
+  link: "https://www.uandes.cl/noticias/proyecto-de-academico-uandes-desarrolla-soluciones-sustentables-para-el-tratamiento-de-aguas-subterraneas-contaminadas/"
+  link_label:
+    es: "Leer la nota en Uandes"
+    en: "Read the story on the Uandes site"
+
+- id: premio-cesar-huilinir
+  kind: premio
+  template: 2
+  date: 2025-12-12
+  date_label:
+    es: "12 de diciembre de 2025"
+    en: "12 December 2025"
+  name: "César Huiliñir"
+  photo: "premio-cesar-huilinir.jpg"
+  award:
+    es: "el Premio Profesor Investigador Destacado de la Facultad de Ingeniería y Ciencias Aplicadas de la Universidad de los Andes"
+    en: "the Outstanding Research Professor Award from the Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  extra:
+    es: "Como él mismo lo puso, el reconocimiento no es individual: refleja el trabajo de todo el equipo de G-Tech."
+    en: "As he put it himself, the recognition is not individual: it reflects the work of the whole G-Tech team."
+
 - id: premio-sofia-hernandez
   kind: premio
   template: 1
@@ -94,6 +152,72 @@
   extra:
     es: "Se tituló además con dos votos de distinción."
     en: "She also graduated with two distinctions."
+
+- id: congreso-aidis-cesar
+  kind: congreso
+  template: 1
+  date: 2025-11-04
+  date_label:
+    es: "3–5 de noviembre de 2025"
+    en: "3–5 November 2025"
+  name: "César Huiliñir"
+  photo: "congreso-aidis-cesar.jpg"
+  conference:
+    es: "XXVI Congreso Chileno de Ingeniería Sanitaria y Ambiental, AIDIS"
+    en: "XXVI Chilean Congress of Sanitary and Environmental Engineering, AIDIS"
+  contribution:
+    es: "Remoción biológica multicomponente en reactores secuenciales con soporte de zeolita"
+    en: "Multicomponent biological removal in sequencing reactors with zeolite support"
+  venue:
+    es: "Las Condes, Santiago"
+    en: "Las Condes, Santiago"
+  extra:
+    es: "Abrió la sesión presentando el trabajo de memoria de Amanda Espinosa."
+    en: "He opened the session presenting the thesis work of Amanda Espinosa."
+
+- id: congreso-iq-felipe
+  kind: congreso
+  template: 2
+  date: 2025-10-27
+  date_label:
+    es: "27–30 de octubre de 2025"
+    en: "27–30 October 2025"
+  name: "Felipe A. Carreño López"
+  photo: "congreso-iq-felipe.jpg"
+  conference:
+    es: "XXII Congreso Chileno de Ingeniería Química"
+    en: "XXII Chilean Congress of Chemical Engineering"
+  contribution:
+    es: "Simulación CFD de un biofiltro de lecho empacado con azufre elemental aplicado a la desnitrificación autótrofa"
+    en: "CFD simulation of an elemental sulfur packed-bed biofilter applied to autotrophic denitrification"
+  venue:
+    es: "la Pontificia Universidad Católica de Valparaíso"
+    en: "Pontificia Universidad Católica de Valparaíso"
+  extra:
+    es: "Póster y presentación oral, con el trabajo de los tesistas del grupo."
+    en: "Poster and oral presentation, drawing on the work of the group's undergraduate researchers."
+
+- id: congreso-iq-judith
+  kind: congreso
+  template: 0
+  date: 2025-10-27
+  date_label:
+    es: "27–30 de octubre de 2025"
+    en: "27–30 October 2025"
+  name: "Judith Quezada Cáceres"
+  photo: "congreso-iq-judith.jpg"
+  conference:
+    es: "XXII Congreso Chileno de Ingeniería Química"
+    en: "XXII Chilean Congress of Chemical Engineering"
+  contribution:
+    es: "Estudio de la degradación de ibuprofeno y diclofenaco en un reactor batch secuencial de lecho móvil nitrificante"
+    en: "Degradation of ibuprofen and diclofenac in a nitrifying moving-bed sequencing batch reactor"
+  venue:
+    es: "la Pontificia Universidad Católica de Valparaíso"
+    en: "Pontificia Universidad Católica de Valparaíso"
+  extra:
+    es: "Su primera presentación como estudiante de doctorado en la Universidad de los Andes, con beca FAI de Congresos."
+    en: "Her first presentation as a doctoral student at Universidad de los Andes, supported by a FAI conference grant."
 
 - id: defensa-amanda-espinosa
   kind: defensa

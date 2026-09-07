@@ -23,6 +23,14 @@ layout: page
       </div>
     {% endif %}
 
+    {% assign staff = site.data.people | where: 'group', 'staff' %}
+    {% if staff.size > 0 %}
+      <h2 class="section__title">{{ t.team.staff }}</h2>
+      <div class="people-grid">
+        {% for person in staff %}{% include person-mini.html person=person %}{% endfor %}
+      </div>
+    {% endif %}
+
     {% comment %} Estudiantes: tarjeta compacta en grilla {% endcomment %}
     {% assign phds = site.data.people | where: 'group', 'phd' %}
     {% if phds.size > 0 %}

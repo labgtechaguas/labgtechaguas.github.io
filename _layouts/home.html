@@ -97,7 +97,7 @@ layout: default
       <article class="project">
         <p class="project__code">{{ pr.code }} · {{ pr.period }}</p>
         <h3>{{ pr.title[page.lang] }}</h3>
-        <p class="project__lead">{{ pr.abstract[page.lang] | strip_newlines | truncatewords: 45 }}</p>
+        {% if pr.abstract and pr.abstract[page.lang] != "" %}<p class="project__lead">{{ pr.abstract[page.lang] | strip_newlines | truncatewords: 45 }}</p>{% endif %}
         <p class="project__pi">{{ t.projects.pi }}: <b>{{ pr.pi }}</b>{% if pr.contact and pr.contact != "" %} · <a href="mailto:{{ pr.contact }}">{{ pr.contact }}</a>{% endif %}</p>
       </article>
       {% endif %}{% endfor %}
