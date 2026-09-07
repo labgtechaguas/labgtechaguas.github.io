@@ -3,9 +3,9 @@ layout: default
 ---
 {% assign t = site.data[page.lang] %}
 {% if page.lang == 'en' %}
-  {% assign u_res = '/en/research/' %}{% assign u_pro = '/en/projects/' %}{% assign u_pub = '/en/publications/' %}{% assign u_team = '/en/team/' %}{% assign u_con = '/en/contact/' %}
+  {% assign u_res = '/en/research/' %}{% assign u_pro = '/en/projects/' %}{% assign u_pub = '/en/publications/' %}{% assign u_team = '/en/team/' %}{% assign u_news = '/en/news/' %}{% assign u_con = '/en/contact/' %}
 {% else %}
-  {% assign u_res = '/investigacion/' %}{% assign u_pro = '/proyectos/' %}{% assign u_pub = '/publicaciones/' %}{% assign u_team = '/equipo/' %}{% assign u_con = '/contacto/' %}
+  {% assign u_res = '/investigacion/' %}{% assign u_pro = '/proyectos/' %}{% assign u_pub = '/publicaciones/' %}{% assign u_team = '/equipo/' %}{% assign u_news = '/noticias/' %}{% assign u_con = '/contacto/' %}
 {% endif %}
 
 {% comment %}
@@ -118,6 +118,31 @@ layout: default
     <p class="section__more"><a href="{{ u_pub | relative_url }}">{{ t.home.pubs_all }} &rarr;</a></p>
   </div>
 </section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="section section--alt">
+  <div class="wrap">
+    <p class="kicker">{{ t.home.news_kicker }}</p>
+    <h2 class="section__title">{{ t.home.news_title }}</h2>
+    <div class="news-cards">
+      {% for n in site.data.news limit: 3 %}
+      {% assign clave = 'kicker_' | append: n.kind %}
+      <article class="news-card">
+        <a class="news-card__media" href="{{ u_news | relative_url }}#{{ n.id }}">
+          <img class="slide__bg" src="{{ '/assets/img/news/' | append: n.photo | relative_url }}" alt="" aria-hidden="true" loading="lazy">
+          <img class="slide__photo" src="{{ '/assets/img/news/' | append: n.photo | relative_url }}" alt="{{ n.name }}" loading="lazy">
+        </a>
+        <div class="news-card__body">
+          <p class="slide__kicker">{{ t.news[clave] }} <span>·</span> {{ n.date_label[page.lang] }}</p>
+          <h3>{{ n.name }}</h3>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="section__more"><a href="{{ u_news | relative_url }}">{{ t.news.all }} &rarr;</a></p>
+  </div>
+</section>
+{% endif %}
 
 <section class="section section--join">
   <div class="wrap join">

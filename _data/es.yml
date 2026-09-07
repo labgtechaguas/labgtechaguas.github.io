@@ -5,6 +5,7 @@ nav:
   projects: "Proyectos"
   publications: "Publicaciones"
   team: "Equipo"
+  news: "Noticias"
   contact: "Contacto"
 
 home:
@@ -99,6 +100,32 @@ publications:
   indexed: "Artículos en revistas indexadas"
   note: "Selección en construcción: falta incorporar el histórico completo del grupo."
 
+news:
+  title: "Noticias"
+  lead: >-
+    Defensas de memoria, premios y reconocimientos del equipo. Lo que celebramos
+    como grupo.
+  kicker_defensa: "Defensa de memoria"
+  kicker_titulacion: "Titulación"
+  kicker_premio: "Reconocimiento"
+  all: "Ver todas las noticias"
+  prev: "Anterior"
+  next: "Siguiente"
+  goto: "Ir a la noticia"
+  # Plantillas. Marcadores: {nombre} {titulo} {profesores} {premio}
+  templates:
+    defensa:
+      - "Como grupo felicitamos a {nombre} por su exitosa defensa de memoria, titulada «{titulo}», a cargo de {profesores}. ¡Como equipo te deseamos mucho éxito en tus siguientes proyectos!"
+      - "{nombre} defendió con éxito su memoria «{titulo}», guiada por {profesores}. Todo el equipo de G-Tech celebra este cierre de etapa y le desea lo mejor en lo que viene."
+      - "¡Felicitaciones, {nombre}! El trabajo «{titulo}», bajo la guía de {profesores}, cierra meses de dedicación en el laboratorio. Desde G-Tech te deseamos mucho éxito en tus próximos desafíos."
+      - "Una nueva defensa en el grupo: {nombre} presentó «{titulo}», con la guía de {profesores}. Gracias por el compromiso de estos meses; el equipo te desea lo mejor en tu camino profesional."
+    titulacion:
+      - "Celebramos la titulación de {nombre}, que trabajó con {profesores} durante su memoria en el grupo. ¡Mucho éxito en la etapa que se abre!"
+      - "{nombre} recibió su título profesional tras su paso por el grupo, junto a {profesores}. Todo el equipo de G-Tech se suma a la celebración."
+    premio:
+      - "Con mucho orgullo compartimos que {nombre} recibió {premio}. Un reconocimiento merecido al trabajo y al compromiso de estos años. ¡Felicitaciones de todo el equipo!"
+      - "{nombre} fue distinguida con {premio}. Desde G-Tech celebramos este reconocimiento y le deseamos mucho éxito en lo que viene."
+
 team:
   title: "Equipo"
   lead: >-
@@ -111,7 +138,6 @@ team:
   alumni_name: "Nombre"
   alumni_role: "Rol en el grupo"
   alumni_period: "Periodo"
-  alumni_now: "Actualmente"
   students: "Estudiantes"
   interests: "Intereses"
   profile: "Perfil completo"

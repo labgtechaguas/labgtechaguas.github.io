@@ -5,6 +5,7 @@
   {% assign u_pro  = '/en/projects/' %}
   {% assign u_pub  = '/en/publications/' %}
   {% assign u_team = '/en/team/' %}
+  {% assign u_news = '/en/news/' %}
   {% assign u_con  = '/en/contact/' %}
 {% else %}
   {% assign u_home = '/' %}
@@ -12,6 +13,7 @@
   {% assign u_pro  = '/proyectos/' %}
   {% assign u_pub  = '/publicaciones/' %}
   {% assign u_team = '/equipo/' %}
+  {% assign u_news = '/noticias/' %}
   {% assign u_con  = '/contacto/' %}
 {% endif %}
 
@@ -32,6 +34,7 @@
         <li><a href="{{ u_pro  | relative_url }}" {% if page.url contains 'proyecto' or page.url contains 'project' %}class="is-active" aria-current="page"{% endif %}>{{ t.nav.projects }}</a></li>
         <li><a href="{{ u_pub  | relative_url }}" {% if page.url contains 'publica' %}class="is-active" aria-current="page"{% endif %}>{{ t.nav.publications }}</a></li>
         <li><a href="{{ u_team | relative_url }}" {% if page.url contains 'equipo' or page.url contains 'team' %}class="is-active" aria-current="page"{% endif %}>{{ t.nav.team }}</a></li>
+        <li><a href="{{ u_news | relative_url }}" {% if page.url contains 'noticia' or page.url contains '/news' %}class="is-active" aria-current="page"{% endif %}>{{ t.nav.news }}</a></li>
         <li><a href="{{ u_con  | relative_url }}" {% if page.url contains 'contact' %}class="is-active" aria-current="page"{% endif %}>{{ t.nav.contact }}</a></li>
         <li><a class="nav__lang" href="{{ page.alt | default: u_home | relative_url }}" hreflang="{% if page.lang == 'es' %}en{% else %}es{% endif %}">{{ t.ui.lang_switch_code }}</a></li>
       </ul>

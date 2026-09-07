@@ -1,0 +1,23 @@
+{% assign n = include.item %}
+{% assign t = site.data[page.lang] %}
+{% assign plantillas = t.news.templates[n.kind] %}
+{% assign texto = plantillas[n.template] %}
+{% assign texto = texto | replace: '{nombre}', n.name %}
+{% if n.thesis %}{% assign texto = texto | replace: '{titulo}', n.thesis[page.lang] %}{% endif %}
+{% if n.advisors %}{% assign texto = texto | replace: '{profesores}', n.advisors[page.lang] %}{% endif %}
+{% if n.award %}{% assign texto = texto | replace: '{premio}', n.award[page.lang] %}{% endif %}
+{% assign clave = 'kicker_' | append: n.kind %}
+<article class="slide" id="{{ n.id }}" aria-roledescription="slide" aria-label="{{ n.name }}">
+  <div class="slide__media">
+    {% if n.photo and n.photo != "" %}
+      <img class="slide__bg" src="{{ '/assets/img/news/' | append: n.photo | relative_url }}" alt="" aria-hidden="true" loading="lazy">
+      <img class="slide__photo" src="{{ '/assets/img/news/' | append: n.photo | relative_url }}" alt="{{ n.name }}" loading="lazy">
+    {% endif %}
+  </div>
+  <div class="slide__body">
+    <p class="slide__kicker">{{ t.news[clave] }} <span>·</span> {{ n.date_label[page.lang] }}</p>
+    <h3 class="slide__name">{{ n.name }}</h3>
+    <p class="slide__text">{{ texto }}</p>
+    {% if n.extra and n.extra[page.lang] != "" %}<p class="slide__extra">{{ n.extra[page.lang] }}</p>{% endif %}
+  </div>
+</article>

@@ -50,7 +50,6 @@ layout: page
               <th scope="col">{{ t.team.alumni_name }}</th>
               <th scope="col">{{ t.team.alumni_role }}</th>
               <th scope="col">{{ t.team.alumni_period }}</th>
-              <th scope="col">{{ t.team.alumni_now }}</th>
             </tr>
           </thead>
           <tbody>
@@ -66,7 +65,6 @@ layout: page
               </td>
               <td>{% if a.role and a.role[page.lang] != "" %}{{ a.role[page.lang] }}{% else %}&mdash;{% endif %}</td>
               <td>{% if a.period and a.period != "" %}{{ a.period }}{% else %}&mdash;{% endif %}</td>
-              <td>{% if a.now and a.now[page.lang] != "" %}{{ a.now[page.lang] }}{% else %}&mdash;{% endif %}</td>
             </tr>
             {% endfor %}
           </tbody>

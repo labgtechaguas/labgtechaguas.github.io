@@ -1,0 +1,169 @@
+# Noticias del grupo, de la más reciente a la más antigua.
+#
+# kind:     defensa | titulacion | premio    (elige el set de plantillas)
+# template: índice de la plantilla en _data/<lang>.yml -> news.templates.<kind>
+#           Rota los índices para que dos noticias seguidas no suenen igual.
+# Marcadores que reemplaza la plantilla: {nombre} · {titulo} · {profesores} · {premio}
+# extra:    frase opcional que se agrega al final del párrafo.
+
+- id: beca-mariano-guajardo
+  kind: premio
+  template: 0
+  date: 2026-07-07
+  date_label:
+    es: "7 de julio de 2026"
+    en: "7 July 2026"
+  name: "Mariano Guajardo Jofré"
+  photo: "beca-mariano-guajardo.jpg"
+  award:
+    es: "la Beca Santander Movilidad Internacional de Pregrado, que lo llevará a la Universidad de Valladolid, en España"
+    en: "the Santander International Undergraduate Mobility Scholarship, which will take him to the University of Valladolid, Spain"
+  extra:
+    es: "Estudiante de Ingeniería Civil Química con mención Ambiental."
+    en: "Chemical Engineering student, environmental track."
+
+- id: defensa-josefina-viotti
+  kind: defensa
+  template: 1
+  date: 2026-05-01
+  date_label:
+    es: "mayo de 2026"
+    en: "May 2026"
+  name: "Josefina Viotti Marelli"
+  photo: "defensa-josefina-viotti.jpg"
+  thesis:
+    es: "Producción de H₂ y CH₄ desde aguas residuales: efecto de la presencia de compuestos farmacéuticos en el proceso"
+    en: "H₂ and CH₄ production from wastewater: effect of pharmaceutical compounds on the process"
+  advisors:
+    es: "los profesores César Huiliñir y Alberto Vergara"
+    en: "Professors César Huiliñir and Alberto Vergara"
+  extra:
+    es: "Obtuvo un 7,0 en la defensa."
+    en: "She earned top marks in the defence."
+
+- id: defensa-andres-orellana
+  kind: defensa
+  template: 2
+  date: 2026-04-01
+  date_label:
+    es: "1 de abril de 2026"
+    en: "1 April 2026"
+  name: "Andrés Orellana Molnar"
+  photo: "defensa-andres-orellana.jpg"
+  thesis:
+    es: "Modelación y simulación de una biopelícula desnitrificante autótrofa usando como donador de electrones el azufre elemental"
+    en: "Modelling and simulation of an autotrophic denitrifying biofilm using elemental sulfur as electron donor"
+  advisors:
+    es: "el profesor Felipe Carreño"
+    en: "Professor Felipe Carreño"
+  extra:
+    es: "Obtuvo la calificación máxima, 7,0, y profundizó en modelación de procesos ambientales con CFD y C++."
+    en: "He earned the top mark and deepened his work on environmental process modelling with CFD and C++."
+
+- id: defensa-samuel-abogabir
+  kind: defensa
+  template: 3
+  date: 2026-04-01
+  date_label:
+    es: "1 de abril de 2026"
+    en: "1 April 2026"
+  name: "Samuel Abogabir Schacht"
+  photo: "defensa-samuel-abogabir.jpg"
+  thesis:
+    es: "Desarrollo y validación experimental de un modelo CFD tridimensional para un reactor de lecho fijo aplicado a la desnitrificación autótrofa con azufre elemental mediante análisis de distribución de tiempos de residencia"
+    en: "Development and experimental validation of a three-dimensional CFD model of a fixed-bed reactor for sulfur-based autotrophic denitrification through residence time distribution analysis"
+  advisors:
+    es: "los profesores Felipe Carreño y César Huiliñir"
+    en: "Professors Felipe Carreño and César Huiliñir"
+  extra:
+    es: ""
+    en: ""
+
+- id: premio-sofia-hernandez
+  kind: premio
+  template: 1
+  date: 2025-12-11
+  date_label:
+    es: "11 de diciembre de 2025"
+    en: "11 December 2025"
+  name: "Sofía Belén Hernández Honorato"
+  photo: "premio-sofia-hernandez.jpg"
+  award:
+    es: "el premio Espíritu Universidad de los Andes, en su ceremonia de titulación como Ingeniera Civil Ambiental"
+    en: "the Espíritu Universidad de los Andes award, at her graduation ceremony as an Environmental Engineer"
+  extra:
+    es: "Se tituló además con dos votos de distinción."
+    en: "She also graduated with two distinctions."
+
+- id: defensa-amanda-espinosa
+  kind: defensa
+  template: 0
+  date: 2025-10-01
+  date_label:
+    es: "2025"
+    en: "2025"
+  name: "Amanda Espinosa Peña"
+  photo: "defensa-amanda-espinosa.jpg"
+  thesis:
+    es: "Efecto de la zeolita natural sobre la desnitrificación heterótrofa, incluyendo la remoción de productos farmacéuticos (ibuprofeno y diclofenaco)"
+    en: "Effect of natural zeolite on heterotrophic denitrification, including the removal of pharmaceuticals (ibuprofen and diclofenac)"
+  advisors:
+    es: "el profesor César Huiliñir"
+    en: "Professor César Huiliñir"
+  extra:
+    es: ""
+    en: ""
+
+- id: defensa-sofia-hernandez
+  kind: defensa
+  template: 1
+  date: 2025-09-29
+  date_label:
+    es: "29 de septiembre de 2025"
+    en: "29 September 2025"
+  name: "Sofía Belén Hernández Honorato"
+  photo: "defensa-sofia-hernandez.jpg"
+  thesis:
+    es: "Simulación y modelación de un sistema acoplado Anammox–Feammox en reactores batch secuenciales"
+    en: "Simulation and modelling of a coupled Anammox–Feammox system in sequencing batch reactors"
+  advisors:
+    es: "el profesor César Huiliñir"
+    en: "Professor César Huiliñir"
+  extra:
+    es: "El trabajo se enmarcó en el Fondecyt Regular N.º 1241833 del profesor Eduardo Leiva."
+    en: "The work was part of Fondecyt Regular grant No. 1241833, led by Professor Eduardo Leiva."
+
+- id: defensa-valentina-guajardo
+  kind: defensa
+  template: 2
+  date: 2025-09-22
+  date_label:
+    es: "22 de septiembre de 2025"
+    en: "22 September 2025"
+  name: "Valentina Guajardo Jofré"
+  photo: "defensa-valentina-guajardo.jpg"
+  thesis:
+    es: "Degradación de ibuprofeno y diclofenaco en reactores nitrificantes en presencia de zeolita: contribución de microorganismos nitrito-oxidantes al proceso"
+    en: "Degradation of ibuprofen and diclofenac in nitrifying reactors in the presence of zeolite: contribution of nitrite-oxidising microorganisms to the process"
+  advisors:
+    es: "el profesor César Huiliñir"
+    en: "Professor César Huiliñir"
+  extra:
+    es: "Obtuvo su título con distinción máxima."
+    en: "She was awarded her degree with highest distinction."
+
+- id: titulacion-margarita-toro
+  kind: titulacion
+  template: 0
+  date: 2025-08-01
+  date_label:
+    es: "2025"
+    en: "2025"
+  name: "Margarita María Fernanda Toro Gaete"
+  photo: "titulacion-margarita-toro.jpg"
+  advisors:
+    es: "el profesor César Huiliñir"
+    en: "Professor César Huiliñir"
+  extra:
+    es: "Recibió su título de Ingeniera Civil Ambiental tras aprobar su defensa de memoria."
+    en: "She received her degree in Environmental Engineering after passing her thesis defence."

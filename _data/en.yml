@@ -5,6 +5,7 @@ nav:
   projects: "Projects"
   publications: "Publications"
   team: "Team"
+  news: "News"
   contact: "Contact"
 
 home:
@@ -96,6 +97,31 @@ publications:
   indexed: "Papers in indexed journals"
   note: "Work in progress: the group's full publication history is still being added."
 
+news:
+  title: "News"
+  lead: >-
+    Thesis defences, awards and recognitions. What we celebrate as a group.
+  kicker_defensa: "Thesis defence"
+  kicker_titulacion: "Graduation"
+  kicker_premio: "Recognition"
+  all: "See all news"
+  prev: "Previous"
+  next: "Next"
+  goto: "Go to item"
+  # Templates. Placeholders: {nombre} {titulo} {profesores} {premio}
+  templates:
+    defensa:
+      - "As a group we congratulate {nombre} on successfully defending the thesis «{titulo}», supervised by {profesores}. The whole team wishes you every success in what comes next!"
+      - "{nombre} successfully defended the thesis «{titulo}», supervised by {profesores}. The entire G-Tech team celebrates this milestone and wishes them all the best."
+      - "Congratulations, {nombre}! The work «{titulo}», supervised by {profesores}, closes months of dedication in the lab. From G-Tech we wish you every success in your next challenges."
+      - "A new defence in the group: {nombre} presented «{titulo}», supervised by {profesores}. Thank you for the commitment of these months; the team wishes you the best on your professional path."
+    titulacion:
+      - "We celebrate the graduation of {nombre}, who worked with {profesores} on their thesis in the group. Every success in the stage ahead!"
+      - "{nombre} received their professional degree after their time in the group, working alongside {profesores}. The whole G-Tech team joins the celebration."
+    premio:
+      - "We are proud to share that {nombre} received {premio}. A well-deserved recognition of the work and commitment of these years. Congratulations from the whole team!"
+      - "{nombre} was awarded {premio}. From G-Tech we celebrate this recognition and wish them every success in what lies ahead."
+
 team:
   title: "Team"
   lead: >-
@@ -108,7 +134,6 @@ team:
   alumni_name: "Name"
   alumni_role: "Role in the group"
   alumni_period: "Period"
-  alumni_now: "Currently"
   students: "Students"
   interests: "Interests"
   profile: "Full profile"

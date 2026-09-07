@@ -116,7 +116,7 @@
   links:
     email: ""
     orcid: ""
-    linkedin: ""
+    linkedin: "judith-quezada-caceres"
 
 - id: cristobal-nunez
   group: undergrad
@@ -171,3 +171,39 @@
     email: ""
     orcid: ""
     linkedin: ""
+
+- id: mariano-guajardo
+  group: undergrad
+  name: "Mariano Guajardo Jofré"
+  photo: ""
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química, mención Ambiental"
+    en: "Chemical Engineering, environmental track"
+  focus:
+    es: "Remoción simultánea de C/N/P en reactores biológicos: efecto de la zeolita natural en el proceso."
+    en: "Simultaneous C/N/P removal in biological reactors: effect of natural zeolite on the process."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: "mariano-guajardo-jofr%C3%A9-007ab1285"
+
+- id: mariajose-nunez
+  group: undergrad
+  name: "María José Núñez Echazarreta"
+  photo: ""
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química"
+    en: "Chemical Engineering"
+  focus:
+    es: "Remoción simultánea de C/N/S en reactores biológicos: efecto de la zeolita natural en el proceso."
+    en: "Simultaneous C/N/S removal in biological reactors: effect of natural zeolite on the process."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: "mar%C3%ADa-jos%C3%A9-n%C3%BA%C3%B1ez-echazarreta-379a24361"
