@@ -54,6 +54,8 @@ home:
   team_all: "See the full team"
 
   pubs_kicker: "Published"
+  news_kicker: "Latest"
+  news_title: "Group news"
   pubs_title: "Selected publications"
   pubs_all: "See all publications"
 

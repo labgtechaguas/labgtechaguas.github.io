@@ -1,0 +1,21 @@
+{% assign items = include.items %}
+{% assign t = site.data[page.lang] %}
+<div class="carousel" data-carousel>
+  <div class="carousel__viewport" data-track aria-roledescription="carousel" aria-label="{{ t.news.title }}" tabindex="0">
+    {% for n in items %}{% include news-slide.html item=n %}{% endfor %}
+  </div>
+
+  <div class="carousel__controls">
+    <button class="carousel__btn" type="button" data-prev aria-label="{{ t.news.prev }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <ol class="carousel__dots" data-dots>
+      {% for n in items %}
+      <li><button type="button" data-dot="{{ forloop.index0 }}" aria-label="{{ t.news.goto }} {{ forloop.index }}"></button></li>
+      {% endfor %}
+    </ol>
+    <button class="carousel__btn" type="button" data-next aria-label="{{ t.news.next }}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</div>

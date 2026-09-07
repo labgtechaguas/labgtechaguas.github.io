@@ -56,6 +56,8 @@ home:
   team_all: "Ver el equipo completo"
 
   pubs_kicker: "Publicado"
+  news_kicker: "Lo último"
+  news_title: "Noticias del grupo"
   pubs_title: "Publicaciones seleccionadas"
   pubs_all: "Ver todas las publicaciones"
 

@@ -17,6 +17,48 @@
 </footer>
 <script>
   (function () {
+    document.querySelectorAll('[data-carousel]').forEach(function (car) {
+      var via = car.querySelector('[data-track]');
+      if (!via) return;
+      var slides = Array.prototype.slice.call(via.querySelectorAll('.slide'));
+      var dots = Array.prototype.slice.call(car.querySelectorAll('[data-dot]'));
+      var prev = car.querySelector('[data-prev]');
+      var next = car.querySelector('[data-next]');
+      if (slides.length === 0) return;
+      var actual = 0;
+
+      function marcar(i) {
+        actual = Math.max(0, Math.min(slides.length - 1, i));
+        dots.forEach(function (d, j) { d.setAttribute('aria-current', j === actual ? 'true' : 'false'); });
+        if (prev) prev.disabled = actual === 0;
+        if (next) next.disabled = actual === slides.length - 1;
+      }
+
+      function ir(i) {
+        var s = slides[Math.max(0, Math.min(slides.length - 1, i))];
+        if (s) via.scrollTo({ left: s.offsetLeft - via.offsetLeft, behavior: 'smooth' });
+      }
+
+      if (prev) prev.addEventListener('click', function () { ir(actual - 1); });
+      if (next) next.addEventListener('click', function () { ir(actual + 1); });
+      dots.forEach(function (d) {
+        d.addEventListener('click', function () { ir(parseInt(d.dataset.dot, 10)); });
+      });
+      via.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') { e.preventDefault(); ir(actual + 1); }
+        if (e.key === 'ArrowLeft')  { e.preventDefault(); ir(actual - 1); }
+      });
+      if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function (entradas) {
+          entradas.forEach(function (en) { if (en.isIntersecting) marcar(slides.indexOf(en.target)); });
+        }, { root: via, threshold: 0.6 });
+        slides.forEach(function (s) { obs.observe(s); });
+      }
+      marcar(0);
+    });
+  })();
+
+  (function () {
     var btn = document.querySelector('.nav__toggle');
     var links = document.getElementById('nav-links');
     if (!btn || !links) return;
