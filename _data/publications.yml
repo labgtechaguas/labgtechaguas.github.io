@@ -1,18 +1,13 @@
-# Publicaciones. Los apellidos que aparezcan en 'group_authors' se marcan en negrita.
-# featured: true -> aparece en la portada.
+# Publicaciones del grupo en revistas indexadas (WoS).
+# Los apellidos de "group_authors" se resaltan en negrita automáticamente.
+# Fuente de 2020–2025: CV de César, informacion/perfiles/cesar_huilinir/.
+# Las de 2026 y las de Felipe vienen de su sitio personal.
 group_authors:
   - "Carreño-López"
   - "Huiliñir"
+  - "Quezada-Cáceres"
 
 indexed:
-  - year: 2026
-    authors: "Yánez, D., Manterola, J., Guerrero, L., Carreño-López, F. A., Huiliñir, C."
-    title: "Enhancing sulfur-based denitrification with natural zeolite: performance under autotrophic and mixotrophic operation"
-    journal: "Biodegradation"
-    details: "37(4), 128"
-    doi: "10.1007/s10532-026-10352-4"
-    featured: true
-
   - year: 2026
     authors: "Carreño-López, F. A., Moreno-Casas, P. A., Scott, F., Vergara-Fernández, A., Sierra-Pallares, J., Muñoz, R."
     title: "Hybrid section-based modeling of gas-phase hydrodynamics in biotrickling filters: influence of packing material on residence time distributions"
@@ -21,13 +16,109 @@ indexed:
     doi: "10.1016/j.bej.2025.110049"
     featured: true
 
+  - year: 2026
+    authors: "Yánez, D., Manterola, J., Guerrero, L., Carreño-López, F. A., Huiliñir, C."
+    title: "Enhancing sulfur-based denitrification with natural zeolite: performance under autotrophic and mixotrophic operation"
+    journal: "Biodegradation"
+    details: "37(4), 128"
+    doi: "10.1007/s10532-026-10352-4"
+    featured: true
+
+  - year: 2025
+    authors: "Leiva-González, J., Hernández-Vélez, L., Quezada-Cáceres, J., Pagés-Diaz, J., Huiliñir, C"
+    title: "Pharmaceutical micropollutants removal and N2O production by nitrification process in SBR and SBBR: a review"
+    journal: "Biodegradation"
+    details: "36(3), 41"
+    doi: "10.1007/s10532-025-10130-8"
+    featured: false
+
+  - year: 2025
+    authors: "Pagés-Díaz, J., Huiliñir, C., Lorenzo-Llanes, J., López Gónzalez, L.M., Barrera, E.L"
+    title: "Techno-economic and environmental assessment of hydrothermal carbonization coupled with anaerobic digestion for sewage sludge and municipal solid waste co-treatment in Chile"
+    journal: "Biomass and Bioenergy"
+    details: "201, 108105"
+    doi: "10.1016/j.biombioe.2025.108105"
+    featured: false
+
+  - year: 2025
+    authors: "Palominos, N., Pagés-Díaz, J., Tello, M., Guerrero, L., Huiliñir, C"
+    title: "Sequential nitrification/mixotrophic denitrification process in single bioreactor: Performance and microbiology of two types of sequencing batch bioreactors"
+    journal: "Bioresource Technology"
+    details: "438, 133200"
+    doi: "10.1016/j.biortech.2025.133200"
+    featured: false
+
+  - year: 2025
+    authors: "Saleh-Cumsille, J., Cruz, P., Huiliñir, C., Scott, F., Vergara-Fernández, A"
+    title: "A new methodology to determine kLa in airlift reactors based on a non-intrusive image analysis technique"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: "100(7), pp. 1403–1412"
+    doi: "10.1002/jctb.7836"
+    featured: false
+
+  - year: 2025
+    authors: "Tapiero, Y., Aravena, Y., Vargas, G., Sánchez, J., Huiliñir, C"
+    title: "Removal of ammoniacal nitrogen from aqueous medium through ultrafiltration assisted by cation-exchange-water-soluble polymers"
+    journal: "Journal of Water Process Engineering"
+    details: "71, 107148"
+    doi: "10.1016/j.jwpe.2025.107148"
+    featured: false
+
+  - year: 2025
+    authors: "Vargas-Morales, G., Lauzurique, Y., Huiliñir, C"
+    title: "Inclusion of fly ash effects in ADM1: calibration and validation of a simple function using real wastewater"
+    journal: "Biodegradation"
+    details: "36(3), 38"
+    doi: "10.1007/s10532-025-10134-4"
+    featured: false
+
   - year: 2024
-    authors: "Corbalán, M., Da Silva, C., Barahona, A., Huiliñir, C., Guerrero, L."
-    title: "Nitrification–autotrophic denitrification using elemental sulfur as an electron donor in a sequencing batch reactor (SBR): performance and kinetic analysis"
-    journal: "Sustainability"
+    authors: "Corbalán, M., Da Silva, C., Barahona, A., Huiliñir, C., Guerrero, L"
+    title: "Nitrification–Autotrophic Denitrification Using Elemental Sulfur as an Electron Donor in a Sequencing Batch Reactor (SBR): Performance and Kinetic Analysis"
+    journal: "Sustainability (Switzerland)"
     details: "16(10), 4269"
     doi: "10.3390/su16104269"
     featured: true
+
+  - year: 2024
+    authors: "Hernández L.; Tello M.; Vargas R.; Leiva-González J.; Salazar-González R.; Calzadilla W.; Guerrero L.; Huiliñir C"
+    title: "Can natural zeolite improve the removal of micropollutants in a nitrifying sequencing batch reactor? Insights on bioreactor performance, kinetics, and microbial community using Ibuprofen and Diclofenac as model micropollutants"
+    journal: "Chemosphere 366 (2024) Article number 143455"
+    details: ""
+    doi: "10.1016/j.chemosphere.2024.143455"
+    featured: false
+
+  - year: 2024
+    authors: "Lauzurique, Yeney; Segura, Sofia; Guerra, Silvana; Carvajal, Andrea; Huiliñir, Cesar; Poblete-Castro, Ignacio"
+    title: "Enhancing methane production using various forms of steel shavings and their effect on microbial consortia during anaerobic digestion of swine wastewater"
+    journal: "Journal of Environmental Chemical Engineering"
+    details: "12(5), 113764"
+    doi: "10.1016/j.jece.2024.113764"
+    featured: false
+
+  - year: 2024
+    authors: "Pagés-Díaz, J. Vidal, I., Huiliñir, C., Hernández-Velez, L., Lorenzo-Llanes, J"
+    title: "Enhanced methane production from protein and lipid-rich wastewater using powdered oat husk-biochar"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: ""
+    doi: "10.1002/jctb.7726"
+    featured: false
+
+  - year: 2024
+    authors: "San Martín-Davison, Jessica; Lebrero, Raquel; Vergara-Ojeda, Christian; Scott, Felipe; Huiliñir, Cesar; Vergara-Fernández, Alberto"
+    title: "Exploring naphthalene vapor biofiltration: performance and microbial community dynamics with diverse inoculums"
+    journal: "Journal of Chemical Technology and Biotechnology. Volume 99"
+    details: "Issue 12, Pages 2639 – 2647"
+    doi: "10.1002/jctb.7744"
+    featured: false
+
+  - year: 2023
+    authors: "Barahona A, Guerrero L, Rubio J.C., Gómez R., Huiliñir C., Borja R"
+    title: "Sequential Nitrification - Autotrophic Denitrification using sulfur as an electron donor and Chilean zeolite as microbial support"
+    journal: "Water (Switzerland)"
+    details: "15(1), 95"
+    doi: "10.3390/w15010095"
+    featured: false
 
   - year: 2023
     authors: "Carreño-López, F. A., Moreno-Casas, P. A., Scott, F., Iza, J., Sierra-Pallares, J., Muñoz, R., Vergara-Fernández, A."
@@ -38,9 +129,201 @@ indexed:
     featured: false
 
   - year: 2023
-    authors: "Barahona, A., Rubio, J., Gómez, R., Huiliñir, C., Borja, R., Guerrero, L."
-    title: "Sequential nitrification—autotrophic denitrification using sulfur as an electron donor and Chilean zeolite as microbial support"
-    journal: "Water"
-    details: "15(1), 95"
-    doi: "10.3390/w15010095"
+    authors: "Escobar, Jenny; Hernández, Leslie; Leiva González, Jorge; Salazar-González, Ricardo; Calzadilla, Wendy, Guerrero, Lorna; Escalona, Néstor and Huiliñir, César"
+    title: "Removal of Ibuprofen and Diclofenac in Batch Nitrifying Reactors: Effect of Natural Zeolite on the Process"
+    journal: "Water (Switzerland)"
+    details: "Volume 15, Issue 14, July"
+    doi: "10.3390/w15142665"
+    featured: false
+
+  - year: 2023
+    authors: "Huiliñir C., Pagés-Díaz J., Vargas G., Vega S., Lauzurique Y. and Palominos N"
+    title: "Microaerobic condition as pretreatment for improving anaerobic digestion: A review"
+    journal: "Bioresource Technology"
+    details: "384, 129249"
+    doi: "10.1016/j.biortech.2023.129249"
+    featured: false
+
+  - year: 2023
+    authors: "Lauzurique, Y., Miralles-Cuevas, S., Godoy, M., Sepúlveda, P., Bollo, S., Cabrera-Reina, A., Huiliñir, C., Malato, S., Oller, I., Salazar-González, R"
+    title: "Elimination of sulfamethoxazole by anodic oxidation using mixed metal oxide anodes"
+    journal: "Journal of Water Process Engineering"
+    details: "54, 103922"
+    doi: "10.1016/j.jwpe.2023.103922"
+    featured: false
+
+  - year: 2023
+    authors: "Mendes C., Queiroz L.M., Esquerre, K., Huiliñir, C"
+    title: "Modeling of simultaneous carbon and nitrogen removal (SCNR) in an anaerobic/anoxic reactor treating salmon fishery wastewater"
+    journal: "Journal of Water Process Engineering"
+    details: "56, 104442. https://doi.org/10.1016/j.jwpe.2023.104442"
+    doi: ""
+    featured: false
+
+  - year: 2022
+    authors: "Castillo, A., Ortega-Martínez, E., Pagés-Díaz, J., Montalvo, S., Huiliñir, C"
+    title: "Micro-Aerobic Pre-Treatment vs. Thermal Pre-Treatment of Waste Activated Sludge for Its Subsequent Anaerobic Digestion in Semi-Continuous Digesters: A Comparative Study"
+    journal: "Fermentation"
+    details: "8(10), 565"
+    doi: "10.3390/fermentation8100565"
+    featured: false
+
+  - year: 2022
+    authors: "Lauzurique, Y., Espinoza, L.C., Huiliñir, C., García, V., Salazar, R"
+    title: "Anodic Oxidation of Industrial Winery Wastewater Using Different Anodes"
+    journal: "Water (Switzerland)"
+    details: "14(1),95"
+    doi: "10.3390/w14010095"
+    featured: false
+
+  - year: 2022
+    authors: "Lauzurique, Y., Fermoso, F.G., Sánchez, N., Castillo A., Salazar R., García, V., Huiliñir, C"
+    title: "Biogas production from winery wastewater: Effect of the substrate-inoculum ratio on fly ash addition and iron availability"
+    journal: "Journal of Water Process Engineering 47"
+    details: "102826"
+    doi: "10.1016/j.jwpe.2022.102826"
+    featured: false
+
+  - year: 2022
+    authors: "Murillo, H.A., Pagés-Díaz, J., Díaz-Robles, L.A., Vallejo, F. and Huiliñir, C"
+    title: "Valorization of oat husk by hydrothermal carbonization: Optimization of process parameters and anaerobic digestion of spent liquors"
+    journal: "Bioresource Technology 343"
+    details: "126112"
+    doi: "10.1016/j.biortech.2021.126112"
+    featured: false
+
+  - year: 2021
+    authors: "Acosta-Cordero, L., Carrera-Chapela, F., Montalvo, S., Guerrero, L., Palominos, N., Borja, R., Huiliñir, C."
+    title: "Modeling of the effect of zeolite concentration on the biological nitrification process in the presence of sulfide and organic matter"
+    journal: "Journal of Environmental Science and Health - Part A Toxic/Hazardous Substances and Environmental Engineering"
+    details: "56(2), 123–135"
+    doi: "10.1080/10934529.2020.1852011"
+    featured: false
+
+  - year: 2021
+    authors: "Huiliñir, C., Fuentes, V., Estuardo, C., Antileo, C., Pino-Cortés, E"
+    title: "Partial nitrification in a sequencing moving bed biofilm reactor (Smbbr) with zeolite as biomass carrier: Effect of sulfide pulses and organic matter presence"
+    journal: "Water (Switzerland) 13(18)"
+    details: "2484"
+    doi: "10.3390/w13182484"
+    featured: false
+
+  - year: 2021
+    authors: "Lauzurique Y., Fermoso F.G., Sánchez N., Castillo A., Valdés N., Tello M., Salazar R., García V and Huilinir C"
+    title: "Effect of the addition of fly ash on the specific methane production and microbial communities in the anaerobic digestion of real winery wastewater"
+    journal: "Journal of Chemical Technology and Biotechnology 96(10)"
+    details: "pp. 2882-2890"
+    doi: "10.1002/jctb.6840"
+    featured: false
+
+  - year: 2021
+    authors: "Lauzurique, Y., Montalvo, S., Salazar, R., García, V., Huiliñir, C"
+    title: "Fly ash from coal combustion as improver of anaerobic digestion: A review"
+    journal: "Journal of Environmental Chemical Engineering 9(6)"
+    details: "106422"
+    doi: "10.1016/j.jece.2021.106422"
+    featured: false
+
+  - year: 2021
+    authors: "Palominos, N., Castillo, A., Guerrero, L., Borja, R., Huiliñir, C"
+    title: "Coupling of Anaerobic Digestion and Struvite Precipitation in the Same Reactor: Effect of Zeolite and Bischofite as Mg2+ Source"
+    journal: "Frontiers in Environmental Science 9"
+    details: "706730"
+    doi: "10.3389/fenvs.2021.706730"
+    featured: false
+
+  - year: 2021
+    authors: "Tania Pérez-Pérez, Ileana Pereda-Reyes, Gleyce Teixeira Correia, Eloisa Pozzi, Wu Hong Kwong, Deny Oliva-Merencio, Marcelo Zaiat, Silvio Montalvo and César Huiliñir"
+    title: "Performance of EGSB reactor using natural zeolite as support for treatment of synthetic swine wastewater"
+    journal: "Journal of Environmental Chemical Engineering"
+    details: "Volume 9, Issue 1, February 2021. Article number 104922"
+    doi: "10.1016/j.jece.2020.104922"
+    featured: false
+
+  - year: 2021
+    authors: "Yánez, D., Guerrero, L., Borja, R., Huiliñir, C"
+    title: "Sulfur-based mixotrophic denitrification with the stoichiometric S0/N ratio and methanol supplementation: effect of the C/N ratio on the process"
+    journal: "Journal of Environmental Science and Health - Part A Toxic/Hazardous Substances and Environmental Engineering. Article 56(13)"
+    details: "pp. 1420-1427"
+    doi: "10.1080/10934529.2021.2004839"
+    featured: false
+
+  - year: 2020
+    authors: "Huiliñir C., Fuentes V., Esposito G., Montalvo S., Guerrero L"
+    title: "Nitrification in the presence of sulfide and organic matter in a sequencing moving bed biofilm reactor (SMBBR) with zeolite as biomass carrier"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: "95(1), pp. 173-182"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Huiliñir C., Leiva E., Stegmaier F., Castillo A., Cottet L., Montalvo S"
+    title: "Biodrying of dewatered secondary sludge: behavior of dynamic respiration index (DRI) and energy release under different operating conditions"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: "95(1), pp. 94-101"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Huiliñir, C., Acosta, L., Yanez, D., Montalvo, S., Esposito, G., Retamales, G., Levicán, G. and Guerrero, L"
+    title: "Elemental sulfur-based autotrophic denitrification in stoichiometric S0/N ratio: Calibration and validation of a kinetic model"
+    journal: "Bioresource Technology"
+    details: "307, July 2020, Article number 123229"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Montalvo S., Martinez J., Castillo A., Huiliñir, C., Borja, R., García, V. and Salazar, R"
+    title: "Sustainable energy for a winery through biogas production and its utilization: A Chilean case study"
+    journal: "Sustainable Energy Technologies and Assessments 37"
+    details: "Article number 100640"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Montalvo, S., Huiliñir, C., Borja, R., Sánchez, E., Herrmann, C"
+    title: "Application of zeolites for biological treatment processes of solid wastes and wastewaters – A review"
+    journal: "Bioresource Technology"
+    details: "301"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Montalvo, S., Huiliñir, C., Castillo, A., Pagés-Díaz, J., Guerrero, L"
+    title: "Carbon, nitrogen and phosphorus recovery from liquid swine wastes: a review"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: "vol 95 (9), pp. 2335-2347"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Pagés-Díaz J., Cerda A., Montalvo S., Diaz-Robles L. and Huiliñir C"
+    title: "Anaerobic bio-methane potential of the liquors from hydrothermal carbonization of different lignocellulose biomasses"
+    journal: "Renewable Energy"
+    details: "157, September 2020, pp 182-189"
+    doi: "10.1016/j.renene.2020.05.025"
+    featured: false
+
+  - year: 2020
+    authors: "Pagés-Díaz, J., Huiliñir, C"
+    title: "Valorization of the liquid fraction of co-hydrothermal carbonization of mixed biomass by anaerobic digestion: Effect of the substrate to inoculum ratio and hydrochar addition"
+    journal: "Bioresource Technology"
+    details: "317, 123989"
+    doi: "10.1016/j.biortech.2020.123989"
+    featured: false
+
+  - year: 2020
+    authors: "Peirano C., Guerrero L., Barahona A., Montalvo S., Huiliñir C., Da Silva C., Borja R"
+    title: "Assessment of simultaneous autotrophic‐heterotrophic denitrification with high removal of nitrogen, sulphur, and carbon: optimization through response surface methodology"
+    journal: "Journal of Chemical Technology and Biotechnology"
+    details: "95(3), pp. 631-638"
+    doi: ""
+    featured: false
+
+  - year: 2020
+    authors: "Pino-Cortés E., Montalvo S., Huiliñir C., Cubillos F. and Gacitúa J"
+    title: "Characteristics and Treatment of Wastewater from the Mercaptan Oxidation Process: A Comprehensive Review"
+    journal: "Processes 8(4)"
+    details: ""
+    doi: "10.3390/pr8040425"
     featured: false

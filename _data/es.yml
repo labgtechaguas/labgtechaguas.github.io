@@ -22,9 +22,9 @@ home:
   about_kicker: "Quiénes somos"
   about_title: "Tratar el agua y recuperar lo que lleva dentro"
   about_body: >-
-    G-Tech es un grupo de la Facultad de Ingeniería y Ciencias Aplicadas de la
-    Universidad de los Andes, dentro de la línea de Ingeniería de Procesos
-    Ambientales. Ponemos a trabajar microorganismos en reactores para tratar aguas
+    G-Tech es un grupo de investigación de la Facultad de Ingeniería y Ciencias
+    Aplicadas de la Universidad de los Andes, dentro de la línea de Ingeniería de
+    Procesos Ambientales. Ponemos a trabajar microorganismos en reactores para tratar aguas
     y residuos, y estudiamos qué ocurre dentro con la precisión suficiente para
     poder llevarlo a escala real.
 
@@ -42,7 +42,7 @@ home:
   metrics_title: "En números"
   metric_people: "Investigadores"
   metric_projects: "Proyectos vigentes"
-  metric_publications: "Publicaciones destacadas"
+  metric_publications: "Publicaciones indexadas"
   metric_founded: "Desde"
 
   research_kicker: "Qué investigamos"
@@ -109,7 +109,7 @@ publications:
     Artículos del grupo en revistas indexadas. Los nombres del equipo van en
     negrita.
   indexed: "Artículos en revistas indexadas"
-  note: "Selección en construcción: falta incorporar el histórico completo del grupo."
+  note: "Listado desde 2020. Los trabajos anteriores están en los perfiles individuales del equipo."
 
 news:
   title: "Noticias"

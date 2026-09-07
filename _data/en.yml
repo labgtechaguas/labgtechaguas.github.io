@@ -22,7 +22,7 @@ home:
   about_kicker: "Who we are"
   about_title: "Treating water and recovering what it carries"
   about_body: >-
-    G-Tech is a group at the Faculty of Engineering and Applied Sciences,
+    G-Tech is a research group at the Faculty of Engineering and Applied Sciences,
     Universidad de los Andes, within the Environmental Process Engineering
     research line. We put microorganisms to work in reactors to treat water and
     waste, and study what happens inside them precisely enough to take it to real
@@ -42,7 +42,7 @@ home:
   metrics_title: "In numbers"
   metric_people: "Researchers"
   metric_projects: "Active projects"
-  metric_publications: "Featured papers"
+  metric_publications: "Indexed publications"
   metric_founded: "Since"
 
   research_kicker: "What we study"
@@ -107,7 +107,7 @@ publications:
   lead: >-
     Group papers in indexed journals. Team members are shown in bold.
   indexed: "Papers in indexed journals"
-  note: "Work in progress: the group's full publication history is still being added."
+  note: "Papers from 2020 onwards. Earlier work is listed on each team member's own profile."
 
 news:
   title: "News"

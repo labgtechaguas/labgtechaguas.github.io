@@ -149,19 +149,16 @@ la vez**, y `commit` + `push` antes de cambiar de equipo.
 
 ## 7. Pendientes
 
-- Confirmar el periodo del Fondecyt Regular de César (hoy dice 2026–2029) y si el CORFO
-  24CVCS-255807 sigue vigente: su periodo termina en 2025.
+- Una foto de grupo o de laboratorio para la portada y el collage: las tres actuales
+  son de congresos y ninguna muestra el trabajo experimental.
 - Datos y foto de Judith Quezada; correos y fotos del resto de estudiantes.
-- Columna `now:` de `alumni.yml` (dónde está hoy cada ex integrante) y sus LinkedIn.
+- Confirmar si el CORFO 24CVCS-255807 sigue vigente: su periodo termina en 2025.
 - Título de la memoria de Margarita Toro, y confirmar las fechas aproximadas de tres
   noticias (ver `../informacion/noticias/LEEME.md`).
-- Procesar el material nuevo de `../informacion/perfiles/estudiantes/`: memorias de
-  Mariano Guajardo y María José Núñez, que aún no están en el sitio.
-- Una foto de portada del laboratorio o de los reactores.
-- Correo institucional del grupo (hoy figura el Gmail `labgtechaguas@gmail.com`).
-- Confirmar si César dirige el Doctorado en Ciencias de la Ingeniería (dato sin
-  verificar, retirado del sitio).
-- Dirección y oficina exactas para la página de contacto.
-- Completar el histórico de publicaciones (hay 5 de partida; César tiene 89 productos).
-- Confirmar el año de fundación del grupo (`lab.founded` en `_config.yml`, hoy 2022).
-- Confirmar el nombre en inglés del grupo (hoy *Water Technologies Group*).
+- LinkedIn de Santiago Vila y de los estudiantes que aún no lo tienen.
+- Definir el rol de Álvaro Samaniego Soto, si va en el equipo.
+- Número de oficina, si corresponde sumarlo a la dirección de contacto.
+
+> El correo `labgtechaguas@gmail.com` que aparece en la tabla de identidades de git es el
+> de la **cuenta de GitHub**, no el del grupo. El correo institucional del sitio es
+> `labgtechaguas@uandes.cl` y vive en `_config.yml`.

@@ -29,10 +29,10 @@ lab:
   line_es: "Línea de Ingeniería de Procesos Ambientales"
   line_en: "Environmental Process Engineering research line"
   city: "Santiago, Chile"
-  address: "Monseñor Álvaro del Portillo 12.455, Las Condes, Santiago, Chile"
-  email: "labgtechaguas@gmail.com"
+  address: "Av. Monseñor Álvaro del Portillo 12.455, Las Condes, Santiago, Chile"
+  email: "labgtechaguas@uandes.cl"
   github: "labgtechaguas"
-  founded: 2022
+  founded: 2023
 
 # Retrato de la portada: id de una persona de _data/people.yml.
 # Déjalo vacío ("") para quitar la foto del hero.
@@ -42,7 +42,7 @@ hero_portrait: "cesar-huilinir"
 metrics:
   people: 10
   projects: 4
-  publications: 5
+  publications: 40
 
 # ------------------------------------------------------------------ Jekyll ---
 markdown: kramdown
