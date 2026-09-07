@@ -1,7 +1,11 @@
-# Logos de la franja de financiamiento e instituciones.
+# Logos de la franja "Financiamiento e instituciones" de la portada.
+# 'logo' es el nombre del archivo dentro de assets/img/logos/.
 - name: "Universidad de los Andes"
   logo: "logo_uandes.png"
   url: "https://www.uandes.cl/"
 - name: "ANID"
   logo: "logo_anid.png"
   url: "https://www.anid.cl/"
+- name: "CORFO"
+  logo: "logo_corfo.png"
+  url: "https://www.corfo.cl/"
