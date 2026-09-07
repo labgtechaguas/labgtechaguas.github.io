@@ -42,7 +42,7 @@ hero_portrait: "cesar-huilinir"
 metrics:
   people: 10
   projects: 4
-  publications: 40
+  publications: 19
 
 # ------------------------------------------------------------------ Jekyll ---
 markdown: kramdown

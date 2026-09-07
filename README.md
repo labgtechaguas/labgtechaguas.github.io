@@ -64,7 +64,7 @@ Casi nada se edita en HTML. Lo habitual:
 | mover a alguien a ex integrantes | quítalo de `people.yml` y agrégalo a `_data/alumni.yml` |
 | agregar una noticia | `_data/news.yml`. El texto no se escribe: se elige una plantilla de `news.templates` en `es.yml`/`en.yml` con el campo `template:`. Usa un índice distinto al de la noticia anterior del mismo tipo |
 | cambiar el tono de las noticias | las plantillas en `_data/es.yml` y `_data/en.yml`, no las entradas |
-| agregar un paper | `_data/publications.yml`, bloque `indexed` (y su apellido en `group_authors`) |
+| agregar un paper | `_data/publications.yml`, bloque `indexed` (y su apellido en `group_authors`). **Solo de 2023 en adelante**: es el año en que se formó el grupo |
 | agregar o editar un proyecto | `_data/projects.yml` — el `title` va tal cual la postulación, sin traducir. Hoy **ningún** proyecto publica resumen: `abstract:` va vacío y la ficha muestra solo el título y los datos |
 | cambiar una línea de investigación | `_data/research.yml` |
 | cambiar un texto de la interfaz | `_data/es.yml` y su equivalente en `_data/en.yml` |
