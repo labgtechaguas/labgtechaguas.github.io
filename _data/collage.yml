@@ -1,0 +1,18 @@
+# Collage de la sección "Quiénes somos" de la portada.
+# Los archivos viven en assets/img/collage/. El primero con wide: true ocupa
+# el ancho completo; el resto van de a dos por fila.
+# Los recortes se generan desde los originales de informacion/noticias/ —ver el
+# LEEME de esa carpeta— para que ninguna cara quede cortada.
+- file: "grupo.jpg"
+  wide: true
+  alt:
+    es: "El equipo de G-Tech en el XXII Congreso Chileno de Ingeniería Química"
+    en: "The G-Tech team at the XXII Chilean Congress of Chemical Engineering"
+- file: "aidis.jpg"
+  alt:
+    es: "César Huiliñir exponiendo en el XXVI Congreso AIDIS"
+    en: "César Huiliñir presenting at the XXVI AIDIS Congress"
+- file: "poster.jpg"
+  alt:
+    es: "Judith Quezada junto a su póster sobre degradación de fármacos en reactores nitrificantes"
+    en: "Judith Quezada beside her poster on pharmaceutical degradation in nitrifying reactors"

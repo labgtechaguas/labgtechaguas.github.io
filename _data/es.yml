@@ -10,31 +10,34 @@ nav:
 
 home:
   hero_kicker: "Universidad de los Andes · Santiago, Chile"
-  hero_title: "El nitrato se va; la pregunta es cómo"
+  hero_title: "¿Y si el tratamiento del agua fuera más eficiente desde su origen?"
   hero_lead: >-
-    Un tercio del planeta bebe agua subterránea, y el nitrato es su contaminante
-    más común. Estudiamos cómo tratarla con bacterias y azufre elemental: qué
-    ocurre dentro del reactor, qué pasa con los microcontaminantes que vienen
-    junto al nitrato, y cuánto óxido nitroso se escapa en el camino.
+    Un tercio del planeta bebe agua subterránea, y en Chile cuatro de cada diez
+    zonas urbanas —y tres de cada cuatro rurales— dependen de ella. Trabajamos en
+    los procesos biológicos que permiten tratarla mejor, y en recuperar el
+    nitrógeno, el fósforo y la energía que hoy se pierden en el camino.
   hero_cta_research: "Ver líneas de investigación"
   hero_cta_team: "Conocer al equipo"
 
   about_kicker: "Quiénes somos"
-  about_title: "Un grupo entre el reactor y el modelo"
+  about_title: "Tratar el agua y recuperar lo que lleva dentro"
   about_body: >-
-    G-Tech es un grupo de investigación de la Facultad de Ingeniería y Ciencias
-    Aplicadas de la Universidad de los Andes, dentro de la línea de Ingeniería de
-    Procesos Ambientales. Trabajamos en el tratamiento biológico de aguas
-    contaminadas con una idea fija: un proceso que no se entiende no se puede
-    escalar.
+    G-Tech es un grupo de la Facultad de Ingeniería y Ciencias Aplicadas de la
+    Universidad de los Andes, dentro de la línea de Ingeniería de Procesos
+    Ambientales. Ponemos a trabajar microorganismos en reactores para tratar aguas
+    y residuos, y estudiamos qué ocurre dentro con la precisión suficiente para
+    poder llevarlo a escala real.
 
 
-    Eso nos obliga a movernos en dos frentes a la vez. En el laboratorio operamos
-    reactores de desnitrificación autótrofa —SBR y biofiltros de lecho empacado
-    con azufre elemental— y medimos lo que entra, lo que sale y lo que se emite.
-    En el computador reconstruimos esos mismos reactores con dinámica de fluidos
-    computacional, tomografía y modelación cinética, para explicar por qué rinden
-    lo que rinden.
+    El alcance va del agua subterránea contaminada con nitrato y residuos de
+    fármacos, a los lodos que salen de las plantas de tratamiento y a los rechazos
+    de la desalación. En todos esos casos la pregunta se repite: cómo tratar
+    gastando menos energía, y cómo recuperar el nitrógeno, el fósforo, el azufre y
+    el biogás que hoy se descartan.
+
+
+    Avanzamos en dos frentes a la vez —reactores en el laboratorio y simulación
+    computacional— porque un proceso que no se entiende no se puede escalar.
 
   metrics_title: "En números"
   metric_people: "Investigadores"

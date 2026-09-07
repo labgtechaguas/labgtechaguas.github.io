@@ -48,14 +48,25 @@ layout: default
 </section>
 
 <section class="section section--about">
-  <div class="wrap grid-2">
-    <div>
+  <div class="wrap about">
+    <div class="about__text">
       <p class="kicker">{{ t.home.about_kicker }}</p>
       <h2>{{ t.home.about_title }}</h2>
+      <div class="prose">
+        {{ t.home.about_body | markdownify }}
+      </div>
     </div>
-    <div class="prose">
-      {{ t.home.about_body | markdownify }}
+
+    {% if site.data.collage and site.data.collage.size > 0 %}
+    <div class="collage">
+      {% for foto in site.data.collage %}
+      <figure class="collage__item{% if foto.wide %} collage__item--wide{% endif %}">
+        <img src="{{ '/assets/img/collage/' | append: foto.file | relative_url }}"
+             alt="{{ foto.alt[page.lang] }}" loading="lazy">
+      </figure>
+      {% endfor %}
     </div>
+    {% endif %}
   </div>
 </section>
 

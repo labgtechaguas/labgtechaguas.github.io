@@ -10,29 +10,34 @@ nav:
 
 home:
   hero_kicker: "Universidad de los Andes · Santiago, Chile"
-  hero_title: "Nitrate can be removed; the question is how"
+  hero_title: "What if water treatment were more efficient at its source?"
   hero_lead: >-
-    A third of the planet drinks groundwater, and nitrate is its most common
-    pollutant. We study how to treat it with bacteria and elemental sulfur: what
-    happens inside the reactor, what becomes of the micropollutants that travel
-    with the nitrate, and how much nitrous oxide escapes along the way.
+    A third of the planet drinks groundwater, and in Chile four in ten urban areas
+    — and three in four rural ones — depend on it. We work on the biological
+    processes that make treating it better, and on recovering the nitrogen,
+    phosphorus and energy that are lost along the way.
   hero_cta_research: "See our research lines"
   hero_cta_team: "Meet the team"
 
   about_kicker: "Who we are"
-  about_title: "A group between the reactor and the model"
+  about_title: "Treating water and recovering what it carries"
   about_body: >-
-    G-Tech is a research group at the Faculty of Engineering and Applied Sciences,
+    G-Tech is a group at the Faculty of Engineering and Applied Sciences,
     Universidad de los Andes, within the Environmental Process Engineering
-    research line. We work on the biological treatment of contaminated water with
-    one fixed idea: a process you do not understand cannot be scaled up.
+    research line. We put microorganisms to work in reactors to treat water and
+    waste, and study what happens inside them precisely enough to take it to real
+    scale.
 
 
-    That forces us to work on two fronts at once. In the lab we run autotrophic
-    denitrification reactors — SBRs and sulfur-packed biofilters — and measure
-    what goes in, what comes out and what is emitted. On the computer we rebuild
-    those same reactors with computational fluid dynamics, tomography and kinetic
-    modelling, to explain why they perform the way they do.
+    The scope runs from groundwater contaminated with nitrate and pharmaceutical
+    residues, to the sludge leaving treatment plants and the reject streams of
+    desalination. In every case the same question returns: how to treat using less
+    energy, and how to recover the nitrogen, phosphorus, sulfur and biogas that
+    are discarded today.
+
+
+    We move on two fronts at once — reactors in the lab and computational
+    simulation — because a process you do not understand cannot be scaled up.
 
   metrics_title: "In numbers"
   metric_people: "Researchers"
