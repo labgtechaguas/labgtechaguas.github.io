@@ -468,7 +468,10 @@ p  { margin: 0 0 1em; }
 
 /* ------------------------------------------------------------ financiamiento --- */
 .funders { list-style: none; margin: 2rem 0 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2.5rem; }
-.funders img { height: 54px; width: auto; object-fit: contain; filter: grayscale(1); opacity: .7; transition: .2s ease; }
+.funders img {
+  max-height: 72px; max-width: 260px; height: auto; width: auto; object-fit: contain;
+  filter: grayscale(1); opacity: .7; transition: .2s ease;
+}
 .funders a:hover img { filter: none; opacity: 1; }
 
 /* ------------------------------------------------------------------- pie --- */
