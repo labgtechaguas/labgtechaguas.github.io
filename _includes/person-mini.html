@@ -13,6 +13,9 @@
     {% endif %}
   </div>
   <h3 class="mini__name">{{ person.name }}</h3>
+  {% if person.role and person.role[page.lang] != "" %}
+    <p class="mini__role">{{ person.role[page.lang] }}</p>
+  {% endif %}
   {% if person.program and person.program[page.lang] != "" %}
     <p class="mini__program">{{ person.program[page.lang] }}</p>
   {% endif %}

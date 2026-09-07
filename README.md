@@ -58,7 +58,7 @@ Casi nada se edita en HTML. Lo habitual:
 | Quiero… | Archivo |
 |---|---|
 | agregar a la dirección o a un postdoc | `_data/people.yml` con `group: lead` o `postdoc` — ficha ancha, usa `bio`, `degree`, `interests` y `metrics` |
-| agregar personal técnico o de gestión | `_data/people.yml` con `group: staff` — tarjeta compacta, la descripción va en `focus` |
+| agregar personal técnico o de gestión | `_data/people.yml` con `group: staff` — tarjeta compacta con `role` solamente; `program` y `focus` se dejan vacíos |
 | agregar una colaboración | `_data/collaborations.yml` — proyectos de otros grupos en los que participamos, se muestran al final de Proyectos |
 | agregar a un estudiante | `_data/people.yml` con `group: phd` o `undergrad` — tarjeta compacta, usa `program` y `focus` (una línea) |
 | mover a alguien a ex integrantes | quítalo de `people.yml` y agrégalo a `_data/alumni.yml` |
