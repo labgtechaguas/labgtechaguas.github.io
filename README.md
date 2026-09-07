@@ -26,29 +26,33 @@ repositorio, así que ningún `git add` puede alcanzarla. Nada sensible puede
 terminar en un commit por descuido.
 
 ```
-_config.yml               Configuración: nombre, correo, métricas y hero_portrait
+_config.yml               Configuración: nombre, correo, métricas, hero_portrait
 _data/
-  es.yml / en.yml         Todos los textos de interfaz, en cada idioma
-  people.yml              Equipo activo. group: lead | postdoc | phd | undergrad
+  es.yml / en.yml         Textos de interfaz y plantillas de noticias
+  people.yml              Equipo activo. group: lead | postdoc | staff | phd | undergrad
   alumni.yml              Ex integrantes, para la tabla al final de Equipo
   news.yml                Noticias del carrusel; el texto sale de plantillas
+  collage.yml             Las tres fotos del collage de "Quiénes somos"
   research.yml            Líneas de investigación
-  projects.yml            Proyectos propios: título oficial, abstract, periodo, contacto
+  projects.yml            Proyectos propios: título oficial, periodo, contacto
   collaborations.yml      Proyectos de otros equipos en los que participamos
-  publications.yml        Artículos indexados
-  funding.yml             Logos de la franja de financiamiento
-_layouts/                 Plantillas de página (home, research, team, …)
+  publications.yml        Artículos indexados desde 2023
+  funding.yml             Logos de la franja: UANDES, ANID, CORFO
+_layouts/                 Plantillas de página (home, research, team, news, …)
 _includes/
-  nav.html footer.html    Cabecera y pie
+  nav.html footer.html    Cabecera y pie; el pie trae el script del carrusel
   head.html icons.html    Metadatos e íconos SVG
   person-card.html        Ficha ancha: dirección y postdocs
-  person-mini.html        Tarjeta compacta: estudiantes
-  news-slide.html         Una diapositiva del carrusel de noticias
+  person-mini.html        Tarjeta compacta: staff y estudiantes
+  news-carousel.html      El carrusel; se usa en la portada y en Noticias
+  news-slide.html         Una diapositiva del carrusel
   pub-item.html           Una publicación
 index.html, equipo.html…  Páginas en español
 en/                       Las mismas páginas en inglés
 assets/css/style.css      Hoja de estilo única
-assets/img/               Logos, fotos del equipo y favicon YA optimizados
+assets/img/
+  logos/ people/          Logos y fotos del equipo, ya optimizados
+  news/ collage/          Recortes de las noticias y del collage
 ```
 
 ## 2. Cómo editar el contenido
