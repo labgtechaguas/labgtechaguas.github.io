@@ -1,0 +1,126 @@
+# Interface strings — English
+nav:
+  home: "Home"
+  research: "Research"
+  projects: "Projects"
+  publications: "Publications"
+  team: "Team"
+  contact: "Contact"
+
+home:
+  hero_kicker: "Universidad de los Andes · Santiago, Chile"
+  hero_title: "Nitrate can be removed; the question is how"
+  hero_lead: >-
+    A third of the planet drinks groundwater, and nitrate is its most common
+    pollutant. We study how to treat it with bacteria and elemental sulfur: what
+    happens inside the reactor, what becomes of the micropollutants that travel
+    with the nitrate, and how much nitrous oxide escapes along the way.
+  hero_cta_research: "See our research lines"
+  hero_cta_team: "Meet the team"
+
+  about_kicker: "Who we are"
+  about_title: "A group between the reactor and the model"
+  about_body: >-
+    G-Tech is a research group at the Faculty of Engineering and Applied Sciences,
+    Universidad de los Andes, within the Environmental Process Engineering
+    research line. We work on the biological treatment of contaminated water with
+    one fixed idea: a process you do not understand cannot be scaled up.
+
+
+    That forces us to work on two fronts at once. In the lab we run autotrophic
+    denitrification reactors — SBRs and sulfur-packed biofilters — and measure
+    what goes in, what comes out and what is emitted. On the computer we rebuild
+    those same reactors with computational fluid dynamics, tomography and kinetic
+    modelling, to explain why they perform the way they do.
+
+  metrics_title: "In numbers"
+  metric_people: "Researchers"
+  metric_projects: "Active projects"
+  metric_publications: "Featured papers"
+  metric_founded: "Since"
+
+  research_kicker: "What we study"
+  research_title: "Research lines"
+  research_lead: "Three questions that run through everything we do."
+  research_more: "Read the line"
+
+  projects_kicker: "Ongoing"
+  projects_title: "Projects"
+  projects_all: "See all projects"
+
+  team_kicker: "Team"
+  team_title: "The people behind it"
+  team_all: "See the full team"
+
+  pubs_kicker: "Published"
+  pubs_title: "Selected publications"
+  pubs_all: "See all publications"
+
+  funding_kicker: "Support"
+  funding_title: "Funding and institutions"
+
+  join_title: "Want to do research with us?"
+  join_body: >-
+    We are looking for students in chemical, environmental or related engineering
+    with an interest in water treatment, biological processes or numerical
+    simulation — for undergraduate theses as well as master's and doctoral work.
+    No prior experience needed: curiosity and a willingness to get your hands on
+    a reactor or a codebase are enough.
+  join_cta: "Get in touch"
+
+research:
+  title: "Research"
+  lead: >-
+    We treat groundwater with bacteria that breathe nitrate using elemental sulfur
+    as the electron donor. Our three research lines are organised around that
+    process.
+  keywords: "Keywords"
+
+projects:
+  title: "Projects"
+  lead: >-
+    Currently funded projects, their goals and who leads them.
+  role: "Role"
+  pi: "Principal Investigator"
+  period: "Period"
+  funder: "Funding"
+  objectives: "Specific objectives"
+  team: "Associated team"
+  current: "Active"
+
+publications:
+  title: "Publications"
+  lead: >-
+    Group papers in indexed journals. Team members are shown in bold.
+  indexed: "Papers in indexed journals"
+  note: "Work in progress: the group's full publication history is still being added."
+
+team:
+  title: "Team"
+  lead: >-
+    The people doing the work, in the lab and on the computer.
+  leads: "Leadership"
+  postdocs: "Postdoctoral researchers"
+  students: "Students"
+  interests: "Interests"
+  profile: "Full profile"
+
+contact:
+  title: "Contact"
+  lead: >-
+    Write to us if you are interested in collaborating, doing a thesis with us, or
+    discussing water treatment and reactor simulation.
+  email_label: "Email"
+  address_label: "Address"
+  github_label: "Code and data"
+  people_label: "Direct contact"
+
+ui:
+  lang_switch_code: "ES"
+  lang_switch: "Español"
+  read_more: "Read more"
+  present: "Present"
+  skip: "Skip to content"
+  back_home: "Back to home"
+  updated: "Last updated"
+  menu: "Menu"

@@ -1,0 +1,24 @@
+---
+layout: page
+---
+{% assign t = site.data[page.lang] %}
+<section class="section">
+  <div class="wrap">
+    {% for line in site.data.research %}
+    <article class="line" id="{{ line.id }}">
+      <div class="line__head">
+        <span class="line__icon">{% include icons.html name=line.icon %}</span>
+        <h2>{{ line.title[page.lang] }}</h2>
+        <p class="line__summary">{{ line.summary[page.lang] }}</p>
+      </div>
+      <div class="prose line__body">
+        {{ line.body[page.lang] | markdownify }}
+        <p class="line__kw-label">{{ t.research.keywords }}</p>
+        <ul class="tags">
+          {% for k in line.keywords[page.lang] %}<li>{{ k }}</li>{% endfor %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

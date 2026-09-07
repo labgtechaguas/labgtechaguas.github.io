@@ -1,0 +1,40 @@
+---
+layout: page
+---
+{% assign t = site.data[page.lang] %}
+{% if page.lang == 'en' %}{% assign u_con = '/en/contact/' %}{% else %}{% assign u_con = '/contacto/' %}{% endif %}
+<section class="section">
+  <div class="wrap">
+    {% assign leads = site.data.people | where: 'group', 'lead' %}
+    {% if leads.size > 0 %}
+      <h2 class="section__title">{{ t.team.leads }}</h2>
+      <div class="people">
+        {% for person in leads %}{% include person-card.html person=person %}{% endfor %}
+      </div>
+    {% endif %}
+
+    {% assign postdocs = site.data.people | where: 'group', 'postdoc' %}
+    {% if postdocs.size > 0 %}
+      <h2 class="section__title">{{ t.team.postdocs }}</h2>
+      <div class="people">
+        {% for person in postdocs %}{% include person-card.html person=person %}{% endfor %}
+      </div>
+    {% endif %}
+
+    {% assign students = site.data.people | where: 'group', 'student' %}
+    {% if students.size > 0 %}
+      <h2 class="section__title">{{ t.team.students }}</h2>
+      <div class="people">
+        {% for person in students %}{% include person-card.html person=person %}{% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section section--join">
+  <div class="wrap join">
+    <h2>{{ t.home.join_title }}</h2>
+    <p>{{ t.home.join_body }}</p>
+    <p><a class="btn btn--primary" href="{{ u_con | relative_url }}">{{ t.home.join_cta }}</a></p>
+  </div>
+</section>

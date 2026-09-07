@@ -1,0 +1,36 @@
+---
+layout: page
+---
+{% assign t = site.data[page.lang] %}
+<section class="section">
+  <div class="wrap contact">
+    <ul class="contact__list">
+      <li>
+        <span class="contact__icon">{% include icons.html name='mail' %}</span>
+        <div><h3>{{ t.contact.email_label }}</h3>
+        <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p></div>
+      </li>
+      <li>
+        <span class="contact__icon">{% include icons.html name='pin' %}</span>
+        <div><h3>{{ t.contact.address_label }}</h3>
+        <p>{% if page.lang == 'en' %}{{ site.lab.institution_en }}{% else %}{{ site.lab.institution_es }}{% endif %}<br>{{ site.lab.address }}</p></div>
+      </li>
+      <li>
+        <span class="contact__icon">{% include icons.html name='github' %}</span>
+        <div><h3>{{ t.contact.github_label }}</h3>
+        <p><a href="https://github.com/{{ site.lab.github }}">github.com/{{ site.lab.github }}</a></p></div>
+      </li>
+    </ul>
+
+    <h2 class="section__title">{{ t.contact.people_label }}</h2>
+    <ul class="contact__people">
+      {% for person in site.data.people %}
+      <li>
+        <b>{{ person.name }}</b>
+        <span>{{ person.role[page.lang] }}</span>
+        {% if person.links.email and person.links.email != "" %}<a href="mailto:{{ person.links.email }}">{{ person.links.email }}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

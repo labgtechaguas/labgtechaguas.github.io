@@ -1,0 +1,129 @@
+# Cadenas de interfaz — español
+nav:
+  home: "Inicio"
+  research: "Investigación"
+  projects: "Proyectos"
+  publications: "Publicaciones"
+  team: "Equipo"
+  contact: "Contacto"
+
+home:
+  hero_kicker: "Universidad de los Andes · Santiago, Chile"
+  hero_title: "El nitrato se va; la pregunta es cómo"
+  hero_lead: >-
+    Un tercio del planeta bebe agua subterránea, y el nitrato es su contaminante
+    más común. Estudiamos cómo tratarla con bacterias y azufre elemental: qué
+    ocurre dentro del reactor, qué pasa con los microcontaminantes que vienen
+    junto al nitrato, y cuánto óxido nitroso se escapa en el camino.
+  hero_cta_research: "Ver líneas de investigación"
+  hero_cta_team: "Conocer al equipo"
+
+  about_kicker: "Quiénes somos"
+  about_title: "Un grupo entre el reactor y el modelo"
+  about_body: >-
+    G-Tech es un grupo de investigación de la Facultad de Ingeniería y Ciencias
+    Aplicadas de la Universidad de los Andes, dentro de la línea de Ingeniería de
+    Procesos Ambientales. Trabajamos en el tratamiento biológico de aguas
+    contaminadas con una idea fija: un proceso que no se entiende no se puede
+    escalar.
+
+
+    Eso nos obliga a movernos en dos frentes a la vez. En el laboratorio operamos
+    reactores de desnitrificación autótrofa —SBR y biofiltros de lecho empacado
+    con azufre elemental— y medimos lo que entra, lo que sale y lo que se emite.
+    En el computador reconstruimos esos mismos reactores con dinámica de fluidos
+    computacional, tomografía y modelación cinética, para explicar por qué rinden
+    lo que rinden.
+
+  metrics_title: "En números"
+  metric_people: "Investigadores"
+  metric_projects: "Proyectos vigentes"
+  metric_publications: "Publicaciones destacadas"
+  metric_founded: "Desde"
+
+  research_kicker: "Qué investigamos"
+  research_title: "Líneas de investigación"
+  research_lead: "Tres preguntas que atraviesan todo lo que hacemos."
+  research_more: "Conocer la línea"
+
+  projects_kicker: "En curso"
+  projects_title: "Proyectos"
+  projects_all: "Ver todos los proyectos"
+
+  team_kicker: "Equipo"
+  team_title: "Quiénes lo hacen"
+  team_all: "Ver el equipo completo"
+
+  pubs_kicker: "Publicado"
+  pubs_title: "Publicaciones seleccionadas"
+  pubs_all: "Ver todas las publicaciones"
+
+  funding_kicker: "Apoyo"
+  funding_title: "Financiamiento e instituciones"
+
+  join_title: "¿Quieres investigar con nosotros?"
+  join_body: >-
+    Buscamos estudiantes de Ingeniería Civil Química, Ambiental o afines
+    interesados en tratamiento de aguas, procesos biológicos o simulación
+    numérica, tanto para tesis de pregrado como para magíster y doctorado. No
+    hace falta experiencia previa: sí curiosidad y ganas de meter las manos en un
+    reactor o en un código.
+  join_cta: "Escríbenos"
+
+research:
+  title: "Investigación"
+  lead: >-
+    Tratamos el agua subterránea con bacterias que respiran nitrato usando azufre
+    elemental como donor de electrones. Alrededor de ese proceso se organizan
+    nuestras tres líneas.
+  keywords: "Palabras clave"
+
+projects:
+  title: "Proyectos"
+  lead: >-
+    Proyectos con financiamiento vigente, sus objetivos y quién los dirige.
+  role: "Rol"
+  pi: "Investigador Responsable"
+  period: "Periodo"
+  funder: "Financiamiento"
+  objectives: "Objetivos específicos"
+  team: "Equipo asociado"
+  current: "Vigentes"
+
+publications:
+  title: "Publicaciones"
+  lead: >-
+    Artículos del grupo en revistas indexadas. Los nombres del equipo van en
+    negrita.
+  indexed: "Artículos en revistas indexadas"
+  note: "Selección en construcción: falta incorporar el histórico completo del grupo."
+
+team:
+  title: "Equipo"
+  lead: >-
+    Quienes hacen el trabajo, en el laboratorio y en el computador.
+  leads: "Dirección"
+  postdocs: "Investigadores postdoctorales"
+  students: "Estudiantes"
+  interests: "Intereses"
+  profile: "Perfil completo"
+
+contact:
+  title: "Contacto"
+  lead: >-
+    Escríbenos si te interesa colaborar, hacer una tesis con nosotros o discutir
+    tratamiento de aguas y simulación de reactores.
+  email_label: "Correo"
+  address_label: "Dirección"
+  github_label: "Código y datos"
+  people_label: "Contacto directo"
+
+ui:
+  lang_switch_code: "EN"
+  lang_switch: "English"
+  read_more: "Leer más"
+  present: "Presente"
+  skip: "Saltar al contenido"
+  back_home: "Volver al inicio"
+  updated: "Última actualización"
+  menu: "Menú"

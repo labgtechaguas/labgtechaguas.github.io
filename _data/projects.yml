@@ -1,0 +1,76 @@
+# Proyectos con financiamiento. featured: true -> aparece en la portada.
+- id: fondecyt-regular-mps
+  featured: true
+  code: "Fondecyt Regular"
+  funder: "ANID · Fondecyt Regular"
+  period: "2026–2029"
+  status: "current"
+  pi: "César Huiliñir Curío"
+  pi_id: cesar-huilinir
+  title:
+    es: "Microcontaminantes, emisiones de N₂O y comunidades microbianas en sistemas de azufre elemental para aguas subterráneas"
+    en: "Micropollutants, N₂O emissions and microbial communities in elemental sulfur systems treating groundwater"
+  lead:
+    es: >-
+      Investigar la remoción de microcontaminantes (sulfametoxazol, diurón,
+      benzo[α]pireno, ibuprofeno y cafeína) y su impacto sobre las emisiones de
+      N₂O durante la desnitrificación autótrofa con azufre elemental aplicada a
+      aguas subterráneas, comparando un sistema de biomasa suspendida (SBR) con
+      uno de biopelícula (biofiltro).
+    en: >-
+      To investigate the removal of micropollutants (sulfamethoxazole, diuron,
+      benzo[a]pyrene, ibuprofen and caffeine) and their impact on N₂O emissions
+      during elemental sulfur autotrophic denitrification applied to groundwater,
+      comparing a suspended-biomass system (SBR) with a biofilm system (biofilter).
+  objectives:
+    es:
+      - "Evaluar la remoción de microcontaminantes y su influencia sobre las emisiones de N₂O y la remoción de nitrato y nitrito en un SBR con azufre elemental."
+      - "Hacer lo mismo en un biofiltro de azufre elemental y comparar su desempeño con el del SBR."
+      - "Determinar el rol de los mecanismos de sorción en la remoción de microcontaminantes en ambos sistemas."
+      - "Caracterizar y comparar la comunidad microbiana y los desnitrificantes autótrofos dominantes en cada sistema."
+    en:
+      - "To evaluate micropollutant removal and its influence on N₂O emissions and nitrate/nitrite removal in an elemental sulfur SBR."
+      - "To do the same in an elemental sulfur biofilter and compare its performance with the SBR."
+      - "To determine the role of sorption mechanisms in micropollutant removal in both systems."
+      - "To characterise and compare the microbial community and dominant autotrophic denitrifiers in each system."
+  team:
+    es: "Alberto Vergara (Universidad de los Andes) · Jhosané Pagés-Díaz (Universidad de Santiago de Chile) · investigadores de la Pontificia Universidad Católica de Chile y de la Universidad Bernardo O'Higgins"
+    en: "Alberto Vergara (Universidad de los Andes) · Jhosané Pagés-Díaz (Universidad de Santiago de Chile) · researchers from Pontificia Universidad Católica de Chile and Universidad Bernardo O'Higgins"
+
+- id: fondecyt-post-3250412
+  featured: true
+  code: "Fondecyt Postdoctorado N.º 3250412"
+  funder: "ANID · Fondecyt de Postdoctorado"
+  period: "2025–2028"
+  status: "current"
+  pi: "Felipe A. Carreño López"
+  pi_id: felipe-carreno
+  title:
+    es: "Dinámica del azufre y la biopelícula en reactores de lecho fijo: CFD, DEM e imagen digital"
+    en: "Sulfur and biofilm dynamics in fixed-bed reactors: CFD, DEM and digital imaging"
+  lead:
+    es: >-
+      Desarrollar y validar experimentalmente una metodología que combina
+      dinámica de fluidos computacional (CFD), método de elementos discretos (DEM)
+      e imagen digital para describir con precisión la dinámica entre el tamaño de
+      partícula del azufre y el crecimiento de la biopelícula en un reactor de
+      lecho fijo de desnitrificación autótrofa.
+    en: >-
+      To develop and experimentally validate a methodology combining computational
+      fluid dynamics (CFD), the discrete element method (DEM) and digital imaging
+      to accurately describe the dynamics between sulfur particle size and biofilm
+      growth in a fixed-bed autotrophic denitrification reactor.
+  objectives:
+    es:
+      - "Obtener experimentalmente la distribución de tiempos de residencia, la variación del tamaño de partícula de azufre y la formación local de biopelícula mediante tomografía computarizada a distintos tiempos de operación."
+      - "Desarrollar una simulación CFD 3D monofásica del flujo, acoplada a una ecuación de transporte, para validar el flujo dentro del lecho."
+      - "Desarrollar un modelo CFD 3D multifásico que simule la biocinética y la transferencia de masa en el lecho."
+      - "Desarrollar un acoplamiento CFD+DEM para simular la dinámica del tamaño de partícula del azufre."
+    en:
+      - "To experimentally obtain the residence time distribution, the sulfur particle size variation and local biofilm formation using computed tomography at different operating times."
+      - "To develop a single-phase 3D CFD simulation of the flow, coupled with a transport equation, to validate the flow inside the bed."
+      - "To develop a multiphase 3D CFD model simulating biokinetics and mass transfer in the bed."
+      - "To develop a CFD+DEM coupling to simulate sulfur particle size dynamics in the bed."
+  team:
+    es: "Colaboración internacional con University of California, Davis y Universidad de Valladolid"
+    en: "International collaboration with the University of California, Davis and Universidad de Valladolid"

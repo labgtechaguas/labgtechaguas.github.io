@@ -1,0 +1,17 @@
+{% assign p = include.pub %}
+{% assign authors = p.authors %}
+{% for a in site.data.publications.group_authors %}
+  {% assign bolded = '<strong>' | append: a | append: '</strong>' %}
+  {% assign authors = authors | replace: a, bolded %}
+{% endfor %}
+<li class="pub">
+  <span class="pub__year">{{ p.year }}</span>
+  <div class="pub__body">
+    <p class="pub__authors">{{ authors }}</p>
+    <h3 class="pub__title">{{ p.title }}</h3>
+    <p class="pub__meta">
+      <em>{{ p.journal }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.doi %} ·
+      <a href="https://doi.org/{{ p.doi }}" class="pub__doi">doi: {{ p.doi }}</a>{% endif %}
+    </p>
+  </div>
+</li>

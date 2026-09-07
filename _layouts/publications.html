@@ -1,0 +1,14 @@
+---
+layout: page
+---
+{% assign t = site.data[page.lang] %}
+<section class="section">
+  <div class="wrap">
+    <h2 class="section__title">{{ t.publications.indexed }}</h2>
+    <ul class="pubs">
+      {% assign pubs = site.data.publications.indexed | sort: 'year' | reverse %}
+      {% for p in pubs %}{% include pub-item.html pub=p %}{% endfor %}
+    </ul>
+    <p class="note">{{ t.publications.note }}</p>
+  </div>
+</section>

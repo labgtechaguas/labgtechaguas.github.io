@@ -1,0 +1,120 @@
+# Líneas de investigación. icon: nombre del ícono SVG en _includes/icons.html
+- id: denitrification
+  icon: reactor
+  title:
+    es: "Desnitrificación autótrofa con azufre elemental"
+    en: "Sulfur-based autotrophic denitrification"
+  summary:
+    es: "Bacterias que respiran nitrato usando azufre en vez de materia orgánica: la vía más barata para tratar aguas subterráneas."
+    en: "Bacteria that breathe nitrate using sulfur instead of organic matter: the cheapest route to treating groundwater."
+  body:
+    es: >-
+      El nitrato es el contaminante más frecuente de los acuíferos. En Chile,
+      donde el 40 % de las zonas urbanas y el 76 % de las rurales dependen del
+      agua subterránea, hay pozos que superan varias veces el límite de 50 mg/L
+      que fija el Decreto Supremo N.º 735.
+
+
+      El agua subterránea casi no tiene materia orgánica, así que la
+      desnitrificación heterótrofa clásica no sirve. La alternativa es la vía
+      autótrofa: usar azufre elemental (S⁰) como donor de electrones. Es barato,
+      abundante y poco tóxico. Operamos esta vía en dos configuraciones que se
+      comportan de forma distinta —un reactor SBR de biomasa suspendida y un
+      biofiltro donde el propio azufre es el medio de soporte de la
+      biopelícula— y comparamos su desempeño en remoción, cinética y comunidad
+      microbiana.
+    en: >-
+      Nitrate is the most common pollutant in aquifers. In Chile, where 40 % of
+      urban areas and 76 % of rural areas depend on groundwater, some wells exceed
+      the 50 mg/L limit set by Supreme Decree No. 735 several times over.
+
+
+      Groundwater has almost no organic matter, so classical heterotrophic
+      denitrification is not an option. The alternative is the autotrophic route:
+      using elemental sulfur (S⁰) as the electron donor. It is cheap, abundant and
+      low in toxicity. We run this route in two configurations that behave very
+      differently — a suspended-biomass SBR and a biofilter where the sulfur
+      itself is the biofilm carrier — and compare their removal performance,
+      kinetics and microbial communities.
+  keywords:
+    es: ["Azufre elemental", "Nitrato", "Aguas subterráneas", "SBR", "Biofiltro", "Zeolita natural"]
+    en: ["Elemental sulfur", "Nitrate", "Groundwater", "SBR", "Biofilter", "Natural zeolite"]
+
+- id: micropollutants
+  icon: molecule
+  title:
+    es: "Microcontaminantes y emisiones de N₂O"
+    en: "Micropollutants and N₂O emissions"
+  summary:
+    es: "El nitrato no viene solo: antibióticos, herbicidas y fármacos lo acompañan, y pueden cambiar cuánto gas de efecto invernadero emite el reactor."
+    en: "Nitrate does not travel alone: antibiotics, herbicides and pharmaceuticals come with it, and may change how much greenhouse gas the reactor emits."
+  body:
+    es: >-
+      En aguas subterráneas de todo el mundo aparecen, junto al nitrato,
+      microcontaminantes como el sulfametoxazol, el diurón, el benzo[α]pireno, el
+      ibuprofeno y la cafeína. En Sudamérica se han medido entre 0,1 y 130 µg/L.
+      Tratar el nitrato sin considerarlos deja el problema a medio resolver.
+
+
+      Además, la desnitrificación tiene un costo ambiental propio: emite óxido
+      nitroso (N₂O), un gas de efecto invernadero de alto potencial que también
+      daña la capa de ozono. En la vía autótrofa las emisiones típicas son bajas
+      —entre 0,01 y 0,8 % de la carga de nitrógeno— pero nadie ha medido qué pasa
+      cuando hay microcontaminantes de por medio. Estudiamos las dos preguntas a la
+      vez: cuánto se remueven esos compuestos y cuánto N₂O se escapa,
+      contrastando cultivo suspendido y biopelícula.
+    en: >-
+      Groundwater worldwide carries, alongside nitrate, micropollutants such as
+      sulfamethoxazole, diuron, benzo[a]pyrene, ibuprofen and caffeine. In South
+      America, concentrations between 0.1 and 130 µg/L have been reported. Treating
+      nitrate without accounting for them leaves the problem half solved.
+
+
+      Denitrification also has an environmental cost of its own: it emits nitrous
+      oxide (N₂O), a potent greenhouse gas that also depletes stratospheric ozone.
+      In the autotrophic route emissions are typically low — 0.01 to 0.8 % of the
+      nitrogen load — but nobody has measured what happens when micropollutants are
+      present. We tackle both questions at once: how much of these compounds is
+      removed, and how much N₂O escapes, comparing suspended culture and biofilm.
+  keywords:
+    es: ["Sulfametoxazol", "Diurón", "Benzo[α]pireno", "Óxido nitroso", "Sorción", "Comunidades microbianas"]
+    en: ["Sulfamethoxazole", "Diuron", "Benzo[a]pyrene", "Nitrous oxide", "Sorption", "Microbial communities"]
+
+- id: modelling
+  icon: flow
+  title:
+    es: "Modelación y simulación de biorreactores"
+    en: "Modelling and simulation of bioreactors"
+  summary:
+    es: "Un lecho de azufre no es estático: el grano se consume, la biopelícula crece y el flujo cambia. Eso se simula."
+    en: "A sulfur bed is not static: grains dissolve, biofilm grows and the flow changes. That is what we simulate."
+  body:
+    es: >-
+      Un modelo CFD de un lecho empacado vale lo que vale su validación. Parte
+      central de nuestro trabajo es confrontar la simulación con mediciones
+      experimentales de distribución de tiempos de residencia (RTD), un observable
+      que integra todo lo que ocurre dentro del reactor: canalizaciones, zonas
+      muertas, mezcla.
+
+
+      Sobre esa base construimos modelos tridimensionales que acoplan flujo,
+      transporte y cinética biológica, alimentados con geometría real obtenida por
+      tomografía computarizada, y modelos CFD–DEM que siguen la evolución del
+      tamaño de partícula del azufre a medida que se consume. El horizonte es un
+      gemelo digital del reactor: un modelo con el que se pueda operar y escalar en
+      vez de ajustar por prueba y error.
+    en: >-
+      A CFD model of a packed bed is only as good as its validation. A central part
+      of our work is confronting simulation with experimental residence time
+      distribution (RTD) measurements — an observable that integrates everything
+      happening inside the reactor: channelling, dead zones, mixing.
+
+
+      On that basis we build three-dimensional models coupling flow, transport and
+      biological kinetics, fed with real geometry obtained by computed tomography,
+      and CFD–DEM models that track how sulfur particle size evolves as it is
+      consumed. The horizon is a digital twin of the reactor: a model you can
+      operate and scale with, instead of tuning by trial and error.
+  keywords:
+    es: ["CFD", "OpenFOAM", "CFD–DEM", "Tomografía computarizada", "RTD", "Modelación de biopelículas"]
+    en: ["CFD", "OpenFOAM", "CFD–DEM", "Computed tomography", "RTD", "Biofilm modelling"]

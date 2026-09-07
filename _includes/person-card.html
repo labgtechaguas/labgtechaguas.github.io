@@ -1,0 +1,40 @@
+{% assign person = include.person %}
+{% assign t = site.data[page.lang] %}
+<article class="person" id="{{ person.id }}">
+  <div class="person__photo">
+    {% if person.photo and person.photo != "" %}
+      <img src="{{ '/assets/img/people/' | append: person.photo | relative_url }}" alt="{{ person.name }}" loading="lazy">
+    {% else %}
+      <span class="person__initials" aria-hidden="true">{{ person.name | split: " " | first | slice: 0 }}{{ person.name | split: " " | last | slice: 0 }}</span>
+    {% endif %}
+  </div>
+  <div class="person__body">
+    <h3 class="person__name">{{ person.name }}</h3>
+    <p class="person__role">{{ person.role[page.lang] }}</p>
+    <p class="person__degree">{{ person.degree[page.lang] }}</p>
+    <p class="person__bio">{{ person.bio[page.lang] }}</p>
+
+    {% if person.interests[page.lang] %}
+    <ul class="tags">
+      {% for k in person.interests[page.lang] %}<li>{{ k }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if person.metrics %}
+    <ul class="person__metrics">
+      <li><b>{{ person.metrics.publications }}</b> <span>{% if page.lang == 'en' %}publications{% else %}publicaciones{% endif %}</span></li>
+      <li><b>{{ person.metrics.h_index }}</b> <span>{% if page.lang == 'en' %}h-index{% else %}índice h{% endif %}</span></li>
+      <li><b>{{ person.metrics.citations }}</b> <span>{% if page.lang == 'en' %}citations{% else %}citas{% endif %}</span></li>
+    </ul>
+    {% endif %}
+
+    <ul class="person__links">
+      {% if person.links.email and person.links.email != "" %}<li><a href="mailto:{{ person.links.email }}" aria-label="Email">{% include icons.html name='mail' %}</a></li>{% endif %}
+      {% if person.links.orcid and person.links.orcid != "" %}<li><a href="https://orcid.org/{{ person.links.orcid }}" aria-label="ORCID">{% include icons.html name='orcid' %}</a></li>{% endif %}
+      {% if person.links.scholar and person.links.scholar != "" %}<li><a href="https://scholar.google.com/citations?user={{ person.links.scholar }}" aria-label="Google Scholar">{% include icons.html name='scholar' %}</a></li>{% endif %}
+      {% if person.links.linkedin and person.links.linkedin != "" %}<li><a href="https://www.linkedin.com/in/{{ person.links.linkedin }}/" aria-label="LinkedIn">{% include icons.html name='linkedin' %}</a></li>{% endif %}
+      {% if person.links.github and person.links.github != "" %}<li><a href="https://github.com/{{ person.links.github }}" aria-label="GitHub">{% include icons.html name='github' %}</a></li>{% endif %}
+      {% if person.links.website and person.links.website != "" %}<li><a href="{{ person.links.website }}" aria-label="{{ t.team.profile }}">{% include icons.html name='link' %}</a></li>{% endif %}
+    </ul>
+  </div>
+</article>

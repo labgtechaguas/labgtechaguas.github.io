@@ -1,0 +1,7 @@
+# Logos de la franja de financiamiento e instituciones.
+- name: "Universidad de los Andes"
+  logo: "logo_uandes.png"
+  url: "https://www.uandes.cl/"
+- name: "ANID"
+  logo: "logo_anid.png"
+  url: "https://www.anid.cl/"

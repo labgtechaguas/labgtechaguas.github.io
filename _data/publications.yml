@@ -1,0 +1,46 @@
+# Publicaciones. Los apellidos que aparezcan en 'group_authors' se marcan en negrita.
+# featured: true -> aparece en la portada.
+group_authors:
+  - "Carreño-López"
+  - "Huiliñir"
+
+indexed:
+  - year: 2026
+    authors: "Yánez, D., Manterola, J., Guerrero, L., Carreño-López, F. A., Huiliñir, C."
+    title: "Enhancing sulfur-based denitrification with natural zeolite: performance under autotrophic and mixotrophic operation"
+    journal: "Biodegradation"
+    details: "37(4), 128"
+    doi: "10.1007/s10532-026-10352-4"
+    featured: true
+
+  - year: 2026
+    authors: "Carreño-López, F. A., Moreno-Casas, P. A., Scott, F., Vergara-Fernández, A., Sierra-Pallares, J., Muñoz, R."
+    title: "Hybrid section-based modeling of gas-phase hydrodynamics in biotrickling filters: influence of packing material on residence time distributions"
+    journal: "Biochemical Engineering Journal"
+    details: "227, 110049"
+    doi: "10.1016/j.bej.2025.110049"
+    featured: true
+
+  - year: 2024
+    authors: "Corbalán, M., Da Silva, C., Barahona, A., Huiliñir, C., Guerrero, L."
+    title: "Nitrification–autotrophic denitrification using elemental sulfur as an electron donor in a sequencing batch reactor (SBR): performance and kinetic analysis"
+    journal: "Sustainability"
+    details: "16(10), 4269"
+    doi: "10.3390/su16104269"
+    featured: true
+
+  - year: 2023
+    authors: "Carreño-López, F. A., Moreno-Casas, P. A., Scott, F., Iza, J., Sierra-Pallares, J., Muñoz, R., Vergara-Fernández, A."
+    title: "A convenient method to validate the gas flow of a CFD–CT simulation applied to a packed bed used in gas biofiltration through residence time distributions"
+    journal: "Chemical Engineering Journal"
+    details: "451(4), 138795"
+    doi: "10.1016/j.cej.2022.138795"
+    featured: false
+
+  - year: 2023
+    authors: "Barahona, A., Rubio, J., Gómez, R., Huiliñir, C., Borja, R., Guerrero, L."
+    title: "Sequential nitrification—autotrophic denitrification using sulfur as an electron donor and Chilean zeolite as microbial support"
+    journal: "Water"
+    details: "15(1), 95"
+    doi: "10.3390/w15010095"
+    featured: false

@@ -1,0 +1,97 @@
+# Equipo. group: lead | postdoc | student
+# photo: ruta relativa dentro de assets/img/people/ (deja vacío si aún no hay foto)
+- id: cesar-huilinir
+  group: lead
+  name: "César Huiliñir Curío"
+  photo: "cesar-huilinir.jpg"
+  role:
+    es: "Director del grupo · Profesor Asociado"
+    en: "Group director · Associate Professor"
+  affiliation:
+    es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
+    en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  degree:
+    es: "Doctor en Ciencias de la Ingeniería, mención Ingeniería Química · Ingeniero Civil Industrial"
+    en: "PhD in Engineering Sciences (Chemical Engineering) · Industrial Civil Engineer"
+  bio:
+    es: >-
+      Profesor Asociado de la Facultad de Ingeniería y Ciencias Aplicadas de la
+      Universidad de los Andes y director del Doctorado en Ciencias de la
+      Ingeniería. Doctor por la Universidad de Concepción, con postdoctorado en la
+      Technische Universität Berlin. Desde hace dos décadas trabaja en el
+      tratamiento biológico de aguas y residuos, y en la modelación matemática de
+      los bioprocesos que lo hacen posible: digestión anaerobia, nitrificación y
+      desnitrificación, biosecado de lodos y valorización de residuos orgánicos.
+      Ha dirigido dos proyectos Fondecyt y dos Fondef, participado como
+      coinvestigador en otros seis Fondecyt, y guiado más de cuarenta tesis de
+      pregrado, doce de magíster y cinco doctorados.
+    en: >-
+      Associate Professor at the Faculty of Engineering and Applied Sciences,
+      Universidad de los Andes, and director of its PhD programme in Engineering
+      Sciences. He holds a PhD from Universidad de Concepción and completed a
+      postdoctoral fellowship at Technische Universität Berlin. For two decades he
+      has worked on the biological treatment of water and waste, and on the
+      mathematical modelling of the bioprocesses behind it: anaerobic digestion,
+      nitrification and denitrification, sludge biodrying and organic-waste
+      valorisation. He has led two Fondecyt and two Fondef projects, co-investigated
+      six further Fondecyt grants, and supervised more than forty undergraduate
+      theses, twelve master's theses and five doctorates.
+  interests:
+    es: ["Digestión anaerobia", "Desnitrificación autótrofa", "Modelación de bioprocesos", "Zeolita natural", "Economía circular del agua"]
+    en: ["Anaerobic digestion", "Autotrophic denitrification", "Bioprocess modelling", "Natural zeolite", "Circular water economy"]
+  metrics:
+    publications: 89
+    h_index: 24
+    citations: 1776
+  links:
+    email: ""
+    orcid: "0000-0002-3487-684X"
+    linkedin: "cesar-huilinir-4b8a2a30"
+    scholar: ""
+    website: "https://investigadores.uandes.cl/en/persons/c%C3%A9sar-esteban-huili%C3%B1ir-curio/"
+
+- id: felipe-carreno
+  group: postdoc
+  name: "Felipe A. Carreño López"
+  photo: "felipe-carreno.jpg"
+  role:
+    es: "Investigador Postdoctoral"
+    en: "Postdoctoral Researcher"
+  affiliation:
+    es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
+    en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  degree:
+    es: "Doctor en Ciencias de la Ingeniería (Summa cum laude) · Ingeniero Civil Químico"
+    en: "PhD in Engineering Sciences (Summa cum laude) · Chemical Engineer"
+  bio:
+    es: >-
+      Investigador postdoctoral en la Universidad de los Andes, donde dirige el
+      Fondecyt de Postdoctorado N.º 3250412. Usa dinámica de fluidos computacional
+      para abrir la caja negra de los biorreactores —flujo, biopelícula,
+      transporte— y convertir lo que aprende en modelos predictivos útiles para
+      diseñar y operar procesos reales. Ha llevado el mismo enfoque a la
+      biofiltración de gases contaminantes, la biorremediación de suelos y la
+      simulación multifásica de materiales cementicios, con colaboraciones en la
+      University of California, Davis y la Universidad de Valladolid.
+    en: >-
+      Postdoctoral researcher at Universidad de los Andes, where he leads Fondecyt
+      Postdoctoral grant No. 3250412. He uses computational fluid dynamics to open
+      up the black box of bioreactors — flow, biofilm, transport — and turn what he
+      learns into predictive models for designing and operating real processes. He
+      has applied the same approach to waste-gas biofiltration, soil bioremediation
+      and multiphase simulation of cementitious materials, with collaborations at
+      the University of California, Davis and Universidad de Valladolid.
+  interests:
+    es: ["CFD y OpenFOAM", "Biopelículas en medios porosos", "Distribución de tiempos de residencia", "Acoplamiento CFD–DEM", "Gemelos digitales de reactores"]
+    en: ["CFD and OpenFOAM", "Biofilms in porous media", "Residence time distributions", "CFD–DEM coupling", "Digital twins of reactors"]
+  metrics:
+    publications: 4
+    h_index: 2
+    citations: 30
+  links:
+    email: "facarreno@miuandes.cl"
+    orcid: "0000-0002-5255-2363"
+    linkedin: "faclopez91"
+    scholar: "OsNFId8AAAAJ"
+    github: "facarreno"
+    website: "https://facarreno.github.io"

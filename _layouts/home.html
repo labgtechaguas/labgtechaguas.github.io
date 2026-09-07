@@ -1,0 +1,114 @@
+---
+layout: default
+---
+{% assign t = site.data[page.lang] %}
+{% if page.lang == 'en' %}
+  {% assign u_res = '/en/research/' %}{% assign u_pro = '/en/projects/' %}{% assign u_pub = '/en/publications/' %}{% assign u_team = '/en/team/' %}{% assign u_con = '/en/contact/' %}
+{% else %}
+  {% assign u_res = '/investigacion/' %}{% assign u_pro = '/proyectos/' %}{% assign u_pub = '/publicaciones/' %}{% assign u_team = '/equipo/' %}{% assign u_con = '/contacto/' %}
+{% endif %}
+
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <p class="kicker">{{ t.home.hero_kicker }}</p>
+    <h1 class="hero__title">{{ t.home.hero_title }}</h1>
+    <p class="hero__lead">{{ t.home.hero_lead }}</p>
+    <p class="hero__cta">
+      <a class="btn btn--primary" href="{{ u_res | relative_url }}">{{ t.home.hero_cta_research }}</a>
+      <a class="btn btn--ghost" href="{{ u_team | relative_url }}">{{ t.home.hero_cta_team }}</a>
+    </p>
+  </div>
+</section>
+
+<section class="section section--about">
+  <div class="wrap grid-2">
+    <div>
+      <p class="kicker">{{ t.home.about_kicker }}</p>
+      <h2>{{ t.home.about_title }}</h2>
+    </div>
+    <div class="prose">
+      {{ t.home.about_body | markdownify }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--metrics">
+  <div class="wrap">
+    <ul class="metrics">
+      <li><b>{{ site.metrics.people }}</b><span>{{ t.home.metric_people }}</span></li>
+      <li><b>{{ site.metrics.projects }}</b><span>{{ t.home.metric_projects }}</span></li>
+      <li><b>{{ site.metrics.publications }}</b><span>{{ t.home.metric_publications }}</span></li>
+      <li><b>{{ site.lab.founded }}</b><span>{{ t.home.metric_founded }}</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="kicker">{{ t.home.research_kicker }}</p>
+    <h2 class="section__title">{{ t.home.research_title }}</h2>
+    <p class="section__lead">{{ t.home.research_lead }}</p>
+    <div class="cards">
+      {% for line in site.data.research %}
+      <article class="card">
+        <span class="card__icon">{% include icons.html name=line.icon %}</span>
+        <h3>{{ line.title[page.lang] }}</h3>
+        <p>{{ line.summary[page.lang] }}</p>
+        <a class="card__link" href="{{ u_res | relative_url }}#{{ line.id }}">{{ t.home.research_more }} &rarr;</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <p class="kicker">{{ t.home.projects_kicker }}</p>
+    <h2 class="section__title">{{ t.home.projects_title }}</h2>
+    <div class="projects">
+      {% for pr in site.data.projects %}{% if pr.featured %}
+      <article class="project">
+        <p class="project__code">{{ pr.code }} · {{ pr.period }}</p>
+        <h3>{{ pr.title[page.lang] }}</h3>
+        <p class="project__lead">{{ pr.lead[page.lang] | truncatewords: 45 }}</p>
+        <p class="project__pi">{{ t.projects.pi }}: <b>{{ pr.pi }}</b></p>
+      </article>
+      {% endif %}{% endfor %}
+    </div>
+    <p class="section__more"><a href="{{ u_pro | relative_url }}">{{ t.home.projects_all }} &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="kicker">{{ t.home.pubs_kicker }}</p>
+    <h2 class="section__title">{{ t.home.pubs_title }}</h2>
+    <ul class="pubs">
+      {% for p in site.data.publications.indexed %}{% if p.featured %}
+        {% include pub-item.html pub=p %}
+      {% endif %}{% endfor %}
+    </ul>
+    <p class="section__more"><a href="{{ u_pub | relative_url }}">{{ t.home.pubs_all }} &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section--join">
+  <div class="wrap join">
+    <h2>{{ t.home.join_title }}</h2>
+    <p>{{ t.home.join_body }}</p>
+    <p><a class="btn btn--primary" href="{{ u_con | relative_url }}">{{ t.home.join_cta }}</a></p>
+  </div>
+</section>
+
+<section class="section section--funding">
+  <div class="wrap">
+    <p class="kicker">{{ t.home.funding_kicker }}</p>
+    <h2 class="section__title">{{ t.home.funding_title }}</h2>
+    <ul class="funders">
+      {% for f in site.data.funding %}
+      <li><a href="{{ f.url }}"><img src="{{ '/assets/img/logos/' | append: f.logo | relative_url }}" alt="{{ f.name }}" loading="lazy"></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+{% assign t = site.data[page.lang] %}
+{% if page.lang == 'en' %}{% assign site_name = site.name_en %}{% assign site_desc = site.description_en %}{% assign tagline = site.tagline_en %}{% else %}{% assign site_name = site.name_es %}{% assign site_desc = site.description_es %}{% assign tagline = site.tagline_es %}{% endif %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site_name }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site_desc | strip_newlines }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{% if page.alt %}<link rel="alternate" hreflang="{% if page.lang == 'es' %}en{% else %}es{% endif %}" href="{{ page.alt | absolute_url }}">{% endif %}
+<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:title" content="{{ page.title | default: site_name }}">
+<meta property="og:description" content="{{ page.description | default: site_desc | strip_newlines }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/img/logos/logo_gtech.png' | absolute_url }}">
+<meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}es_CL{% endif %}">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "{{ site_name }}",
+  "alternateName": "G-Tech",
+  "description": "{{ site_desc | strip_newlines }}",
+  "url": "{{ site.url }}",
+  "email": "{{ site.lab.email }}",
+  "parentOrganization": { "@type": "CollegeOrUniversity", "name": "Universidad de los Andes" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Santiago", "addressCountry": "CL" }
+}
+</script>

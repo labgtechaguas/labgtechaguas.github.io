@@ -1,0 +1,9 @@
+# Solo se versiona el sitio. El material fuente (PDF de proyectos, fotos
+# originales, INFORMACION-GRUPO.md) vive en ../informacion/, fuera del repo.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+Gemfile.lock
+.DS_Store

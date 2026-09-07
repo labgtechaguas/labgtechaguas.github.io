@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign t = site.data[page.lang] %}
+{% assign s = t[page.section] %}
+<section class="page-head">
+  <div class="wrap">
+    <h1>{{ s.title | default: page.title }}</h1>
+    {% if s.lead %}<p class="lead">{{ s.lead }}</p>{% endif %}
+  </div>
+</section>
+{{ content }}

@@ -1,0 +1,29 @@
+{% assign t = site.data[page.lang] %}
+<footer class="site-footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img src="{{ '/assets/img/logos/logo_gtech.png' | relative_url }}" alt="G-Tech" class="footer__logo">
+      <p>{% if page.lang == 'en' %}{{ site.lab.institution_en }}{% else %}{{ site.lab.institution_es }}{% endif %}<br>{{ site.lab.city }}</p>
+    </div>
+    <div class="footer__links">
+      <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a>
+      <a href="https://github.com/{{ site.lab.github }}">github.com/{{ site.lab.github }}</a>
+    </div>
+    <div class="footer__meta">
+      <p>&copy; {{ 'now' | date: "%Y" }} G-Tech · {% if page.lang == 'en' %}{{ site.name_en }}{% else %}{{ site.name_es }}{% endif %}</p>
+      <p class="footer__updated">{{ t.ui.updated }}: {{ site.time | date: "%d-%m-%Y" }}</p>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var btn = document.querySelector('.nav__toggle');
+    var links = document.getElementById('nav-links');
+    if (!btn || !links) return;
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      links.classList.toggle('is-open', !open);
+    });
+  })();
+</script>

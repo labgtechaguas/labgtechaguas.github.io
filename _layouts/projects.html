@@ -1,0 +1,29 @@
+---
+layout: page
+---
+{% assign t = site.data[page.lang] %}
+<section class="section">
+  <div class="wrap">
+    {% for pr in site.data.projects %}
+    <article class="project-full" id="{{ pr.id }}">
+      <header class="project-full__head">
+        <p class="project__code">{{ pr.code }}</p>
+        <h2>{{ pr.title[page.lang] }}</h2>
+        <dl class="project-full__meta">
+          <div><dt>{{ t.projects.pi }}</dt><dd>{{ pr.pi }}</dd></div>
+          <div><dt>{{ t.projects.funder }}</dt><dd>{{ pr.funder }}</dd></div>
+          <div><dt>{{ t.projects.period }}</dt><dd>{{ pr.period }}</dd></div>
+        </dl>
+      </header>
+      <div class="prose">
+        <p>{{ pr.lead[page.lang] }}</p>
+        <h3>{{ t.projects.objectives }}</h3>
+        <ol class="objectives">
+          {% for o in pr.objectives[page.lang] %}<li>{{ o }}</li>{% endfor %}
+        </ol>
+        {% if pr.team %}<p class="project-full__team"><b>{{ t.projects.team }}:</b> {{ pr.team[page.lang] }}</p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
