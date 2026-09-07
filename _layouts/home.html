@@ -8,16 +8,42 @@ layout: default
   {% assign u_res = '/investigacion/' %}{% assign u_pro = '/proyectos/' %}{% assign u_pub = '/publicaciones/' %}{% assign u_team = '/equipo/' %}{% assign u_con = '/contacto/' %}
 {% endif %}
 
+{% comment %}
+  Retrato de la portada. site.hero_portrait es el id de una persona de
+  _data/people.yml; dejarlo vacio en _config.yml quita la foto y el hero
+  vuelve a una sola columna.
+{% endcomment %}
+{% assign hero_person = false %}
+{% if site.hero_portrait and site.hero_portrait != "" %}
+  {% assign candidate = site.data.people | where: 'id', site.hero_portrait | first %}
+  {% if candidate and candidate.photo and candidate.photo != "" %}{% assign hero_person = candidate %}{% endif %}
+{% endif %}
+
 <section class="hero">
   <div class="hero__bg" aria-hidden="true"></div>
-  <div class="wrap hero__inner">
-    <p class="kicker">{{ t.home.hero_kicker }}</p>
-    <h1 class="hero__title">{{ t.home.hero_title }}</h1>
-    <p class="hero__lead">{{ t.home.hero_lead }}</p>
-    <p class="hero__cta">
-      <a class="btn btn--primary" href="{{ u_res | relative_url }}">{{ t.home.hero_cta_research }}</a>
-      <a class="btn btn--ghost" href="{{ u_team | relative_url }}">{{ t.home.hero_cta_team }}</a>
-    </p>
+  <div class="wrap hero__inner{% if hero_person %} hero__inner--split{% endif %}">
+    <div class="hero__text">
+      <p class="kicker">{{ t.home.hero_kicker }}</p>
+      <h1 class="hero__title">{{ t.home.hero_title }}</h1>
+      <p class="hero__lead">{{ t.home.hero_lead }}</p>
+      <p class="hero__cta">
+        <a class="btn btn--primary" href="{{ u_res | relative_url }}">{{ t.home.hero_cta_research }}</a>
+        <a class="btn btn--ghost" href="{{ u_team | relative_url }}">{{ t.home.hero_cta_team }}</a>
+      </p>
+    </div>
+
+    {% if hero_person %}
+    <figure class="hero__portrait">
+      <a href="{{ u_team | relative_url }}#{{ hero_person.id }}">
+        <img src="{{ '/assets/img/people/' | append: hero_person.photo | relative_url }}"
+             alt="{{ hero_person.name }}" width="600" height="600">
+      </a>
+      <figcaption>
+        <b>{{ hero_person.name }}</b>
+        <span>{{ hero_person.role[page.lang] }}</span>
+      </figcaption>
+    </figure>
+    {% endif %}
   </div>
 </section>
 

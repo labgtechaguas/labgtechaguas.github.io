@@ -133,6 +133,7 @@ la vez**, y `commit` + `push` antes de cambiar de equipo.
 
 - Una foto de portada del laboratorio o de los reactores.
 - Correo institucional del grupo (hoy figura el Gmail `labgtechaguas@gmail.com`).
+- Confirmar si César dirige el Doctorado en Ciencias de la Ingeniería (dato sin verificar, retirado del sitio).
 - Dirección y oficina exactas para la página de contacto.
 - Completar el histórico de publicaciones (hay 5 de partida; César tiene 89 productos).
 - Sumar al resto del equipo: tesistas, memoristas y colaboradores.

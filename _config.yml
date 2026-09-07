@@ -34,6 +34,10 @@ lab:
   github: "labgtechaguas"
   founded: 2022
 
+# Retrato de la portada: id de una persona de _data/people.yml.
+# Déjalo vacío ("") para quitar la foto del hero.
+hero_portrait: "cesar-huilinir"
+
 # Cifras de portada. Actualízalas cuando cambien.
 metrics:
   people: 2
