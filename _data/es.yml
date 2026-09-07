@@ -87,6 +87,7 @@ projects:
   period: "Periodo"
   funder: "Financiamiento"
   objectives: "Objetivos específicos"
+  contact: "Contacto"
   team: "Equipo asociado"
   current: "Vigentes"
 
@@ -106,7 +107,7 @@ team:
   postdocs: "Investigadores postdoctorales"
   phd: "Estudiantes de doctorado"
   undergrad: "Estudiantes de pregrado"
-  alumni: "Ex integrantes"
+  alumni: "Alumni"
   alumni_name: "Nombre"
   alumni_role: "Rol en el grupo"
   alumni_period: "Periodo"

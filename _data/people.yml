@@ -135,3 +135,39 @@
     email: ""
     orcid: ""
     linkedin: ""
+
+- id: sara-stevanovic
+  group: undergrad
+  name: "Sara Stevanovic"
+  photo: ""
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química"
+    en: "Chemical Engineering"
+  focus:
+    es: "Modelo de orden reducido (POD) alimentado por simulaciones CFD de lechos empacados aleatorios, para estudiar parámetros geométricos de diseño en un biofiltro de desnitrificación autótrofa."
+    en: "Proper orthogonal decomposition reduced-order model, driven by CFD simulations of random packed beds, to study geometric design parameters in an autotrophic denitrification biofilter."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""
+
+- id: javiera-riderelli
+  group: undergrad
+  name: "Javiera Riderelli"
+  photo: ""
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química"
+    en: "Chemical Engineering"
+  focus:
+    es: "Destino de las descargas de nitrógeno en el Lago Llanquihue, acoplando transporte reactivo al modelo hidrodinámico tridimensional Si3D."
+    en: "Fate of nitrogen discharges in Lake Llanquihue, coupling reactive transport to the three-dimensional hydrodynamic model Si3D."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""

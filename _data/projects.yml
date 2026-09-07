@@ -1,4 +1,6 @@
 # Proyectos con financiamiento. featured: true -> aparece en la portada.
+# 'title' es el título oficial de la postulación, tal cual, sin traducir.
+# 'abstract' es el resumen del proyecto; la versión en inglés es la oficial.
 - id: fondecyt-regular-mps
   featured: true
   code: "Fondecyt Regular"
@@ -7,70 +9,183 @@
   status: "current"
   pi: "César Huiliñir Curío"
   pi_id: cesar-huilinir
+  contact: "chuilinir@miuandes.cl"
   title:
-    es: "Microcontaminantes, emisiones de N₂O y comunidades microbianas en sistemas de azufre elemental para aguas subterráneas"
-    en: "Micropollutants, N₂O emissions and microbial communities in elemental sulfur systems treating groundwater"
-  lead:
+    es: "Removal of micropollutants and their influence on N₂O emissions and microbial communities in elemental sulfur-based SBR and biofilter systems treating groundwater"
+    en: "Removal of micropollutants and their influence on N₂O emissions and microbial communities in elemental sulfur-based SBR and biofilter systems treating groundwater"
+  abstract:
     es: >-
-      Investigar la remoción de microcontaminantes (sulfametoxazol, diurón,
-      benzo[α]pireno, ibuprofeno y cafeína) y su impacto sobre las emisiones de
-      N₂O durante la desnitrificación autótrofa con azufre elemental aplicada a
-      aguas subterráneas, comparando un sistema de biomasa suspendida (SBR) con
-      uno de biopelícula (biofiltro).
+      El agua subterránea es uno de los mayores reservorios de agua del planeta y
+      cerca de un tercio de la población mundial la bebe. En Chile, el 40 % de las
+      zonas urbanas y el 76 % de las rurales dependen de ella. El nitrato es su
+      contaminante más frecuente y llega a superar varias veces el límite
+      normativo, pero no viaja solo: junto a él se detectan microcontaminantes
+      como el sulfametoxazol, el diurón, el benzo[α]pireno, el ibuprofeno y la
+      cafeína, en concentraciones que en Sudamérica van de 0,1 a 130 µg/L.
+
+
+      Como el agua subterránea carece de materia orgánica suficiente, la
+      desnitrificación autótrofa con azufre elemental es la alternativa más
+      adecuada para eliminar ambos contaminantes a la vez: es barata, disponible y
+      de baja toxicidad. Sin embargo, el proceso emite óxido nitroso, un gas de
+      efecto invernadero de alto potencial que además destruye ozono
+      estratosférico, y no existen datos sobre cómo los microcontaminantes alteran
+      ese patrón de emisión.
+
+
+      Este proyecto estudia la remoción simultánea de esos microcontaminantes y su
+      efecto sobre las emisiones de N₂O durante la desnitrificación autótrofa con
+      azufre elemental aplicada a aguas subterráneas, comparando dos tecnologías
+      que se comportan de forma distinta: un reactor secuencial discontinuo de
+      biomasa suspendida y un biofiltro donde el propio azufre actúa como soporte
+      de la biopelícula. Se evalúa el rol de la sorción en la remoción de los
+      microcontaminantes y se caracterizan las comunidades microbianas que cada
+      configuración favorece.
+
+
+      La novedad está en tres frentes sin antecedentes en la literatura: el efecto
+      de los microcontaminantes sobre las emisiones de N₂O en desnitrificación
+      autótrofa con S⁰, la eficiencia de esta vía para removerlos, y las
+      diferencias de comunidad microbiana entre biomasa suspendida y biopelícula
+      bajo su exposición.
     en: >-
-      To investigate the removal of micropollutants (sulfamethoxazole, diuron,
-      benzo[a]pyrene, ibuprofen and caffeine) and their impact on N₂O emissions
-      during elemental sulfur autotrophic denitrification applied to groundwater,
-      comparing a suspended-biomass system (SBR) with a biofilm system (biofilter).
-  objectives:
-    es:
-      - "Evaluar la remoción de microcontaminantes y su influencia sobre las emisiones de N₂O y la remoción de nitrato y nitrito en un SBR con azufre elemental."
-      - "Hacer lo mismo en un biofiltro de azufre elemental y comparar su desempeño con el del SBR."
-      - "Determinar el rol de los mecanismos de sorción en la remoción de microcontaminantes en ambos sistemas."
-      - "Caracterizar y comparar la comunidad microbiana y los desnitrificantes autótrofos dominantes en cada sistema."
-    en:
-      - "To evaluate micropollutant removal and its influence on N₂O emissions and nitrate/nitrite removal in an elemental sulfur SBR."
-      - "To do the same in an elemental sulfur biofilter and compare its performance with the SBR."
-      - "To determine the role of sorption mechanisms in micropollutant removal in both systems."
-      - "To characterise and compare the microbial community and dominant autotrophic denitrifiers in each system."
-  team:
-    es: "Alberto Vergara (Universidad de los Andes) · Jhosané Pagés-Díaz (Universidad de Santiago de Chile) · investigadores de la Pontificia Universidad Católica de Chile y de la Universidad Bernardo O'Higgins"
-    en: "Alberto Vergara (Universidad de los Andes) · Jhosané Pagés-Díaz (Universidad de Santiago de Chile) · researchers from Pontificia Universidad Católica de Chile and Universidad Bernardo O'Higgins"
+      Groundwater is one of the largest water reservoirs on earth, and roughly a
+      third of the world's population drinks it. In Chile, 40 % of urban and 76 %
+      of rural areas depend on it. Nitrate is its most common pollutant, reaching
+      several times the regulatory limit, but it does not travel alone:
+      micropollutants such as sulfamethoxazole, diuron, benzo[a]pyrene, ibuprofen
+      and caffeine are detected alongside it, at concentrations ranging from 0.1
+      to 130 µg/L in South America.
+
+
+      Because groundwater lacks sufficient organic matter, elemental
+      sulfur-based autotrophic denitrification is the most suitable alternative
+      for removing both pollutants at once: it is low cost, widely available and
+      of low toxicity. The process, however, emits nitrous oxide — a long-lived
+      greenhouse gas that also depletes stratospheric ozone — and no data exist on
+      how micropollutants alter that emission pattern.
+
+
+      This project investigates the simultaneous removal of those micropollutants
+      and their effect on N₂O emissions during elemental sulfur autotrophic
+      denitrification applied to groundwater, comparing two technologies that
+      behave differently: a sequencing batch reactor with suspended biomass, and a
+      biofilter in which the sulfur itself acts as the biofilm carrier. It also
+      assesses the role of sorption in micropollutant removal and characterises
+      the microbial communities each configuration favours.
+
+
+      The novelty lies in three fronts with no precedent in the literature: the
+      effect of micropollutants on N₂O emissions in S⁰-based autotrophic
+      denitrification, the efficiency of this route for removing them, and the
+      differences in microbial community between suspended biomass and biofilm
+      under their exposure.
 
 - id: fondecyt-post-3250412
   featured: true
-  code: "Fondecyt Postdoctorado N.º 3250412"
+  code: "Fondecyt de Postdoctorado N.º 3250412"
   funder: "ANID · Fondecyt de Postdoctorado"
   period: "2025–2028"
   status: "current"
   pi: "Felipe A. Carreño López"
   pi_id: felipe-carreno
+  contact: "facarreno@miuandes.cl"
   title:
-    es: "Dinámica del azufre y la biopelícula en reactores de lecho fijo: CFD, DEM e imagen digital"
-    en: "Sulfur and biofilm dynamics in fixed-bed reactors: CFD, DEM and digital imaging"
-  lead:
+    es: "Assessing biofilm and elemental sulfur dynamics in a groundwater elemental sulfur-based autotrophic denitrification fixed bed reactor through computational fluid dynamics simulations coupled with digital imaging techniques"
+    en: "Assessing biofilm and elemental sulfur dynamics in a groundwater elemental sulfur-based autotrophic denitrification fixed bed reactor through computational fluid dynamics simulations coupled with digital imaging techniques"
+  abstract:
     es: >-
-      Desarrollar y validar experimentalmente una metodología que combina
-      dinámica de fluidos computacional (CFD), método de elementos discretos (DEM)
-      e imagen digital para describir con precisión la dinámica entre el tamaño de
-      partícula del azufre y el crecimiento de la biopelícula en un reactor de
-      lecho fijo de desnitrificación autótrofa.
+      La contaminación de las aguas subterráneas por nitrato, agravada por las
+      prácticas agrícolas extensivas y por una gestión inadecuada de las aguas
+      residuales, es un problema ambiental crítico con consecuencias graves para
+      la salud humana y los ecosistemas acuáticos. Entre las estrategias de
+      remoción de nitrato, la desnitrificación autótrofa surge como una
+      alternativa sostenible: aprovecha bacterias que usan compuestos inorgánicos
+      como donores de electrones y convierten el nitrato en nitrógeno gaseoso
+      inocuo, sin agregar fuentes externas de carbono orgánico. El proceso, sin
+      embargo, está limitado por la complejidad de la interacción entre la
+      biopelícula y el donor de electrones —en este caso azufre elemental (S⁰)— y
+      por la eficiencia de la transferencia de masa dentro de los sistemas de
+      tratamiento. Para abordarlo, esta investigación propone un enfoque
+      innovador que integra dinámica de fluidos computacional (CFD), método de
+      elementos discretos (DEM) y técnicas de imagen digital.
+
+
+      El objetivo es comprender mejor el proceso de desnitrificación para diseñar
+      soluciones de tratamiento de agua más efectivas y sostenibles. Al modelar
+      con precisión las interacciones fisicoquímicas dentro de estos reactores se
+      abre la puerta a optimizar su diseño y a desarrollar nuevas estrategias de
+      operación. El estudio busca además aportar conocimiento a la ingeniería
+      ambiental y a la gestión de recursos hídricos, ofreciendo una metodología
+      nueva para estudiar problemas de contaminación similares en otros contextos.
+
+
+      La propuesta plantea una metodología novedosa para estudiar las
+      interacciones entre la dinámica de las partículas de azufre elemental, el
+      crecimiento de la biopelícula y el flujo del fluido dentro de sistemas de
+      desnitrificación. Combinando tomografía computarizada de alta resolución con
+      técnicas de simulación avanzadas, el propósito es desentrañar la complejidad
+      de la transferencia de masa y de la cinética de reacción en estos reactores,
+      requisito principal para escalarlos desde el laboratorio a la escala
+      industrial. El proyecto se estructura en cuatro etapas que construyen de
+      forma iterativa sobre lo aprendido en observaciones experimentales y
+      simulaciones: las primeras se centran en caracterizar el sistema y validar
+      modelos de flujo monofásico, para avanzar gradualmente hacia simulaciones
+      multifásicas que capturan las interacciones entre partículas de azufre,
+      biopelículas y fluido.
+
+
+      La novedad científica está en su enfoque analítico múltiple, que combina
+      tecnologías computacionales y de imagen de punta para explorar aspectos aún
+      inexplorados de la desnitrificación basada en azufre. Entre los resultados
+      esperados está el desarrollo de un modelo CFD+DEM validado, que ofrezca una
+      mirada sin precedentes a la dinámica de estos reactores y establezca un
+      punto de referencia para la investigación futura en este ámbito.
     en: >-
-      To develop and experimentally validate a methodology combining computational
-      fluid dynamics (CFD), the discrete element method (DEM) and digital imaging
-      to accurately describe the dynamics between sulfur particle size and biofilm
-      growth in a fixed-bed autotrophic denitrification reactor.
-  objectives:
-    es:
-      - "Obtener experimentalmente la distribución de tiempos de residencia, la variación del tamaño de partícula de azufre y la formación local de biopelícula mediante tomografía computarizada a distintos tiempos de operación."
-      - "Desarrollar una simulación CFD 3D monofásica del flujo, acoplada a una ecuación de transporte, para validar el flujo dentro del lecho."
-      - "Desarrollar un modelo CFD 3D multifásico que simule la biocinética y la transferencia de masa en el lecho."
-      - "Desarrollar un acoplamiento CFD+DEM para simular la dinámica del tamaño de partícula del azufre."
-    en:
-      - "To experimentally obtain the residence time distribution, the sulfur particle size variation and local biofilm formation using computed tomography at different operating times."
-      - "To develop a single-phase 3D CFD simulation of the flow, coupled with a transport equation, to validate the flow inside the bed."
-      - "To develop a multiphase 3D CFD model simulating biokinetics and mass transfer in the bed."
-      - "To develop a CFD+DEM coupling to simulate sulfur particle size dynamics in the bed."
-  team:
-    es: "Colaboración internacional con University of California, Davis y Universidad de Valladolid"
-    en: "International collaboration with the University of California, Davis and Universidad de Valladolid"
+      Nitrate contamination of groundwater, exacerbated by extensive agricultural
+      practices and inadequate wastewater management, presents a critical
+      environmental challenge with severe implications for human health and
+      aquatic ecosystems. Among various nitrate removal strategies, autotrophic
+      denitrification emerges as a sustainable alternative, leveraging specific
+      bacteria that utilize inorganic compounds as electron donors, thereby
+      converting harmful nitrates into benign nitrogen gas without the addition of
+      external organic carbon sources. This process, however, is hindered by
+      complexities related to the interaction between the biofilm and the electron
+      donor, which in this case is elemental sulfur (S⁰), and the efficiency of
+      mass transfer within the treatment systems. To address this environmental
+      challenge, this research proposes an innovative approach that integrates
+      Computational Fluid Dynamics (CFD), Discrete Element Method (DEM), and
+      digital imaging techniques to advance the understanding and efficiency of
+      autotrophic denitrification processes in packed bed reactors.
+
+
+      This research aims to provide a better understanding of the denitrification
+      process, thereby enabling the design of more effective and sustainable water
+      treatment solutions. By accurately modeling the physicochemical interactions
+      within these reactors, the optimization of the design of these reactors and
+      novel operational strategies can be achieved. Furthermore, this study
+      promises to contribute valuable knowledge to the fields of environmental
+      engineering and water resource management, offering a new methodology for
+      studying similar pollution issues in diverse contexts.
+
+
+      This proposal sets forth a novel methodology to study the interactions
+      between elemental sulfur particle dynamics, biofilm growth, and fluid flow
+      within denitrification systems. By leveraging high-resolution computational
+      tomography and advanced simulation techniques, the objective is to unravel
+      the complexities of mass transfer and reaction kinetics in these reactors,
+      which are the main requirement to scale up these reactors from laboratory
+      scale to industrial scale. The project is structured into four stages, each
+      designed to iteratively build upon the insights gained from experimental
+      observations and simulations. Initial stages focus on characterizing the
+      system and validating single-phase fluid flow models, gradually advancing to
+      multiphase simulations that capture the nuanced interactions of sulfur
+      particles, biofilms, and fluid dynamics.
+
+
+      The scientific novelty of this proposal lies in its multifaceted analytical
+      approach, combining cutting-edge computational and imaging technologies to
+      explore uncharted aspects of sulfur-based denitrification. Anticipated
+      outcomes include the development of a validated CFD+DEM model, offering
+      unprecedented insights into these reactor dynamics, and establishing a
+      benchmark for future research in this domain.

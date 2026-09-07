@@ -85,6 +85,7 @@ projects:
   period: "Period"
   funder: "Funding"
   objectives: "Specific objectives"
+  contact: "Contact"
   team: "Associated team"
   current: "Active"
 

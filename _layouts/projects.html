@@ -13,15 +13,13 @@ layout: page
           <div><dt>{{ t.projects.pi }}</dt><dd>{{ pr.pi }}</dd></div>
           <div><dt>{{ t.projects.funder }}</dt><dd>{{ pr.funder }}</dd></div>
           <div><dt>{{ t.projects.period }}</dt><dd>{{ pr.period }}</dd></div>
+          {% if pr.contact and pr.contact != "" %}
+          <div><dt>{{ t.projects.contact }}</dt><dd><a href="mailto:{{ pr.contact }}">{{ pr.contact }}</a></dd></div>
+          {% endif %}
         </dl>
       </header>
       <div class="prose">
-        <p>{{ pr.lead[page.lang] }}</p>
-        <h3>{{ t.projects.objectives }}</h3>
-        <ol class="objectives">
-          {% for o in pr.objectives[page.lang] %}<li>{{ o }}</li>{% endfor %}
-        </ol>
-        {% if pr.team %}<p class="project-full__team"><b>{{ t.projects.team }}:</b> {{ pr.team[page.lang] }}</p>{% endif %}
+        {{ pr.abstract[page.lang] | markdownify }}
       </div>
     </article>
     {% endfor %}
