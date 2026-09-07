@@ -1,0 +1,67 @@
+# Ex integrantes del grupo. Se muestran como tabla al final de la página Equipo.
+# 'now' es dónde está la persona hoy; si está vacío se muestra un guion.
+# 'thesis' aparece como línea pequeña bajo el nombre; opcional.
+- name: "Santiago Vila"
+  linkedin: ""
+  role:
+    es: "Tesista de pregrado · Ingeniería Civil Química"
+    en: "Undergraduate researcher · Chemical Engineering"
+  period: "2025–2026"
+  thesis:
+    es: "Puesta en marcha y evaluación operacional de un biofiltro desnitrificante autótrofo con azufre elemental para la remoción de nitrato en aguas subterráneas"
+    en: "Start-up and operational assessment of an elemental sulfur autotrophic denitrifying biofilter for nitrate removal from groundwater"
+  now:
+    es: ""
+    en: ""
+
+- name: "Samuel Abogabir Schacht"
+  linkedin: ""
+  role:
+    es: "Tesista de pregrado · Ingeniería Civil Ambiental"
+    en: "Undergraduate researcher · Environmental Engineering"
+  period: "2025–2026"
+  thesis:
+    es: "Desarrollo y validación experimental de un modelo CFD tridimensional para un reactor de lecho fijo aplicado a la desnitrificación autótrofa con azufre elemental mediante análisis de distribución de tiempos de residencia"
+    en: "Development and experimental validation of a three-dimensional CFD model of a fixed-bed reactor for sulfur-based autotrophic denitrification through residence time distribution analysis"
+  now:
+    es: ""
+    en: ""
+
+- name: "Andrés Orellana Molnar"
+  linkedin: ""
+  role:
+    es: "Tesista de pregrado · Ingeniería Civil Ambiental"
+    en: "Undergraduate researcher · Environmental Engineering"
+  period: "2025–2026"
+  thesis:
+    es: "Modelación y simulación de una biopelícula desnitrificante autótrofa con S⁰ como donador de electrones"
+    en: "Modelling and simulation of an autotrophic denitrifying biofilm with S⁰ as electron donor"
+  now:
+    es: ""
+    en: ""
+
+- name: "Amanda Espinoza"
+  linkedin: ""
+  role:
+    es: ""
+    en: ""
+  period: ""
+  thesis:
+    es: ""
+    en: ""
+  now:
+    es: ""
+    en: ""
+
+- name: "Valentina Guajardo"
+  linkedin: ""
+  role:
+    es: ""
+    en: ""
+  period: ""
+  thesis:
+    es: ""
+    en: ""
+  now:
+    es: ""
+    en: ""

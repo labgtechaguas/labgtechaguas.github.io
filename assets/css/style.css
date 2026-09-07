@@ -325,6 +325,21 @@ p  { margin: 0 0 1em; }
 .mini__links a:hover { border-color: var(--green-mid); color: var(--green-deep); background: var(--bg-alt); }
 .mini__links svg { width: 15px; height: 15px; }
 
+/* Alumni: tabla */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 3rem; }
+.alumni { width: 100%; border-collapse: collapse; font-size: .93rem; min-width: 620px; }
+.alumni th {
+  text-align: left; font-family: var(--sans); font-size: .74rem; font-weight: 600;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint);
+  padding: 0 1rem .7rem 0; border-bottom: 1px solid var(--line); white-space: nowrap;
+}
+.alumni td { padding: 1rem 1rem 1rem 0; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink-soft); }
+.alumni td:first-child { width: 42%; }
+.alumni td b { color: var(--ink); font-weight: 600; }
+.alumni a { text-decoration: none; }
+.alumni a:hover b { color: var(--green-deep); text-decoration: underline; }
+.alumni__thesis { display: block; margin-top: .25rem; font-size: .84rem; color: var(--ink-faint); line-height: 1.45; }
+
 /* --------------------------------------------------------------- contacto --- */
 .contact__list { list-style: none; margin: 0 0 3.5rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
 .contact__list li { display: flex; gap: 1rem; align-items: flex-start; }

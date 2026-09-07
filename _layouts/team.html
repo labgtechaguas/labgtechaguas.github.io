@@ -40,6 +40,40 @@ layout: page
       </div>
     {% endif %}
 
+    {% comment %} Alumni: tabla al final {% endcomment %}
+    {% if site.data.alumni and site.data.alumni.size > 0 %}
+      <h2 class="section__title">{{ t.team.alumni }}</h2>
+      <div class="table-scroll">
+        <table class="alumni">
+          <thead>
+            <tr>
+              <th scope="col">{{ t.team.alumni_name }}</th>
+              <th scope="col">{{ t.team.alumni_role }}</th>
+              <th scope="col">{{ t.team.alumni_period }}</th>
+              <th scope="col">{{ t.team.alumni_now }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for a in site.data.alumni %}
+            <tr>
+              <td>
+                {% if a.linkedin and a.linkedin != "" %}
+                  <a href="https://www.linkedin.com/in/{{ a.linkedin }}/"><b>{{ a.name }}</b></a>
+                {% else %}
+                  <b>{{ a.name }}</b>
+                {% endif %}
+                {% if a.thesis and a.thesis[page.lang] != "" %}<span class="alumni__thesis">{{ a.thesis[page.lang] }}</span>{% endif %}
+              </td>
+              <td>{% if a.role and a.role[page.lang] != "" %}{{ a.role[page.lang] }}{% else %}&mdash;{% endif %}</td>
+              <td>{% if a.period and a.period != "" %}{{ a.period }}{% else %}&mdash;{% endif %}</td>
+              <td>{% if a.now and a.now[page.lang] != "" %}{{ a.now[page.lang] }}{% else %}&mdash;{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+
   </div>
 </section>
 
