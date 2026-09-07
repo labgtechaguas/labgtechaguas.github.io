@@ -104,6 +104,8 @@ team:
     Quienes hacen el trabajo, en el laboratorio y en el computador.
   leads: "Dirección"
   postdocs: "Investigadores postdoctorales"
+  phd: "Estudiantes de doctorado"
+  undergrad: "Estudiantes de pregrado"
   students: "Estudiantes"
   interests: "Intereses"
   profile: "Perfil completo"

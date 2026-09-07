@@ -95,3 +95,43 @@
     scholar: "OsNFId8AAAAJ"
     github: "facarreno"
     website: "https://facarreno.github.io"
+
+# --- Estudiantes -------------------------------------------------------------
+# Tarjeta compacta: usa 'program' y 'focus' (una línea) en vez de 'degree',
+# 'bio', 'interests' y 'metrics'. photo: "" muestra las iniciales.
+
+- id: judith-quezada
+  group: phd
+  name: "Judith Quezada"
+  photo: ""
+  role:
+    es: "Estudiante de doctorado"
+    en: "PhD Student"
+  program:
+    es: ""
+    en: ""
+  focus:
+    es: ""
+    en: ""
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""
+
+- id: cristobal-nunez
+  group: undergrad
+  name: "Cristóbal Núñez"
+  photo: ""
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química"
+    en: "Chemical Engineering"
+  focus:
+    es: "Contaminantes emergentes en la desnitrificación autótrofa en biofiltros para aguas subterráneas."
+    en: "Emerging contaminants in autotrophic denitrification biofilters for groundwater."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: ""

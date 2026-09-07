@@ -1,0 +1,31 @@
+{% assign person = include.person %}
+{% assign t = site.data[page.lang] %}
+{% assign has_links = false %}
+{% if person.links %}
+  {% if person.links.email != "" or person.links.orcid != "" or person.links.scholar != "" or person.links.linkedin != "" or person.links.github != "" or person.links.website != "" %}{% assign has_links = true %}{% endif %}
+{% endif %}
+<article class="mini" id="{{ person.id }}">
+  <div class="mini__photo">
+    {% if person.photo and person.photo != "" %}
+      <img src="{{ '/assets/img/people/' | append: person.photo | relative_url }}" alt="{{ person.name }}" loading="lazy">
+    {% else %}
+      <span class="mini__initials" aria-hidden="true">{{ person.name | split: " " | first | slice: 0 }}{{ person.name | split: " " | last | slice: 0 }}</span>
+    {% endif %}
+  </div>
+  <h3 class="mini__name">{{ person.name }}</h3>
+  {% if person.program and person.program[page.lang] != "" %}
+    <p class="mini__program">{{ person.program[page.lang] }}</p>
+  {% endif %}
+  {% if person.focus and person.focus[page.lang] != "" %}
+    <p class="mini__focus">{{ person.focus[page.lang] }}</p>
+  {% endif %}
+  {% if has_links %}
+  <ul class="mini__links">
+    {% if person.links.email != "" %}<li><a href="mailto:{{ person.links.email }}" aria-label="Email">{% include icons.html name='mail' %}</a></li>{% endif %}
+    {% if person.links.orcid != "" %}<li><a href="https://orcid.org/{{ person.links.orcid }}" aria-label="ORCID">{% include icons.html name='orcid' %}</a></li>{% endif %}
+    {% if person.links.scholar != "" %}<li><a href="https://scholar.google.com/citations?user={{ person.links.scholar }}" aria-label="Google Scholar">{% include icons.html name='scholar' %}</a></li>{% endif %}
+    {% if person.links.linkedin != "" %}<li><a href="https://www.linkedin.com/in/{{ person.links.linkedin }}/" aria-label="LinkedIn">{% include icons.html name='linkedin' %}</a></li>{% endif %}
+    {% if person.links.github != "" %}<li><a href="https://github.com/{{ person.links.github }}" aria-label="GitHub">{% include icons.html name='github' %}</a></li>{% endif %}
+  </ul>
+  {% endif %}
+</article>

@@ -101,6 +101,8 @@ team:
     The people doing the work, in the lab and on the computer.
   leads: "Leadership"
   postdocs: "Postdoctoral researchers"
+  phd: "PhD students"
+  undergrad: "Undergraduate students"
   students: "Students"
   interests: "Interests"
   profile: "Full profile"
