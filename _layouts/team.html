@@ -24,8 +24,10 @@ layout: page
     {% endif %}
 
     {% comment %}
-      Equipo tecnico y de gestion: ficha ancha para quienes tienen biografia
-      (grado, bio, intereses, metricas) y tarjeta compacta para el resto.
+      De aqui en adelante la regla es una sola: quien tenga 'bio' en people.yml sale
+      con ficha ancha (person-card, con grado, biografia, intereses y metricas) y
+      quien no, con la tarjeta compacta en grilla (person-mini). Vale para el equipo
+      tecnico y de gestion, para doctorado y para pregrado.
     {% endcomment %}
     {% assign staff = site.data.people | where: 'group', 'staff' %}
     {% if staff.size > 0 %}
@@ -43,21 +45,36 @@ layout: page
       {% endif %}
     {% endif %}
 
-    {% comment %} Estudiantes: tarjeta compacta en grilla {% endcomment %}
     {% assign phds = site.data.people | where: 'group', 'phd' %}
     {% if phds.size > 0 %}
       <h2 class="section__title">{{ t.team.phd }}</h2>
-      <div class="people-grid">
-        {% for person in phds %}{% include person-mini.html person=person %}{% endfor %}
+      {% assign phds_full = phds | where_exp: 'p', 'p.bio' %}
+      {% if phds_full.size > 0 %}
+      <div class="people">
+        {% for person in phds_full %}{% include person-card.html person=person %}{% endfor %}
       </div>
+      {% endif %}
+      {% if phds.size > phds_full.size %}
+      <div class="people-grid">
+        {% for person in phds %}{% unless person.bio %}{% include person-mini.html person=person %}{% endunless %}{% endfor %}
+      </div>
+      {% endif %}
     {% endif %}
 
     {% assign undergrads = site.data.people | where: 'group', 'undergrad' %}
     {% if undergrads.size > 0 %}
       <h2 class="section__title">{{ t.team.undergrad }}</h2>
-      <div class="people-grid">
-        {% for person in undergrads %}{% include person-mini.html person=person %}{% endfor %}
+      {% assign undergrads_full = undergrads | where_exp: 'p', 'p.bio' %}
+      {% if undergrads_full.size > 0 %}
+      <div class="people">
+        {% for person in undergrads_full %}{% include person-card.html person=person %}{% endfor %}
       </div>
+      {% endif %}
+      {% if undergrads.size > undergrads_full.size %}
+      <div class="people-grid">
+        {% for person in undergrads %}{% unless person.bio %}{% include person-mini.html person=person %}{% endunless %}{% endfor %}
+      </div>
+      {% endif %}
     {% endif %}
 
     {% comment %} Alumni: tabla al final {% endcomment %}

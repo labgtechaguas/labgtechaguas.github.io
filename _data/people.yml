@@ -177,12 +177,23 @@
   role:
     es: "Estudiante de doctorado"
     en: "PhD Student"
-  program:
-    es: "Doctorado en Ciencias de la Ingeniería, Universidad de los Andes · Ingeniera en Biotecnología, Universidad de Santiago de Chile"
-    en: "PhD in Engineering Sciences, Universidad de los Andes · Biotechnology Engineer, Universidad de Santiago de Chile"
-  focus:
-    es: "Apasionada por la línea de tratamiento de aguas. Actual tesista de doctorado del Fondecyt Regular N°1260328."
-    en: "Passionate about the water treatment line. Currently the doctoral thesis student on Fondecyt Regular No. 1260328."
+  affiliation:
+    es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
+    en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  degree:
+    es: "Doctorado en Ciencias de la Ingeniería (en curso), Universidad de los Andes · Ingeniera en Biotecnología, Universidad de Santiago de Chile"
+    en: "PhD in Engineering Sciences (in progress), Universidad de los Andes · Biotechnology Engineer, Universidad de Santiago de Chile"
+  bio:
+    es: >-
+      Estudiante de Doctorado en Ciencias de la Ingeniería de la Universidad de los
+      Andes e ingeniera en biotecnología de la Universidad de Santiago de Chile.
+      Apasionada por la línea de tratamiento de aguas y actual tesista de doctorado
+      del Fondecyt Regular N°1260328.
+    en: >-
+      PhD student in Engineering Sciences at Universidad de los Andes and a
+      biotechnology engineer from Universidad de Santiago de Chile. She is
+      passionate about the water treatment line and is currently the doctoral thesis
+      student on Fondecyt Regular No. 1260328.
   links:
     email: ""
     orcid: ""
