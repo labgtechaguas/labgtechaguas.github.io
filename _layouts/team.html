@@ -23,12 +23,24 @@ layout: page
       </div>
     {% endif %}
 
+    {% comment %}
+      Equipo tecnico y de gestion: ficha ancha para quienes tienen biografia
+      (grado, bio, intereses, metricas) y tarjeta compacta para el resto.
+    {% endcomment %}
     {% assign staff = site.data.people | where: 'group', 'staff' %}
     {% if staff.size > 0 %}
       <h2 class="section__title">{{ t.team.staff }}</h2>
-      <div class="people-grid">
-        {% for person in staff %}{% include person-mini.html person=person %}{% endfor %}
+      {% assign staff_full = staff | where_exp: 'p', 'p.bio' %}
+      {% if staff_full.size > 0 %}
+      <div class="people">
+        {% for person in staff_full %}{% include person-card.html person=person %}{% endfor %}
       </div>
+      {% endif %}
+      {% if staff.size > staff_full.size %}
+      <div class="people-grid">
+        {% for person in staff %}{% unless person.bio %}{% include person-mini.html person=person %}{% endunless %}{% endfor %}
+      </div>
+      {% endif %}
     {% endif %}
 
     {% comment %} Estudiantes: tarjeta compacta en grilla {% endcomment %}

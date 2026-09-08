@@ -124,34 +124,65 @@
 - id: karina-roa
   group: staff
   name: "Karina Roa Ruiz"
-  photo: ""
+  photo: "karina-roa.jpg"
   role:
     es: "Ingeniera de proyectos"
     en: "Project engineer"
-  program:
-    es: ""
-    en: ""
-  focus:
-    es: ""
-    en: ""
+  affiliation:
+    es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
+    en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  degree:
+    es: "Doctora en Ciencias de la Ingeniería, mención Ciencia e Ingeniería de Materiales · Ingeniera Civil en Química"
+    en: "PhD in Engineering Sciences (Materials Science and Engineering) · Chemical Civil Engineer"
+  bio:
+    es: >-
+      Ingeniera de proyectos del FONDEF “Nuevo proceso de pretratamiento para la
+      mejora de la deshidratación de lodos secundarios y la remoción simultánea de
+      N, P y materia orgánica desde el líquido de filtrado”. Su trabajo se centra en
+      la evaluación de estrategias de pretratamiento y microaireación de lodos
+      secundarios, analizando su efecto sobre la deshidratación, las propiedades
+      fisicoquímicas del lodo y la liberación de materia orgánica, nitrógeno y
+      fósforo hacia la fase líquida. Integra el seguimiento de variables
+      operacionales, la caracterización química y el análisis de desempeño para
+      contribuir a la optimización del proceso.
+    en: >-
+      Project engineer on the FONDEF IDeA I+D project “Nuevo proceso de
+      pretratamiento para la mejora de la deshidratación de lodos secundarios y la
+      remoción simultánea de N, P y materia orgánica desde el líquido de
+      filtrado” — a new pretreatment process to improve the dewatering of secondary
+      sludge and the simultaneous removal of N, P and organic matter from the
+      filtrate. Her work centres on evaluating pretreatment and micro-aeration
+      strategies for secondary sludge, analysing their effect on dewatering, on the
+      physicochemical properties of the sludge and on the release of organic matter,
+      nitrogen and phosphorus into the liquid phase. She combines the monitoring of
+      operational variables, chemical characterisation and performance analysis to
+      contribute to optimising the process.
+  interests:
+    es: ["Microaireación de lodos", "Deshidratación de lodos", "Tratamiento de aguas residuales", "Nitrógeno y fósforo", "Caracterización fisicoquímica"]
+    en: ["Sludge micro-aeration", "Sludge dewatering", "Wastewater treatment", "Nitrogen and phosphorus", "Physicochemical characterisation"]
+  metrics:
+    publications: 25
+    h_index: 13
+    citations: 583
   links:
     email: ""
     orcid: ""
+    scholar: ""
     linkedin: ""
 
 - id: judith-quezada
   group: phd
   name: "Judith Quezada Cáceres"
-  photo: ""
+  photo: "judith-quezada.jpg"
   role:
     es: "Estudiante de doctorado"
     en: "PhD Student"
   program:
-    es: "Doctorado en Ciencias de la Ingeniería · Ingeniera en Biotecnología"
-    en: "PhD in Engineering Sciences · Biotechnology Engineer"
+    es: "Doctorado en Ciencias de la Ingeniería, Universidad de los Andes · Ingeniera en Biotecnología, Universidad de Santiago de Chile"
+    en: "PhD in Engineering Sciences, Universidad de los Andes · Biotechnology Engineer, Universidad de Santiago de Chile"
   focus:
-    es: "Degradación de ibuprofeno y diclofenaco en un reactor batch secuencial de lecho móvil nitrificante."
-    en: "Degradation of ibuprofen and diclofenac in a nitrifying moving-bed sequencing batch reactor."
+    es: "Apasionada por la línea de tratamiento de aguas. Actual tesista de doctorado del Fondecyt Regular N°1260328."
+    en: "Passionate about the water treatment line. Currently the doctoral thesis student on Fondecyt Regular No. 1260328."
   links:
     email: ""
     orcid: ""
