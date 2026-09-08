@@ -11,6 +11,7 @@
     </div>
     <div class="footer__meta">
       <p>&copy; {{ 'now' | date: "%Y" }} G-Tech · {% if page.lang == 'en' %}{{ site.name_en }}{% else %}{{ site.name_es }}{% endif %}</p>
+      <p class="footer__admin">{{ t.ui.admin }}: {{ site.lab.admin }}</p>
       <p class="footer__updated">{{ t.ui.updated }}: {{ site.time | date: "%d-%m-%Y" }}</p>
     </div>
   </div>

@@ -179,4 +179,5 @@ ui:
   skip: "Skip to content"
   back_home: "Back to home"
   updated: "Last updated"
+  admin: "Site administrator"
   menu: "Menu"

@@ -33,6 +33,8 @@ lab:
   email: "labgtechaguas@uandes.cl"
   github: "labgtechaguas"
   founded: 2023
+  # Quien mantiene el sitio; aparece en el pie de todas las páginas.
+  admin: "Felipe Carreño López"
 
 # Retrato de la portada: id de una persona de _data/people.yml.
 # Déjalo vacío ("") para quitar la foto del hero.

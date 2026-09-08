@@ -182,4 +182,5 @@ ui:
   skip: "Saltar al contenido"
   back_home: "Volver al inicio"
   updated: "Última actualización"
+  admin: "Administrador del sitio"
   menu: "Menú"

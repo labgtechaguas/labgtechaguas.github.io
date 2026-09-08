@@ -504,6 +504,7 @@ p  { margin: 0 0 1em; }
 .site-footer a { color: var(--green); text-decoration: none; font-size: .9rem; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 .footer__meta { text-align: right; }
+.footer__admin { color: rgba(255,255,255,.55); font-size: .8rem; }
 .footer__updated { color: rgba(255,255,255,.45); font-size: .8rem; }
 @media (max-width: 760px) {
   .footer__grid { grid-template-columns: 1fr; }
