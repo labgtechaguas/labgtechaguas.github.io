@@ -33,7 +33,7 @@ _data/
   alumni.yml              Ex integrantes, para la tabla al final de Equipo
   news.yml                Noticias del carrusel; el texto sale de plantillas
   collage.yml             Las tres fotos del collage de "Quiénes somos"
-  research.yml            Líneas de investigación
+  research.yml            Las tres líneas de investigación
   projects.yml            Proyectos propios: título oficial, periodo, contacto
   collaborations.yml      Proyectos de otros equipos en los que participamos
   publications.yml        Artículos indexados desde 2023
@@ -70,7 +70,7 @@ Casi nada se edita en HTML. Lo habitual:
 | cambiar el tono de las noticias | las plantillas en `_data/es.yml` y `_data/en.yml`, no las entradas |
 | agregar un paper | `_data/publications.yml`, bloque `indexed` (y su apellido en `group_authors`). **Solo de 2023 en adelante**: es el año en que se formó el grupo |
 | agregar o editar un proyecto | `_data/projects.yml` — el `title` va tal cual la postulación, sin traducir. Hoy **ningún** proyecto publica resumen: `abstract:` va vacío y la ficha muestra solo el título y los datos |
-| cambiar una línea de investigación | `_data/research.yml` |
+| cambiar una línea de investigación | `_data/research.yml`. Son **tres** y están escritas a propósito más amplias que los proyectos vigentes: al ganar o cerrar un proyecto normalmente no hay que tocarlas |
 | cambiar un texto de la interfaz | `_data/es.yml` y su equivalente en `_data/en.yml` |
 | cambiar correo, dirección o cifras de portada | `_config.yml` |
 | cambiar el retrato de la portada | `hero_portrait` en `_config.yml`: el `id` de una persona de `people.yml`, o `""` para quitarlo |
