@@ -106,16 +106,42 @@
 - id: cristobal-gallardo
   group: staff
   name: "Cristóbal Gallardo Balladares"
-  photo: ""
+  photo: "cristobal-gallardo.jpg"
   role:
-    es: "Lab manager"
+    es: "Jefe de laboratorio"
     en: "Lab manager"
-  program:
-    es: ""
-    en: ""
-  focus:
-    es: ""
-    en: ""
+  affiliation:
+    es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
+    en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
+  degree:
+    es: "Ingeniero Civil Químico, Universidad de Santiago de Chile"
+    en: "Chemical Civil Engineer, Universidad de Santiago de Chile"
+  bio:
+    es: >-
+      Jefe del laboratorio de G-Tech desde 2025. Planifica, coordina y supervisa la
+      operación técnica del grupo: los análisis fisicoquímicos, los equipos y reactivos
+      de los proyectos, y la capacitación de estudiantes e investigadores en
+      metodologías analíticas y buenas prácticas de laboratorio. Es además ingeniero de
+      proyecto del CORFO de electrocoagulación, donde diseñó, montó y operó el sistema
+      piloto para el tratamiento de residuos líquidos industriales y salmueras, e
+      ingeniero coordinador del FONDEF de lodos, a cargo del cronograma, los recursos y
+      el enlace con la empresa asociada. Antes trabajó en precipitación química para el
+      tratamiento de RIL y fue jefe de laboratorio suplente en LABIOTAM, en la
+      Universidad de Santiago de Chile.
+    en: >-
+      Head of the G-Tech laboratory since 2025. He plans, coordinates and oversees the
+      group's technical operation: physicochemical analyses, the equipment and reagents
+      the projects run on, and the training of students and researchers in analytical
+      methods and good laboratory practice. He is also project engineer on the CORFO
+      electrocoagulation grant, where he designed, built and operated the pilot system
+      for treating industrial wastewater and brines, and coordinating engineer on the
+      FONDEF sludge project, responsible for its schedule, resources and liaison with
+      the partner company. He previously worked on chemical precipitation for industrial
+      wastewater treatment and served as acting laboratory head at LABIOTAM,
+      Universidad de Santiago de Chile.
+  interests:
+    es: ["Electrocoagulación", "Precipitación química", "Tratamiento de RIL y salmueras", "Plantas piloto", "Gestión de laboratorio"]
+    en: ["Electrocoagulation", "Chemical precipitation", "Industrial wastewater and brine treatment", "Pilot plants", "Laboratory management"]
   links:
     email: ""
     orcid: ""
