@@ -11,8 +11,8 @@
     es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
     en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
   degree:
-    es: "Doctor en Ciencias de la Ingeniería, mención Ingeniería Química · Ingeniero Civil Industrial"
-    en: "PhD in Engineering Sciences (Chemical Engineering) · Industrial Civil Engineer"
+    es: "Doctor en Ciencias de la Ingeniería, mención Ingeniería Química, Universidad de Concepción · Ingeniero Civil Industrial, Universidad de La Frontera"
+    en: "PhD in Engineering Sciences (Chemical Engineering), Universidad de Concepción · Industrial Civil Engineer, Universidad de La Frontera"
   bio:
     es: >-
       Profesor Asociado de la Facultad de Ingeniería y Ciencias Aplicadas de la
@@ -67,22 +67,26 @@
     en: "PhD in Engineering Sciences, Universidad de los Andes · Chemical Civil Engineer, Universidad de Santiago de Chile"
   bio:
     es: >-
-      Investigador postdoctoral en la Universidad de los Andes, donde dirige el
-      Fondecyt de Postdoctorado N.º 3250412. Usa dinámica de fluidos computacional
-      para abrir la caja negra de los biorreactores —flujo, biopelícula,
-      transporte— y convertir lo que aprende en modelos predictivos útiles para
-      diseñar y operar procesos reales. Ha llevado el mismo enfoque a la
-      biofiltración de gases contaminantes, la biorremediación de suelos y la
-      simulación multifásica de materiales cementicios, con colaboraciones en la
-      University of California, Davis y la Universidad de Valladolid.
+      En el Fondecyt de Postdoctorado N.º 3250412, que dirige, estudia cómo se
+      comportan la biopelícula y el azufre elemental dentro de un biofiltro de
+      desnitrificación autótrofa para aguas subterráneas. Simula el reactor con
+      dinámica de fluidos computacional y contrasta los resultados con técnicas de
+      imagen digital, para entender qué gobierna su rendimiento: cómo circula el flujo
+      entre las partículas, dónde crece la biopelícula y cómo se consume el azufre.
+      Aporta al grupo la capa de modelación —CFD, distribuciones de tiempo de
+      residencia, acoplamiento CFD–DEM— que convierte los ensayos de laboratorio en
+      herramientas de diseño, con colaboraciones en la University of California, Davis
+      y la Universidad de Valladolid.
     en: >-
-      Postdoctoral researcher at Universidad de los Andes, where he leads Fondecyt
-      Postdoctoral grant No. 3250412. He uses computational fluid dynamics to open
-      up the black box of bioreactors — flow, biofilm, transport — and turn what he
-      learns into predictive models for designing and operating real processes. He
-      has applied the same approach to waste-gas biofiltration, soil bioremediation
-      and multiphase simulation of cementitious materials, with collaborations at
-      the University of California, Davis and Universidad de Valladolid.
+      In Fondecyt Postdoctoral grant No. 3250412, which he leads, he studies how
+      biofilm and elemental sulfur behave inside an autotrophic denitrification
+      biofilter for groundwater. He simulates the reactor with computational fluid
+      dynamics and contrasts the results with digital imaging, to work out what governs
+      its performance: how flow moves between the particles, where biofilm grows and
+      how the sulfur is consumed. He brings the group its modelling layer — CFD,
+      residence time distributions, CFD–DEM coupling — that turns laboratory trials
+      into design tools, with collaborations at the University of California, Davis and
+      Universidad de Valladolid.
   interests:
     es: ["CFD y OpenFOAM", "Biopelículas en medios porosos", "Distribución de tiempos de residencia", "Acoplamiento CFD–DEM", "Gemelos digitales de reactores"]
     en: ["CFD and OpenFOAM", "Biofilms in porous media", "Residence time distributions", "CFD–DEM coupling", "Digital twins of reactors"]
@@ -118,29 +122,25 @@
     en: "Chemical Civil Engineer, Universidad de Santiago de Chile"
   bio:
     es: >-
-      Ingeniero Civil Químico de la Universidad de Santiago de Chile, jefe del
-      laboratorio de G-Tech desde 2025. Trabaja donde el proceso deja de ser un ensayo y
-      pasa a ser un equipo que opera: diseñó, montó y operó el sistema piloto de
-      electrocoagulación del proyecto CORFO, para el tratamiento de residuos líquidos
-      industriales y salmueras. Coordina además el FONDEF de deshidratación de lodos
-      —cronograma, recursos y enlace con la empresa asociada— y sostiene la operación
-      diaria del grupo: los análisis fisicoquímicos, los equipos y reactivos de cada
-      proyecto, y la formación de estudiantes e investigadores en métodos analíticos y
-      buenas prácticas de laboratorio. Antes trabajó en precipitación química para el
-      tratamiento de RIL y fue jefe de laboratorio suplente en LABIOTAM, en la
-      Universidad de Santiago de Chile.
+      En el CORFO de electrocoagulación está a cargo del sistema piloto que trata
+      residuos líquidos industriales y salmueras, desde su diseño y montaje hasta la
+      operación diaria. En el FONDEF de deshidratación de lodos coordina el proyecto:
+      el cronograma, los recursos y el enlace con la empresa asociada. Aporta al grupo
+      el escalamiento y la puesta en marcha —es quien lleva un proceso del ensayo de
+      laboratorio al equipo que funciona— y sostiene la infraestructura de la que
+      dependen todas las líneas: los análisis fisicoquímicos, los equipos y reactivos
+      de cada proyecto, y la formación de estudiantes e investigadores en métodos
+      analíticos y buenas prácticas de laboratorio.
     en: >-
-      Chemical engineer from Universidad de Santiago de Chile and head of the G-Tech
-      laboratory since 2025. He works at the point where a process stops being an
-      experiment and becomes equipment that runs: he designed, built and operated the
-      pilot electrocoagulation system of the CORFO project, for treating industrial
-      wastewater and brines. He also coordinates the FONDEF sludge-dewatering project
-      —schedule, resources and liaison with the partner company— and keeps the group's
-      day-to-day operation going: the physicochemical analyses, the equipment and
-      reagents each project depends on, and the training of students and researchers in
-      analytical methods and good laboratory practice. He previously worked on chemical
-      precipitation for industrial wastewater treatment and was acting laboratory head
-      at LABIOTAM, Universidad de Santiago de Chile.
+      In the CORFO electrocoagulation project he is responsible for the pilot system
+      treating industrial wastewater and brines, from its design and assembly through
+      to daily operation. In the FONDEF sludge-dewatering project he coordinates the
+      work: the schedule, the resources and the liaison with the partner company. He
+      brings the group scale-up and commissioning —he is the one who takes a process
+      from a laboratory trial to equipment that runs— and sustains the infrastructure
+      every research line depends on: the physicochemical analyses, the equipment and
+      reagents of each project, and the training of students and researchers in
+      analytical methods and good laboratory practice.
   interests:
     es: ["Electrocoagulación", "Precipitación química", "Tratamiento de RIL y salmueras", "Plantas piloto", "Gestión de laboratorio"]
     en: ["Electrocoagulation", "Chemical precipitation", "Industrial wastewater and brine treatment", "Pilot plants", "Laboratory management"]
@@ -160,31 +160,28 @@
     es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
     en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
   degree:
-    es: "Doctora en Ciencias de la Ingeniería, mención Ciencia e Ingeniería de Materiales · Ingeniera Civil en Química"
-    en: "PhD in Engineering Sciences (Materials Science and Engineering) · Chemical Civil Engineer"
+    es: "Doctora en Ciencias de la Ingeniería, mención Ciencia e Ingeniería de Materiales, Universidad de Santiago de Chile · Magíster, Universidad Tecnológica Metropolitana · Ingeniera Civil Química, Universidad de Santiago de Chile"
+    en: "PhD in Engineering Sciences (Materials Science and Engineering), Universidad de Santiago de Chile · Master's degree, Universidad Tecnológica Metropolitana · Chemical Civil Engineer, Universidad de Santiago de Chile"
   bio:
     es: >-
-      Ingeniera de proyectos del FONDEF “Nuevo proceso de pretratamiento para la
-      mejora de la deshidratación de lodos secundarios y la remoción simultánea de
-      N, P y materia orgánica desde el líquido de filtrado”. Su trabajo se centra en
-      la evaluación de estrategias de pretratamiento y microaireación de lodos
-      secundarios, analizando su efecto sobre la deshidratación, las propiedades
-      fisicoquímicas del lodo y la liberación de materia orgánica, nitrógeno y
-      fósforo hacia la fase líquida. Integra el seguimiento de variables
-      operacionales, la caracterización química y el análisis de desempeño para
-      contribuir a la optimización del proceso.
+      En el FONDEF de deshidratación de lodos evalúa estrategias de pretratamiento y
+      microaireación de lodos secundarios: mide cómo afectan la deshidratación del
+      lodo, sus propiedades fisicoquímicas y la liberación de materia orgánica,
+      nitrógeno y fósforo hacia el líquido de filtrado. Combina el seguimiento de
+      variables operacionales con la caracterización química y el análisis de
+      desempeño, y con eso va ajustando las condiciones del proceso. Aporta al grupo
+      su formación en ciencia e ingeniería de materiales y en ingeniería química, que
+      sostiene la caracterización fisicoquímica de los lodos.
     en: >-
-      Project engineer on the FONDEF IDeA I+D project “Nuevo proceso de
-      pretratamiento para la mejora de la deshidratación de lodos secundarios y la
-      remoción simultánea de N, P y materia orgánica desde el líquido de
-      filtrado” — a new pretreatment process to improve the dewatering of secondary
-      sludge and the simultaneous removal of N, P and organic matter from the
-      filtrate. Her work centres on evaluating pretreatment and micro-aeration
-      strategies for secondary sludge, analysing their effect on dewatering, on the
-      physicochemical properties of the sludge and on the release of organic matter,
-      nitrogen and phosphorus into the liquid phase. She combines the monitoring of
-      operational variables, chemical characterisation and performance analysis to
-      contribute to optimising the process.
+      In the FONDEF sludge-dewatering project she evaluates pretreatment and
+      micro-aeration strategies for secondary sludge: she measures how they affect the
+      dewatering of the sludge, its physicochemical properties and the release of
+      organic matter, nitrogen and phosphorus into the filtrate. She combines the
+      monitoring of operational variables with chemical characterisation and
+      performance analysis, and uses that to adjust the process conditions. She brings
+      the group her background in materials science and engineering and in chemical
+      engineering, which underpins the physicochemical characterisation of the
+      sludge.
   interests:
     es: ["Microaireación de lodos", "Deshidratación de lodos", "Tratamiento de aguas residuales", "Nitrógeno y fósforo", "Caracterización fisicoquímica"]
     en: ["Sludge micro-aeration", "Sludge dewatering", "Wastewater treatment", "Nitrogen and phosphorus", "Physicochemical characterisation"]
@@ -196,7 +193,7 @@
     email: ""
     orcid: ""
     scholar: ""
-    linkedin: ""
+    linkedin: "karina-roa-ruiz-00614a97"
 
 - id: judith-quezada
   group: phd
@@ -300,6 +297,24 @@
     email: ""
     orcid: ""
     linkedin: "mariano-guajardo-jofr%C3%A9-007ab1285"
+
+- id: ignacia-gana
+  group: undergrad
+  name: "Ignacia Gana Bustamante"
+  photo: "ignacia-gana.jpg"
+  role:
+    es: "Estudiante de pregrado"
+    en: "Undergraduate Student"
+  program:
+    es: "Ingeniería Civil Química"
+    en: "Chemical Engineering"
+  focus:
+    es: "Efecto de los contaminantes emergentes en la desnitrificación autótrofa de agua subterránea, con biomasa suspendida en reactores secuenciales batch."
+    en: "Effect of emerging contaminants on the autotrophic denitrification of groundwater, using suspended biomass in sequencing batch reactors."
+  links:
+    email: ""
+    orcid: ""
+    linkedin: "ignaciaganabustamante"
 
 - id: mariajose-nunez
   group: undergrad
