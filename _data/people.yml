@@ -63,8 +63,8 @@
     es: "Facultad de Ingeniería y Ciencias Aplicadas, Universidad de los Andes"
     en: "Faculty of Engineering and Applied Sciences, Universidad de los Andes"
   degree:
-    es: "Doctor en Ciencias de la Ingeniería (Summa cum laude) · Ingeniero Civil Químico"
-    en: "PhD in Engineering Sciences (Summa cum laude) · Chemical Engineer"
+    es: "Doctor en Ciencias de la Ingeniería, Universidad de los Andes · Ingeniero Civil Químico, Universidad de Santiago de Chile"
+    en: "PhD in Engineering Sciences, Universidad de los Andes · Chemical Civil Engineer, Universidad de Santiago de Chile"
   bio:
     es: >-
       Investigador postdoctoral en la Universidad de los Andes, donde dirige el
@@ -118,27 +118,29 @@
     en: "Chemical Civil Engineer, Universidad de Santiago de Chile"
   bio:
     es: >-
-      Jefe del laboratorio de G-Tech desde 2025. Planifica, coordina y supervisa la
-      operación técnica del grupo: los análisis fisicoquímicos, los equipos y reactivos
-      de los proyectos, y la capacitación de estudiantes e investigadores en
-      metodologías analíticas y buenas prácticas de laboratorio. Es además ingeniero de
-      proyecto del CORFO de electrocoagulación, donde diseñó, montó y operó el sistema
-      piloto para el tratamiento de residuos líquidos industriales y salmueras, e
-      ingeniero coordinador del FONDEF de lodos, a cargo del cronograma, los recursos y
-      el enlace con la empresa asociada. Antes trabajó en precipitación química para el
+      Ingeniero Civil Químico de la Universidad de Santiago de Chile, jefe del
+      laboratorio de G-Tech desde 2025. Trabaja donde el proceso deja de ser un ensayo y
+      pasa a ser un equipo que opera: diseñó, montó y operó el sistema piloto de
+      electrocoagulación del proyecto CORFO, para el tratamiento de residuos líquidos
+      industriales y salmueras. Coordina además el FONDEF de deshidratación de lodos
+      —cronograma, recursos y enlace con la empresa asociada— y sostiene la operación
+      diaria del grupo: los análisis fisicoquímicos, los equipos y reactivos de cada
+      proyecto, y la formación de estudiantes e investigadores en métodos analíticos y
+      buenas prácticas de laboratorio. Antes trabajó en precipitación química para el
       tratamiento de RIL y fue jefe de laboratorio suplente en LABIOTAM, en la
       Universidad de Santiago de Chile.
     en: >-
-      Head of the G-Tech laboratory since 2025. He plans, coordinates and oversees the
-      group's technical operation: physicochemical analyses, the equipment and reagents
-      the projects run on, and the training of students and researchers in analytical
-      methods and good laboratory practice. He is also project engineer on the CORFO
-      electrocoagulation grant, where he designed, built and operated the pilot system
-      for treating industrial wastewater and brines, and coordinating engineer on the
-      FONDEF sludge project, responsible for its schedule, resources and liaison with
-      the partner company. He previously worked on chemical precipitation for industrial
-      wastewater treatment and served as acting laboratory head at LABIOTAM,
-      Universidad de Santiago de Chile.
+      Chemical engineer from Universidad de Santiago de Chile and head of the G-Tech
+      laboratory since 2025. He works at the point where a process stops being an
+      experiment and becomes equipment that runs: he designed, built and operated the
+      pilot electrocoagulation system of the CORFO project, for treating industrial
+      wastewater and brines. He also coordinates the FONDEF sludge-dewatering project
+      —schedule, resources and liaison with the partner company— and keeps the group's
+      day-to-day operation going: the physicochemical analyses, the equipment and
+      reagents each project depends on, and the training of students and researchers in
+      analytical methods and good laboratory practice. He previously worked on chemical
+      precipitation for industrial wastewater treatment and was acting laboratory head
+      at LABIOTAM, Universidad de Santiago de Chile.
   interests:
     es: ["Electrocoagulación", "Precipitación química", "Tratamiento de RIL y salmueras", "Plantas piloto", "Gestión de laboratorio"]
     en: ["Electrocoagulation", "Chemical precipitation", "Industrial wastewater and brine treatment", "Pilot plants", "Laboratory management"]
@@ -212,14 +214,16 @@
   bio:
     es: >-
       Estudiante de Doctorado en Ciencias de la Ingeniería de la Universidad de los
-      Andes e ingeniera en biotecnología de la Universidad de Santiago de Chile.
-      Apasionada por la línea de tratamiento de aguas y actual tesista de doctorado
-      del Fondecyt Regular N°1260328.
+      Andes e ingeniera en biotecnología de la Universidad de Santiago de Chile,
+      becada por ANID en el concurso de Doctorado Nacional 2026. Apasionada por la
+      línea de tratamiento de aguas y actual tesista de doctorado del Fondecyt Regular
+      N°1260328.
     en: >-
       PhD student in Engineering Sciences at Universidad de los Andes and a
-      biotechnology engineer from Universidad de Santiago de Chile. She is
-      passionate about the water treatment line and is currently the doctoral thesis
-      student on Fondecyt Regular No. 1260328.
+      biotechnology engineer from Universidad de Santiago de Chile, holder of an ANID
+      National Doctorate scholarship (2026 call). She is passionate about the water
+      treatment line and is currently the doctoral thesis student on Fondecyt Regular
+      No. 1260328.
   links:
     email: ""
     orcid: ""
