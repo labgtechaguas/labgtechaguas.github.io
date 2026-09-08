@@ -256,7 +256,7 @@
 - id: mariano-guajardo
   group: undergrad
   name: "Mariano Guajardo Jofré"
-  photo: ""
+  photo: "mariano-guajardo.jpg"
   role:
     es: "Estudiante de pregrado"
     en: "Undergraduate Student"
@@ -274,7 +274,7 @@
 - id: mariajose-nunez
   group: undergrad
   name: "María José Núñez Echazarreta"
-  photo: ""
+  photo: "mariajose-nunez.jpg"
   role:
     es: "Estudiante de pregrado"
     en: "Undergraduate Student"
