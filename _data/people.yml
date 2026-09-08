@@ -202,7 +202,7 @@
 - id: cristobal-nunez
   group: undergrad
   name: "Cristóbal Núñez"
-  photo: ""
+  photo: "cristobal-nunez.jpg"
   role:
     es: "Estudiante de pregrado"
     en: "Undergraduate Student"
@@ -215,7 +215,7 @@
   links:
     email: ""
     orcid: ""
-    linkedin: ""
+    linkedin: "crist%C3%B3bal-n%C3%BA%C3%B1ez-maldonado-62b039323"
 
 - id: sara-stevanovic
   group: undergrad
